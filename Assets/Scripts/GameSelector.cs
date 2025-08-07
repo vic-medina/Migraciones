@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class GameSelector : MonoBehaviour
 {
     [SerializeField] private int specieSelected = 0;
-    [SerializeField] private Button playButton;
+    [SerializeField] public Button playButton;
 
     private void Start()
     {
