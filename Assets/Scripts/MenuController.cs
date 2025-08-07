@@ -1,6 +1,4 @@
-using Microsoft.Unity.VisualStudio.Editor;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class MenuController : MonoBehaviour
 {
@@ -25,5 +23,4 @@ public class MenuController : MonoBehaviour
     {
         selectorSpeciesCanvas.gameObject.SetActive(false);
     }
-
 }

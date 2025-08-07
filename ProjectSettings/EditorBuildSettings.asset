@@ -9,8 +9,17 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
-    path: Assets/Scenes/SpeciesSelector.unity
-    guid: cf1067294b223f74481c895facdec3c5
+    path: Assets/Scenes/BatGame.unity
+    guid: 7b6675bca67372e419be1d3c29840f8c
+  - enabled: 1
+    path: Assets/Scenes/DragonFlyGame.unity
+    guid: 701999661e06b554ab0907b7b89f155f
+  - enabled: 1
+    path: Assets/Scenes/ButterflyGame.unity
+    guid: 9525cd25948d9eb43a3ca1dbdca5ceb7
+  - enabled: 1
+    path: Assets/Scenes/EagleGame.unity
+    guid: b196cabe650acae468b45c86aac20d7d
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
