@@ -3,6 +3,8 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     private Rigidbody2D rb;
+    [SerializeField] private PlayerUIController playerUI;
+    [SerializeField] private GameObject gameOverCanvas;
     [SerializeField] private EnergyBar energyBar;
     [SerializeField] private float jumpForce = 5f;
     [SerializeField] private float energyCost = .5f;
@@ -12,16 +14,27 @@ public class PlayerController : MonoBehaviour
 
     private void Start()
     {
+        Time.timeScale = 1;
         rb = GetComponent<Rigidbody2D>();
     }
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && canJump)
+        if (Input.GetKeyDown(KeyCode.Space) && canJump && !playerUI.isPaused)
         {
             rb.linearVelocity = new Vector2(0, jumpForce);
             energyBar.UseEnergy(energyCost);
         }
+        else if (!canJump)
+        {
+            GameOver();
+        }
+    }
+
+    private void GameOver()
+    {
+        Time.timeScale = 0;
+        gameOverCanvas.SetActive(true);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

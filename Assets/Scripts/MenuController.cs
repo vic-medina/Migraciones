@@ -12,6 +12,7 @@ public class MenuController : MonoBehaviour
     private void Start()
     {
         ShowOnly(mainMenu);
+        Time.timeScale = 1;
     }
 
     public void ShowCredits()
@@ -37,7 +38,7 @@ public class MenuController : MonoBehaviour
         SwitchCanvas(mainMenu, speciesMenu);
     }
 
-    private void SwitchCanvas(CanvasGroup from, CanvasGroup to)
+    public void SwitchCanvas(CanvasGroup from, CanvasGroup to)
     {
         from.DOFade(0, fadeDuration).OnComplete(() => from.interactable = from.blocksRaycasts = false);
         to.DOFade(1, fadeDuration);
