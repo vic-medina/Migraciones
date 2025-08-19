@@ -7,11 +7,11 @@ public class PlatformPool : MonoBehaviour
     [SerializeField] private float currentXSpawnPosition;
     [SerializeField] private bool collectionChecks = true;
     [SerializeField] private int maxPoolSize = 15;
-    public IObjectPool<GameObject> m_pool { get; set; }
+    public IObjectPool<GameObject> p_pool { get; set; }
 
-    void Start()
+    void Awake()
     {
-        m_pool = new ObjectPool<GameObject>(CreatePlatform, OnTakeFromPool, OnReturnedToPool, OnDestroyPoolObject, collectionChecks, 10, maxPoolSize);
+        p_pool = new ObjectPool<GameObject>(CreatePlatform, OnTakeFromPool, OnReturnedToPool, OnDestroyPoolObject, collectionChecks, 10, maxPoolSize);
     }
 
     private GameObject CreatePlatform()
@@ -32,8 +32,8 @@ public class PlatformPool : MonoBehaviour
 
     private void OnDestroyPoolObject(GameObject platform) => Destroy(platform);
 
-    public void SpawnPlatform() => m_pool.Get();
+    public void SpawnPlatform() => p_pool.Get();
 
-    public void ReleasePlatform(GameObject platform) => m_pool.Release(platform);
+    public void ReleasePlatform(GameObject platform) => p_pool.Release(platform);
 
 }

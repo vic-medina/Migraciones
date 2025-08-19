@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 8027380613420421647}
   - component: {fileID: 2267643312309305633}
   - component: {fileID: 2568174981421259672}
-  - component: {fileID: 3296952478639835615}
+  - component: {fileID: 8816154026218427168}
+  - component: {fileID: 2414363578092215265}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -154,7 +155,7 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 1, y: 2}
   m_Direction: 0
---- !u!114 &3296952478639835615
+--- !u!114 &8816154026218427168
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -166,9 +167,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5fa2253d04bf6148bf00f5dc371fa5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  foodPool: {fileID: 0}
+  enemyPool: {fileID: 0}
   energyBar: {fileID: 0}
-  jumpForce: 5
-  energyCost: 0.2
-  foodValue: 1
-  enemyDamage: 1
-  canJump: 1
+  foodValue: 0
+  enemyDamage: 0
+--- !u!114 &2414363578092215265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 287819195597306353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a4be11f243c9804f83f622637eb2783, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameOverCanvas: {fileID: 0}
+  energyBar: {fileID: 0}
+  playerUI: {fileID: 0}
+  jumpForce: 0
+  energyCost: 0
+  canJump: 0

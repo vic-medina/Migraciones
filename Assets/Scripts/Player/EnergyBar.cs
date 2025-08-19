@@ -4,8 +4,8 @@ using UnityEngine.UI;
 public class EnergyBar : MonoBehaviour
 {
     public Slider slider;
-    [SerializeField]private PlayerController playerController;
-    [SerializeField] private float energyDrainRate = 0.1f;
+    [SerializeField]private PlayerMovement playerMovement;
+    [SerializeField] private float energyDrainRate = 1f;
 
     private void Start()
     {
@@ -18,13 +18,12 @@ public class EnergyBar : MonoBehaviour
         if (slider.value <= 0)
         {
             slider.value = 0;
-            Debug.Log("Energia terminada");
-            playerController.canJump = false;
+            playerMovement.canJump = false;
         }
     }
 
     public void UseEnergy(float amount)
     {
-        slider.value -= amount;
+        slider.value -= amount * Time.deltaTime;
     }
 }
