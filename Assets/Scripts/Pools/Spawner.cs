@@ -8,12 +8,15 @@ public class Spawner : MonoBehaviour
     [SerializeField] private float spawnInterval = 2f;
     [SerializeField] private float yRandomRange = 1f;
     [SerializeField][Range(0f, 1f)] private float foodChance = 0.5f;
+    [SerializeField] private GameObject metaPrefab;
+    [SerializeField] private float metaSpawnTime = 10f;
 
     private float timer;
 
     private void Start()
     {
         timer = spawnInterval;
+        StartCoroutine(GameTime(metaSpawnTime));
     }
 
     private void Update()
@@ -44,10 +47,10 @@ public class Spawner : MonoBehaviour
 
     private void SpawnMeta()
     {
-        Vector3 spawnPos = transform.position;
+        GameObject meta = Instantiate(metaPrefab, transform.position, Quaternion.identity);
     }
 
-    private IEnumerator spawnMeta(float finishTime)
+    private IEnumerator GameTime(float finishTime)
     {
         yield return new WaitForSeconds(finishTime);
         SpawnMeta();

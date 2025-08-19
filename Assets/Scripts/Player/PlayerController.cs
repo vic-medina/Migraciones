@@ -6,6 +6,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private EntityPool foodPool;
     [SerializeField] private EntityPool enemyPool;
     [SerializeField] private EnergyBar energyBar;
+    [SerializeField] private GameObject finishPanel;
     [SerializeField] private float foodValue;
     [SerializeField] private float enemyDamage;
 
@@ -25,6 +26,12 @@ public class PlayerController : MonoBehaviour
         {
             energyBar.slider.value -= enemyDamage;
             enemyPool.ReturnToPool(collision.gameObject);
+        }
+        else if (collision.CompareTag("FinishLine"))
+        {
+            Debug.Log("Finish line crossed!");
+            Time.timeScale = 0f;
+            finishPanel.SetActive(true);
         }
     }
 }

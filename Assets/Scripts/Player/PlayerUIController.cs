@@ -27,7 +27,6 @@ public class PlayerUIController : MonoBehaviour
     public void RetryGame(int specie)
     {
         if (specie >= 1 && specie <= 4) {
-            Time.timeScale = 1;
             SceneManager.LoadScene(specie);
         }    
         else
