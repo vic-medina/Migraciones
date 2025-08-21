@@ -7,7 +7,7 @@ public class GameStandby : MonoBehaviour
     [SerializeField] public Button pauseButton;
     private bool gameStarted = false;
 
-    void Awake()
+    void Start()
     {
         Time.timeScale = 0;
         pauseButton.interactable = false;

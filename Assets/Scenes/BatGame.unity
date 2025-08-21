@@ -177,9 +177,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   foodPool: {fileID: 2014555750}
   enemyPool: {fileID: 1356856671}
-  spawnInterval: 2
-  yRandomRange: 1
-  foodChance: 0.5
+  spawnInterval: 5
+  yRandomRange: 5
+  foodChance: 0.75
   metaPrefab: {fileID: 3532449033079692734, guid: 8d72c38ada764764eb157938cb118434, type: 3}
   metaSpawnTime: 60
 --- !u!212 &745596218
@@ -2038,11 +2038,11 @@ PrefabInstance:
       objectReference: {fileID: 1378591358}
     - target: {fileID: 8816154026218427168, guid: e39ba1c1d7fe58a44a932e4edf629785, type: 3}
       propertyPath: foodValue
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8816154026218427168, guid: e39ba1c1d7fe58a44a932e4edf629785, type: 3}
       propertyPath: enemyDamage
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8816154026218427168, guid: e39ba1c1d7fe58a44a932e4edf629785, type: 3}
       propertyPath: finishPanel
@@ -2249,5 +2249,5 @@ SceneRoots:
   - {fileID: 1113209912}
   - {fileID: 1191647751}
   - {fileID: 5168765746406674387}
-  - {fileID: 6635387578823043038}
   - {fileID: 1202264839}
+  - {fileID: 6635387578823043038}

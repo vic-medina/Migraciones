@@ -461,7 +461,7 @@ GameObject:
   - component: {fileID: 191907718}
   - component: {fileID: 191907720}
   m_Layer: 0
-  m_Name: ManuManager
+  m_Name: MenuManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

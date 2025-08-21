@@ -29,7 +29,6 @@ public class PlayerController : MonoBehaviour
         }
         else if (collision.CompareTag("FinishLine"))
         {
-            Debug.Log("Finish line crossed!");
             Time.timeScale = 0f;
             finishPanel.SetActive(true);
         }

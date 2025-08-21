@@ -26,9 +26,10 @@ public class PlayerUIController : MonoBehaviour
 
     public void RetryGame(int specie)
     {
-        if (specie >= 1 && specie <= 4) {
+        if (specie >= 1 && specie <= 4)
+        {
             SceneManager.LoadScene(specie);
-        }    
+        }
         else
             Debug.LogWarning("No se pudo reiniciar");
     }
