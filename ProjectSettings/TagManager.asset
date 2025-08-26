@@ -4,10 +4,10 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - Platform
   - Food
   - Enemy
   - FinishLine
+  - DamageObject
   layers:
   - Default
   - TransparentFX
