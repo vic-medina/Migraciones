@@ -45,5 +45,14 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Fondo
+    uniqueID: 3261058989
+    locked: 0
+  - name: Tilemap
+    uniqueID: 1838353757
+    locked: 0
+  - name: Player
+    uniqueID: 3496021797
+    locked: 0
   m_RenderingLayers:
   - Default
