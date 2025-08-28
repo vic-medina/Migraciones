@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -5,6 +6,8 @@ using UnityEngine.UI;
 public class GameSelector : MonoBehaviour
 {
     [SerializeField] private int specieSelected = 0;
+    [SerializeField] private Slider loadbar;
+    [SerializeField] private GameObject loadingScreen;
     [SerializeField] public Button playButton;
 
     private void Start()
@@ -38,12 +41,18 @@ public class GameSelector : MonoBehaviour
 
     public void StartGame()
     {
-        if (specieSelected == 0)
-        {
-            Debug.LogWarning("No species selected.");
-            return;
-        }
+        loadingScreen.SetActive(true);
+        StartCoroutine(LoadAsynchronously());
+    }
 
-        SceneManager.LoadScene(specieSelected);
+    IEnumerator LoadAsynchronously()
+    {
+        AsyncOperation operation = SceneManager.LoadSceneAsync(specieSelected);
+        while (!operation.isDone)
+        {
+            float progress = Mathf.Clamp01(operation.progress / 0.9f);
+            loadbar.value = progress;
+            yield return null;
+        }
     }
 }

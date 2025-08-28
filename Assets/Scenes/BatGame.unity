@@ -834,7 +834,7 @@ Transform:
   m_GameObject: {fileID: 92655030}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 40, y: 5, z: 0}
+  m_LocalPosition: {x: 60, y: 5, z: 0}
   m_LocalScale: {x: 1, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2221,7 +2221,7 @@ Transform:
   m_GameObject: {fileID: 554597442}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 20, y: 5, z: 0}
+  m_LocalPosition: {x: 30, y: 5, z: 0}
   m_LocalScale: {x: 1, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13704,11 +13704,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3176302912667496675, guid: 9874319c2f62a7d48afa3fe60e30c268, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 16.44
+      value: 73
       objectReference: {fileID: 0}
     - target: {fileID: 3176302912667496675, guid: 9874319c2f62a7d48afa3fe60e30c268, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.93
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3176302912667496675, guid: 9874319c2f62a7d48afa3fe60e30c268, type: 3}
       propertyPath: m_LocalPosition.z
@@ -13750,9 +13750,13 @@ PrefabInstance:
       propertyPath: m_SortingLayerID
       value: -798945499
       objectReference: {fileID: 0}
+    - target: {fileID: 4511885586903220600, guid: 9874319c2f62a7d48afa3fe60e30c268, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6181562195295045936, guid: 9874319c2f62a7d48afa3fe60e30c268, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.05
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15833,6 +15837,18 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2876853635697788823, guid: f65791d0503be6b4188569a5b1302100, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2876853635697788823, guid: f65791d0503be6b4188569a5b1302100, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2876853635697788823, guid: f65791d0503be6b4188569a5b1302100, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2876853635697788823, guid: f65791d0503be6b4188569a5b1302100, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -15900,6 +15916,18 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: RetryGame
       objectReference: {fileID: 0}
+    - target: {fileID: 5749214154284047297, guid: f65791d0503be6b4188569a5b1302100, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5749214154284047297, guid: f65791d0503be6b4188569a5b1302100, type: 3}
+      propertyPath: m_ScreenMatchMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5749214154284047297, guid: f65791d0503be6b4188569a5b1302100, type: 3}
+      propertyPath: m_MatchWidthOrHeight
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 6424878434977924251, guid: f65791d0503be6b4188569a5b1302100, type: 3}
       propertyPath: playerMovement
       value: 
@@ -15950,7 +15978,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7855001841044426983, guid: f65791d0503be6b4188569a5b1302100, type: 3}
       propertyPath: m_PixelPerfect
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7855001841044426983, guid: f65791d0503be6b4188569a5b1302100, type: 3}
+      propertyPath: m_PlaneDistance
+      value: 6.71
+      objectReference: {fileID: 0}
+    - target: {fileID: 7855001841044426983, guid: f65791d0503be6b4188569a5b1302100, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -798945499
+      objectReference: {fileID: 0}
+    - target: {fileID: 7855001841044426983, guid: f65791d0503be6b4188569a5b1302100, type: 3}
+      propertyPath: m_VertexColorAlwaysGammaSpace
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7855001841044426983, guid: f65791d0503be6b4188569a5b1302100, type: 3}
+      propertyPath: m_AdditionalShaderChannelsFlag
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 8454752765552808778, guid: f65791d0503be6b4188569a5b1302100, type: 3}
       propertyPath: m_Name
