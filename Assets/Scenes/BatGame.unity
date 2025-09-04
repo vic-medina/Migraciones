@@ -655,7 +655,7 @@ GameObject:
   - component: {fileID: 92655034}
   - component: {fileID: 92655033}
   - component: {fileID: 92655032}
-  - component: {fileID: 92655031}
+  - component: {fileID: 92655037}
   m_Layer: 0
   m_Name: DesertChange (1)
   m_TagString: Untagged
@@ -663,26 +663,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &92655031
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 92655030}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b26a5e9fbbf76b4c9864d8fb9da5d4a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fadeMask: {fileID: 140080734}
-  fondos:
-  - {fileID: 795584323}
-  - {fileID: 180475004}
-  - {fileID: 2127026364}
-  fondoDestinoIndex: 2
-  duracionFadeIn: 0.25
-  duracionFadeOut: 0.5
 --- !u!114 &92655032
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -840,6 +820,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1334812152}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &92655037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 92655030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 757ebbef43e99624a9bd9dc4e2a1268e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bgsw: {fileID: 1191647754}
+  fondoDestinoIndex: 2
 --- !u!1 &126770064
 GameObject:
   m_ObjectHideFlags: 0
@@ -1491,7 +1485,7 @@ GameObject:
   - component: {fileID: 323521043}
   - component: {fileID: 323521042}
   m_Layer: 0
-  m_Name: Tilemap0
+  m_Name: Tilemap-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2108,7 +2102,7 @@ GameObject:
   - component: {fileID: 554597443}
   - component: {fileID: 554597448}
   - component: {fileID: 554597444}
-  - component: {fileID: 554597447}
+  - component: {fileID: 554597449}
   m_Layer: 0
   m_Name: DesertChange
   m_TagString: Untagged
@@ -2227,26 +2221,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1334812152}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &554597447
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 554597442}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b26a5e9fbbf76b4c9864d8fb9da5d4a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fadeMask: {fileID: 140080734}
-  fondos:
-  - {fileID: 795584323}
-  - {fileID: 180475004}
-  - {fileID: 2127026364}
-  fondoDestinoIndex: 1
-  duracionFadeIn: 0.25
-  duracionFadeOut: 0.5
 --- !u!61 &554597448
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2293,6 +2267,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &554597449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 554597442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 757ebbef43e99624a9bd9dc4e2a1268e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bgsw: {fileID: 1191647754}
+  fondoDestinoIndex: 1
 --- !u!1 &573387503
 GameObject:
   m_ObjectHideFlags: 0
@@ -3340,7 +3328,7 @@ GameObject:
   - component: {fileID: 926603204}
   - component: {fileID: 926603206}
   m_Layer: 0
-  m_Name: Tilemap-1
+  m_Name: Tilemap0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13103,6 +13091,7 @@ GameObject:
   - component: {fileID: 1191647751}
   - component: {fileID: 1191647752}
   - component: {fileID: 1191647753}
+  - component: {fileID: 1191647754}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -13158,6 +13147,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startPanel: {fileID: 2064447713}
   pauseButton: {fileID: 340673629}
+--- !u!114 &1191647754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1191647750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b26a5e9fbbf76b4c9864d8fb9da5d4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeMask: {fileID: 140080734}
+  fondos:
+  - {fileID: 795584323}
+  - {fileID: 180475004}
+  - {fileID: 2127026364}
+  duracionFadeIn: 0.5
+  duracionFadeOut: 0.5
 --- !u!1 &1202264837
 GameObject:
   m_ObjectHideFlags: 0
@@ -13204,8 +13212,8 @@ Transform:
   m_Children:
   - {fileID: 1669231791}
   - {fileID: 983165523}
-  - {fileID: 926603200}
   - {fileID: 323521041}
+  - {fileID: 926603200}
   - {fileID: 1136612005}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -15396,7 +15404,7 @@ Transform:
   m_GameObject: {fileID: 2052832223}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 10.83, z: 0}
+  m_LocalPosition: {x: 0, y: 10, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -15595,6 +15603,22 @@ PrefabInstance:
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 964740923419717270, guid: e39ba1c1d7fe58a44a932e4edf629785, type: 3}
+      propertyPath: m_Size.x
+      value: 1.8035196
+      objectReference: {fileID: 0}
+    - target: {fileID: 964740923419717270, guid: e39ba1c1d7fe58a44a932e4edf629785, type: 3}
+      propertyPath: m_Size.y
+      value: 0.39555317
+      objectReference: {fileID: 0}
+    - target: {fileID: 964740923419717270, guid: e39ba1c1d7fe58a44a932e4edf629785, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.03576149
+      objectReference: {fileID: 0}
+    - target: {fileID: 964740923419717270, guid: e39ba1c1d7fe58a44a932e4edf629785, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.39856374
+      objectReference: {fileID: 0}
+    - target: {fileID: 964740923419717270, guid: e39ba1c1d7fe58a44a932e4edf629785, type: 3}
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
@@ -15745,6 +15769,10 @@ PrefabInstance:
     - target: {fileID: 8816154026218427168, guid: e39ba1c1d7fe58a44a932e4edf629785, type: 3}
       propertyPath: objectDamage
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816154026218427168, guid: e39ba1c1d7fe58a44a932e4edf629785, type: 3}
+      propertyPath: canTakeDamage
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3296952478639835615, guid: e39ba1c1d7fe58a44a932e4edf629785, type: 3}

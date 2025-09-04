@@ -2,15 +2,21 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    private Rigidbody2D rb;
-    private Animator anim;
-
+    [Header("Referencias")]
     [SerializeField] private GameObject gameOverCanvas;
     [SerializeField] private EnergyBar energyBar;
     [SerializeField] private PlayerUIController playerUI;
+    private Rigidbody2D rb;
+    private Animator anim;
+    
+
+    [Header("Parametros movimiento")]
     [SerializeField] private float jumpForce;
-    [SerializeField] private float energyCost;
     [SerializeField] public bool canJump;
+
+    [Header("Energia")]
+    [SerializeField] private float energyCost;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();

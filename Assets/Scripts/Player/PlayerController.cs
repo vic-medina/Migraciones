@@ -5,12 +5,17 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    private Rigidbody2D rb;
+    [Header("Referencias")]
     [SerializeField] private EntityPool foodPool;
     [SerializeField] private EntityPool enemyPool;
     [SerializeField] private EnergyBar energyBar;
     [SerializeField] private GameObject finishPanel;
+    private Rigidbody2D rb;
+
+    [Header("Comida")]
     [SerializeField] private float foodValue;
+
+    [Header("Enemigos")]
     [SerializeField] private float enemyDamage;
     [SerializeField] private float objectDamage;
     [SerializeField] private float cooldownTime;
@@ -18,7 +23,6 @@ public class PlayerController : MonoBehaviour
 
     private void Start()
     {
-        Time.timeScale = 1;
         canTakeDamage = true;
     }
 

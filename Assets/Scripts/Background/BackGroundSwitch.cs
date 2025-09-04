@@ -9,13 +9,10 @@ public class BackGroundSwitch : MonoBehaviour
 
     [Header("Fondos Parallax (galería)")]
     [SerializeField] private List<GameObject> fondos = new List<GameObject>();
-    [SerializeField] private int fondoDestinoIndex = 0; // Elige el fondo en el inspector
-
+    
     [Header("Duración Fade")]
     [SerializeField] private float duracionFadeIn = 1f;
     [SerializeField] private float duracionFadeOut = 1f;
-
-    private bool cambioRealizado = false;
 
     private void Start()
     {
@@ -26,16 +23,7 @@ public class BackGroundSwitch : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.CompareTag("Player") && !cambioRealizado)
-        {
-            cambioRealizado = true;
-            StartCoroutine(FadeFondos(fondoDestinoIndex));
-        }
-    }
-
-    private IEnumerator FadeFondos(int nuevoFondoIndex)
+    public IEnumerator FadeFondos(int nuevoFondoIndex)
     {
         if (nuevoFondoIndex < 0 || nuevoFondoIndex >= fondos.Count)
         {
