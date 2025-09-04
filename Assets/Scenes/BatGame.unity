@@ -675,8 +675,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b7f16be3b6e62d409c92911c6dea8fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
   rb2D: {fileID: 92655034}
+  speed: 5
 --- !u!61 &92655033
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1545,8 +1545,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b7f16be3b6e62d409c92911c6dea8fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
   rb2D: {fileID: 323521042}
+  speed: 5
 --- !u!483693784 &323521044
 TilemapRenderer:
   m_ObjectHideFlags: 0
@@ -2149,8 +2149,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b7f16be3b6e62d409c92911c6dea8fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
   rb2D: {fileID: 554597443}
+  speed: 5
 --- !u!212 &554597445
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2339,8 +2339,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b7f16be3b6e62d409c92911c6dea8fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
   rb2D: {fileID: 573387504}
+  speed: 5
 --- !u!212 &573387506
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13229,8 +13229,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b7f16be3b6e62d409c92911c6dea8fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
   rb2D: {fileID: 1202264841}
+  speed: 5
 --- !u!50 &1202264841
 Rigidbody2D:
   serializedVersion: 5
@@ -14359,6 +14359,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a4be11f243c9804f83f622637eb2783, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!50 &1543025425 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 2267643312309305633, guid: e39ba1c1d7fe58a44a932e4edf629785, type: 3}
+  m_PrefabInstance: {fileID: 5168765746406674387}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1543025429 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 2879789490775537809, guid: e39ba1c1d7fe58a44a932e4edf629785, type: 3}
+  m_PrefabInstance: {fileID: 5168765746406674387}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1549536051
 GameObject:
   m_ObjectHideFlags: 0
@@ -14417,8 +14427,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b7f16be3b6e62d409c92911c6dea8fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
   rb2D: {fileID: 1549536052}
+  speed: 5
 --- !u!212 &1549536054
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14882,8 +14892,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b7f16be3b6e62d409c92911c6dea8fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
   rb2D: {fileID: 1711740424}
+  speed: 5
 --- !u!212 &1711740426
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15674,6 +15684,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2414363578092215265, guid: e39ba1c1d7fe58a44a932e4edf629785, type: 3}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1543025425}
+    - target: {fileID: 2414363578092215265, guid: e39ba1c1d7fe58a44a932e4edf629785, type: 3}
+      propertyPath: anim
+      value: 
+      objectReference: {fileID: 1543025429}
     - target: {fileID: 2414363578092215265, guid: e39ba1c1d7fe58a44a932e4edf629785, type: 3}
       propertyPath: canJump
       value: 1

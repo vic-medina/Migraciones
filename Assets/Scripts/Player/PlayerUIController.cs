@@ -3,34 +3,32 @@ using UnityEngine.SceneManagement;
 
 public class PlayerUIController : MonoBehaviour
 {
-    public GameObject pauseCanvas;
-    public bool isPaused;
+    [Header("Referencias")]
+    [SerializeField] private GameObject pauseCanvas;
 
-    public void ContinueGame()
+    [Header("Estado del juego")]
+    [SerializeField] public bool isPaused;
+
+    public void ContinueGame() // Funcion para continuar el juego desde el menu de pausa
     {
         Time.timeScale = 1;
         pauseCanvas.SetActive(false);
         isPaused = false;
     }
-    public void PuaseGame()
+    public void PuaseGame() // Funcion para pausar el juego y activar el menu de pausa
     {
         Time.timeScale = 0;
         pauseCanvas.SetActive(true);
         isPaused = true;
     }
-    public void ReturnToMainMenu()
+    public void ReturnToMainMenu() // Funcion para volver al menu principal
     {
         Time.timeScale = 1;
         SceneManager.LoadScene(0);
     }
 
-    public void RetryGame(int specie)
+    public void RetryGame(int specie) // Funcion para reiniciar el nivel actual
     {
-        if (specie >= 1 && specie <= 4)
-        {
-            SceneManager.LoadScene(specie);
-        }
-        else
-            Debug.LogWarning("No se pudo reiniciar");
+        SceneManager.LoadScene(specie);
     }
 }

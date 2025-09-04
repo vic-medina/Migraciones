@@ -4,28 +4,27 @@ using UnityEngine;
 
 public class BackGroundSwitch : MonoBehaviour
 {
-    [Header("Fade Sprite (capa superpuesta)")]
+    [Header("Fade Sprite (capa superpuesta)")] //Sprite que cubre toda la pantalla para hacer el efecto de fade
     [SerializeField] private SpriteRenderer fadeMask;
 
-    [Header("Fondos Parallax (galería)")]
+    [Header("Fondos Parallax (galería)")] //Lista de fondos parallax que se van a ir alternando
     [SerializeField] private List<GameObject> fondos = new List<GameObject>();
     
-    [Header("Duración Fade")]
+    [Header("Duración Fade")] //Duración del fade in y fade out
     [SerializeField] private float duracionFadeIn = 1f;
     [SerializeField] private float duracionFadeOut = 1f;
 
     private void Start()
     {
-        // Aseguramos que solo un fondo esté activo al inicio (el primero)
-        for (int i = 0; i < fondos.Count; i++)
+        for (int i = 0; i < fondos.Count; i++) // Aseguramos que solo un fondo esté activo al inicio (el primero)
         {
             fondos[i].SetActive(i == 0);
         }
     }
 
-    public IEnumerator FadeFondos(int nuevoFondoIndex)
+    public IEnumerator FadeFondos(int nuevoFondoIndex) // Coroutine para hacer el fade entre fondos
     {
-        if (nuevoFondoIndex < 0 || nuevoFondoIndex >= fondos.Count)
+        if (nuevoFondoIndex < 0 || nuevoFondoIndex >= fondos.Count) // Validación del índice
         {
             Debug.LogWarning("Índice de fondo inválido");
             yield break;
@@ -33,7 +32,7 @@ public class BackGroundSwitch : MonoBehaviour
 
         Color baseColor = fadeMask.color;
 
-        // --- Paso 1: Fade IN (transparente -> negro) ---
+        // FadeIn
         float tiempo = 0f;
         while (tiempo < duracionFadeIn)
         {
@@ -43,13 +42,13 @@ public class BackGroundSwitch : MonoBehaviour
             yield return null;
         }
 
-        // --- Paso 2: Apagar todos los fondos y encender el nuevo ---
+        // Deshabilitar todos los fondos y habilitar el nuevo
         for (int i = 0; i < fondos.Count; i++)
         {
             fondos[i].SetActive(i == nuevoFondoIndex);
         }
 
-        // --- Paso 3: Fade OUT (negro -> transparente) ---
+        // FadeOut
         tiempo = 0f;
         while (tiempo < duracionFadeOut)
         {

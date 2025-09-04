@@ -5,17 +5,20 @@ using UnityEngine.UI;
 
 public class GameSelector : MonoBehaviour
 {
-    [SerializeField] private int specieSelected = 0;
+    [Header("Referencias")]
     [SerializeField] private Slider loadbar;
     [SerializeField] private GameObject loadingScreen;
     [SerializeField] public Button playButton;
 
-    private void Start()
+    [Header("Especie/Nivel Seleccionado")]
+    [SerializeField] private int specieSelected;
+
+    private void Start() // Inicializa el botón de jugar como no interactivo
     {
         playButton.interactable = false;
     }
 
-    public void SelectSpecie(string specie)
+    public void SelectSpecie(string specie) // Asigna el nivel basado en la especie seleccionada
     {
         switch (specie)
         {
@@ -39,15 +42,15 @@ public class GameSelector : MonoBehaviour
         playButton.interactable = true;
     }
 
-    public void StartGame()
+    public void StartGame() // Inicia la carga de la escena seleccionada
     {
         loadingScreen.SetActive(true);
-        StartCoroutine(LoadAsynchronously());
+        StartCoroutine(LoadAsynchronously()); // Inicia la carga asíncrona de la escena
     }
 
-    IEnumerator LoadAsynchronously()
+    private IEnumerator LoadAsynchronously() // Carga la escena de manera asíncrona y actualiza la barra de carga
     {
-        AsyncOperation operation = SceneManager.LoadSceneAsync(specieSelected);
+        AsyncOperation operation = SceneManager.LoadSceneAsync(specieSelected); 
         while (!operation.isDone)
         {
             float progress = Mathf.Clamp01(operation.progress / 0.9f);

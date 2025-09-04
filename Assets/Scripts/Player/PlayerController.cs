@@ -1,6 +1,4 @@
-using System;
 using System.Collections;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -15,7 +13,7 @@ public class PlayerController : MonoBehaviour
     [Header("Comida")]
     [SerializeField] private float foodValue;
 
-    [Header("Enemigos")]
+    [Header("Enemigos y Objetos")]
     [SerializeField] private float enemyDamage;
     [SerializeField] private float objectDamage;
     [SerializeField] private float cooldownTime;
@@ -26,36 +24,36 @@ public class PlayerController : MonoBehaviour
         canTakeDamage = true;
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision) // Detecta colisiones dependiedno la etiqueta de los objetos
     {
-        if (collision.CompareTag("Food"))
+        if (collision.CompareTag("Food")) // La comida suma energia y vuelve al pool
         {
             energyBar.slider.value += foodValue;
             foodPool.ReturnToPool(collision.gameObject);
         }
-        else if (collision.CompareTag("Enemy"))
+        else if (collision.CompareTag("Enemy")) // Los enemigos restan energia y vuelven al pool
         {
             energyBar.slider.value -= enemyDamage;
             enemyPool.ReturnToPool(collision.gameObject);
         }
-        else if (collision.CompareTag("FinishLine"))
+        else if (collision.CompareTag("FinishLine")) // La linea de meta pausa el juego y muestra el panel de finalizacion
         {
             Time.timeScale = 0f;
             finishPanel.SetActive(true);
         }
-        else if (canTakeDamage && collision.CompareTag("DamageObject"))
+        else if (canTakeDamage && collision.CompareTag("DamageObject")) // Los objetos en el mundo que hacen daño restan energia
         {
             TakeDamageWithCooldown(objectDamage, cooldownTime);
         }
     }
 
-    private void TakeDamageWithCooldown(float damage, float cooldown)
+    private void TakeDamageWithCooldown(float damage, float cooldown) // Resta energia y activa el cooldown para no recibir daño constantemente
     {
         energyBar.slider.value -= damage;
         StartCoroutine(DamageCooldown(cooldown));
     }
 
-    private IEnumerator DamageCooldown(float cooldown)
+    private IEnumerator DamageCooldown(float cooldown) // Coroutine para el cooldown de recibir daño
     {
         canTakeDamage = false;
         yield return new WaitForSeconds(cooldown);

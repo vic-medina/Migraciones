@@ -1,17 +1,18 @@
 using UnityEngine;
-
 public class ParallaxBG : MonoBehaviour
 {
+    [Header("Velocidad")]
     [SerializeField] private Vector2 movementSpeed;
+
     private Vector2 offset;
     private Material material;
 
-    private void Awake()
+    private void Awake() //Inicializar el material
     {
         material = GetComponent<SpriteRenderer>().material;
     }
 
-    private void Update()
+    private void Update() //Actualizar el offset de la textura para crear el efecto parallax
     {
         offset += movementSpeed * Time.deltaTime;
         material.mainTextureOffset = offset;

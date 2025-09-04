@@ -2,12 +2,14 @@ using UnityEngine;
 
 public class ObjectsMovement : MonoBehaviour
 {
-    [SerializeField] private float speed = 5f;
-    [SerializeField] private Rigidbody2D rb2D; 
+    [Header("Referencias")]
+    [SerializeField] private Rigidbody2D rb2D;
 
-    private void Update()
+    [Header("Velocidad")]
+    [SerializeField] private float speed = 5f;
+
+    private void Update() //Mover el objeto a la izquierda constantemente
     {
         rb2D.linearVelocity = new Vector2(-1 * speed, 0);    
     } 
-    
 }
