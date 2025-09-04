@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 1085479113180810214}
   - component: {fileID: 8027380613420421647}
   - component: {fileID: 2267643312309305633}
-  - component: {fileID: 2568174981421259672}
+  - component: {fileID: 2879789490775537809}
+  - component: {fileID: 964740923419717270}
   - component: {fileID: 8816154026218427168}
   - component: {fileID: 2414363578092215265}
   m_Layer: 0
@@ -80,7 +81,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
+  m_Sprite: {fileID: -5054541366734697646, guid: 943cc8c6ef40166498ecb4802ae16646, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -118,7 +119,29 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 5
---- !u!70 &2568174981421259672
+--- !u!95 &2879789490775537809
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 287819195597306353}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5e3478330e6a0b9498b2d77c52939514, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!70 &964740923419717270
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -152,9 +175,9 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 1, y: 2}
-  m_Direction: 0
+  m_Offset: {x: 0.003578008, y: -0.49741882}
+  m_Size: {x: 1.9849033, y: 0.593263}
+  m_Direction: 1
 --- !u!114 &8816154026218427168
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -170,8 +193,12 @@ MonoBehaviour:
   foodPool: {fileID: 0}
   enemyPool: {fileID: 0}
   energyBar: {fileID: 0}
+  finishPanel: {fileID: 0}
   foodValue: 0
   enemyDamage: 0
+  objectDamage: 0
+  cooldownTime: 0
+  canTakeDamage: 0
 --- !u!114 &2414363578092215265
 MonoBehaviour:
   m_ObjectHideFlags: 0

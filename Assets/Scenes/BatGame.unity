@@ -15594,6 +15594,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 964740923419717270, guid: e39ba1c1d7fe58a44a932e4edf629785, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1085479113180810214, guid: e39ba1c1d7fe58a44a932e4edf629785, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -15926,7 +15930,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5749214154284047297, guid: f65791d0503be6b4188569a5b1302100, type: 3}
       propertyPath: m_MatchWidthOrHeight
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6424878434977924251, guid: f65791d0503be6b4188569a5b1302100, type: 3}
       propertyPath: playerMovement
