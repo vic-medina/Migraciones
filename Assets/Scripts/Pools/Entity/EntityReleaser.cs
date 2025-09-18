@@ -11,7 +11,7 @@ public class EntityReleaser : MonoBehaviour
         {
             foodPool.ReturnToPool(collision.gameObject);
         }
-        else if (collision.CompareTag("Enemy"))
+        else if (collision.CompareTag("Enemigo"))
         {
             enemyPool.ReturnToPool(collision.gameObject);
         }

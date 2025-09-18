@@ -8,11 +8,13 @@ TagManager:
   - Enemy
   - FinishLine
   - DamageObject
+  - Platform
+  - Enemigo
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
   - 

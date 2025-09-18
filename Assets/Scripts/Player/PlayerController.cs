@@ -31,10 +31,9 @@ public class PlayerController : MonoBehaviour
             energyBar.slider.value += foodValue;
             foodPool.ReturnToPool(collision.gameObject);
         }
-        else if (collision.CompareTag("Enemy")) // Los enemigos restan energia y vuelven al pool
+        else if (collision.CompareTag("Enemy")) // Los enemigos restan energia
         {
-            energyBar.slider.value -= enemyDamage;
-            enemyPool.ReturnToPool(collision.gameObject);
+            TakeDamageWithCooldown(enemyDamage, cooldownTime);
         }
         else if (collision.CompareTag("FinishLine")) // La linea de meta pausa el juego y muestra el panel de finalizacion
         {
@@ -50,6 +49,7 @@ public class PlayerController : MonoBehaviour
     private void TakeDamageWithCooldown(float damage, float cooldown) // Resta energia y activa el cooldown para no recibir daño constantemente
     {
         energyBar.slider.value -= damage;
+        Debug.Log("Player took damage: " + damage);
         StartCoroutine(DamageCooldown(cooldown));
     }
 
