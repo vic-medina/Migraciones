@@ -2,18 +2,19 @@ using UnityEngine;
 
 public class EntityReleaser : MonoBehaviour
 {
-    [SerializeField] private EntityPool foodPool;
     [SerializeField] private EntityPool enemyPool;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Food"))
+        Debug.Log($"Trigger entered by: {collision.name}, Tag: {collision.tag}");
+
+        if (collision.CompareTag("Enemy"))
         {
-            foodPool.ReturnToPool(collision.gameObject);
-        }
-        else if (collision.CompareTag("Enemigo"))
-        {
+            Debug.Log("Returning to pool...");
+            //SnakeAttack attackController = collision.gameObject.GetComponent<SnakeAttack>();
+            //attackController.isAttacking = false; // Reset the attacking state
             enemyPool.ReturnToPool(collision.gameObject);
         }
     }
+
 }

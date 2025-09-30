@@ -5,14 +5,14 @@ public class GameStandby : MonoBehaviour
 {
     [Header("Referencias")]
     [SerializeField] private GameObject startPanel;
-    [SerializeField] public Button pauseButton;
+    [SerializeField] public Button pauseBtn;
 
     private bool gameStarted = false;
 
     void Awake() // Inicializar el juego en pausa
     {
         Time.timeScale = 0;
-        pauseButton.interactable = false;
+        pauseBtn.interactable = false;
     }
 
     void Update() 
@@ -25,9 +25,9 @@ public class GameStandby : MonoBehaviour
 
     public void StartGame() // Método para iniciar el juego
     {
-        gameStarted = true;
         Time.timeScale = 1;
         startPanel.SetActive(false);
-        pauseButton.interactable = true;
+        pauseBtn.interactable = true;
+        gameStarted = true;
     }
 }

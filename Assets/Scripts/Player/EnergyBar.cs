@@ -10,14 +10,19 @@ public class EnergyBar : MonoBehaviour
     [Header("Costo de Energia")]
     [SerializeField] private float energyDrainRate = 1f;
 
-    private void Start()
-    {
-        slider = GetComponent<Slider>(); // Asegúrate de que el Slider esté asignado
-    }
-
     private void Update()
     {
         EnergyDrain(energyDrainRate); // Drena energía constantemente   
+    }
+
+    public void PlusEnergy(float foodValue){ // Funcion para sumar energia al recoger comida
+        slider.value += foodValue;
+        if(slider.value > slider.maxValue){
+            slider.value = slider.maxValue;
+        }
+        if(slider.value > 0){
+            playerMovement.canJump = true; // Si la energia es mayor a 0, el jugador puede saltar
+        }
     }
 
     public void EnergyDrain(float drain) // Funcion para drenar energia

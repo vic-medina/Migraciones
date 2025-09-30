@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class SnakeController : MonoBehaviour
+public class SnakeAttack : MonoBehaviour
 {
     [Header("Referencias")]
     [SerializeField] private Rigidbody2D rb;
@@ -8,10 +8,8 @@ public class SnakeController : MonoBehaviour
 
     [Header("Movimiento")]
     [SerializeField] private float moveSpeed;   // velocidad de ataque
-    [SerializeField] private float baseSpeed;  // velocidad normal del runner (hacia la izquierda)
-
-    private Vector2 attackDirection;
-    private bool isAttacking = false;
+    [SerializeField] private Vector2 attackDirection;
+    public bool isAttacking = false;
 
     private void Start()
     {
@@ -42,6 +40,3 @@ public class SnakeController : MonoBehaviour
         Gizmos.DrawWireSphere(transform.position, 6f);
     }
 }
-
-
-

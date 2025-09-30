@@ -4,8 +4,6 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     [Header("Referencias")]
-    [SerializeField] private EntityPool foodPool;
-    [SerializeField] private EntityPool enemyPool;
     [SerializeField] private EnergyBar energyBar;
     [SerializeField] private GameObject finishPanel;
     private Rigidbody2D rb;
@@ -28,8 +26,8 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.CompareTag("Food")) // La comida suma energia y vuelve al pool
         {
-            energyBar.slider.value += foodValue;
-            foodPool.ReturnToPool(collision.gameObject);
+            energyBar.PlusEnergy(foodValue);
+            Destroy(collision.gameObject);
         }
         else if (collision.CompareTag("Enemy")) // Los enemigos restan energia
         {
