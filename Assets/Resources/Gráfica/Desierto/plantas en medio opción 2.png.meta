@@ -1,25 +1,22 @@
 fileFormatVersion: 2
-guid: 72135e7c41918224c8ac74e07ebbd0ac
+guid: a6e57bc8fe60f214d85e30c26ab3b578
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -625315039471853868
-    second: nubes_0
+      213: 3178741331251445791
+    second: "plantas en medio opci\xF3n 2_0"
   - first:
-      213: -980019903352724697
-    second: nubes_1
+      213: -5112702737225763251
+    second: "plantas en medio opci\xF3n 2_1"
   - first:
-      213: -7291739580829704924
-    second: nubes_2
+      213: -2631049451741151190
+    second: "plantas en medio opci\xF3n 2_2"
   - first:
-      213: -9000535401971830432
-    second: nubes_3
+      213: 5479631662645581782
+    second: "plantas en medio opci\xF3n 2_3"
   - first:
-      213: -8493426029928731507
-    second: nubes_4
-  - first:
-      213: 3060235573013048846
-    second: nubes_5
+      213: 3614470835126265496
+    second: "plantas en medio opci\xF3n 2_4"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -128,123 +125,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: nubes_0
+      name: "plantas en medio opci\xF3n 2_0"
       rect:
         serializedVersion: 2
-        x: 95
-        y: 635
-        width: 1208
-        height: 308
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4de129fd84f6257f0800000000000000
-      internalID: -625315039471853868
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: nubes_1
-      rect:
-        serializedVersion: 2
-        x: 1535
-        y: 707
-        width: 890
-        height: 206
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 72329db17154662f0800000000000000
-      internalID: -980019903352724697
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: nubes_2
-      rect:
-        serializedVersion: 2
-        x: 611
-        y: 215
-        width: 1118
-        height: 308
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 42d5df90c798eca90800000000000000
-      internalID: -7291739580829704924
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: nubes_3
-      rect:
-        serializedVersion: 2
-        x: 1943
-        y: 389
-        width: 566
-        height: 188
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 06134212dbca71380800000000000000
-      internalID: -9000535401971830432
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: nubes_4
-      rect:
-        serializedVersion: 2
-        x: 197
-        y: 77
-        width: 530
-        height: 164
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d8caa00a60a412a80800000000000000
-      internalID: -8493426029928731507
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: nubes_5
-      rect:
-        serializedVersion: 2
-        x: 1745
-        y: 113
+        x: 53
+        y: 95
         width: 278
-        height: 86
+        height: 230
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -253,8 +140,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e0ee4723a04287a20800000000000000
-      internalID: 3060235573013048846
+      spriteID: f10481a26682d1c20800000000000000
+      internalID: 3178741331251445791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "plantas en medio opci\xF3n 2_1"
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 47
+        width: 266
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d46bd71e2f70c09b0800000000000000
+      internalID: -5112702737225763251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "plantas en medio opci\xF3n 2_2"
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 125
+        width: 302
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a208b7aa672ac7bd0800000000000000
+      internalID: -2631049451741151190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "plantas en medio opci\xF3n 2_3"
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 89
+        width: 278
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d719fff6ff8b0c40800000000000000
+      internalID: 5479631662645581782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "plantas en medio opci\xF3n 2_4"
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 59
+        width: 266
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 896e5b2031e292230800000000000000
+      internalID: 3614470835126265496
       vertices: []
       indices: 
       edges: []
@@ -263,7 +238,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -273,12 +248,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      nubes_0: -625315039471853868
-      nubes_1: -980019903352724697
-      nubes_2: -7291739580829704924
-      nubes_3: -9000535401971830432
-      nubes_4: -8493426029928731507
-      nubes_5: 3060235573013048846
+      "plantas en medio opci\xF3n 2_0": 3178741331251445791
+      "plantas en medio opci\xF3n 2_1": -5112702737225763251
+      "plantas en medio opci\xF3n 2_2": -2631049451741151190
+      "plantas en medio opci\xF3n 2_3": 5479631662645581782
+      "plantas en medio opci\xF3n 2_4": 3614470835126265496
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

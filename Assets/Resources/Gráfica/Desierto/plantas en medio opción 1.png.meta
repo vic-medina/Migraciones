@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: 9909ea864c63f914681dad22b34ce7ca
+guid: cd224834f4a562f498f1e4ce476e6904
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7056406997444195838
-    second: referencia_0
+      213: -3162004235109046668
+    second: "plantas en medio opci\xF3n 1_0"
+  - first:
+      213: -2065503677995172387
+    second: "plantas en medio opci\xF3n 1_1"
+  - first:
+      213: 8066700517102910096
+    second: "plantas en medio opci\xF3n 1_2"
+  - first:
+      213: 2977999032538249547
+    second: "plantas en medio opci\xF3n 1_3"
+  - first:
+      213: 7271633524490461088
+    second: "plantas en medio opci\xF3n 1_4"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +125,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: referencia_0
+      name: "plantas en medio opci\xF3n 1_0"
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1920
-        height: 1080
+        x: 47
+        y: 17
+        width: 302
+        height: 218
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +140,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 20a02c6e83b921e90800000000000000
-      internalID: -7056406997444195838
+      spriteID: 4766b04b6ed4e14d0800000000000000
+      internalID: -3162004235109046668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "plantas en medio opci\xF3n 1_1"
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 71
+        width: 278
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dddb5de295bd553e0800000000000000
+      internalID: -2065503677995172387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "plantas en medio opci\xF3n 1_2"
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 29
+        width: 266
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09af06f816da2ff60800000000000000
+      internalID: 8066700517102910096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "plantas en medio opci\xF3n 1_3"
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 113
+        width: 278
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4936eb875af35920800000000000000
+      internalID: 2977999032538249547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "plantas en medio opci\xF3n 1_4"
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 53
+        width: 278
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0af531ce9280ae460800000000000000
+      internalID: 7271633524490461088
       vertices: []
       indices: 
       edges: []
@@ -138,7 +238,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +248,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      referencia_0: -7056406997444195838
+      "plantas en medio opci\xF3n 1_0": -3162004235109046668
+      "plantas en medio opci\xF3n 1_1": -2065503677995172387
+      "plantas en medio opci\xF3n 1_2": 8066700517102910096
+      "plantas en medio opci\xF3n 1_3": 2977999032538249547
+      "plantas en medio opci\xF3n 1_4": 7271633524490461088
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

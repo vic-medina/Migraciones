@@ -1,0 +1,676 @@
+fileFormatVersion: 2
+guid: 7e82dd99483b3244aac0d2551906d3cb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7151102833266073650
+    second: estalagmitas y estalctitas medio_0
+  - first:
+      213: -5995989059084250487
+    second: estalagmitas y estalctitas medio_1
+  - first:
+      213: 6761319956590803632
+    second: estalagmitas y estalctitas medio_2
+  - first:
+      213: -8187670660364063306
+    second: estalagmitas y estalctitas medio_3
+  - first:
+      213: 8412657588404420633
+    second: estalagmitas y estalctitas medio_4
+  - first:
+      213: 3774807768320232743
+    second: estalagmitas y estalctitas medio_5
+  - first:
+      213: 771786183132223846
+    second: estalagmitas y estalctitas medio_6
+  - first:
+      213: -6607882650223828727
+    second: estalagmitas y estalctitas medio_7
+  - first:
+      213: 148108802391686271
+    second: estalagmitas y estalctitas medio_8
+  - first:
+      213: -204393374960269091
+    second: estalagmitas y estalctitas medio_9
+  - first:
+      213: -3787233470213306860
+    second: estalagmitas y estalctitas medio_10
+  - first:
+      213: -5178388049870076056
+    second: estalagmitas y estalctitas medio_11
+  - first:
+      213: 2689189775577213186
+    second: estalagmitas y estalctitas medio_12
+  - first:
+      213: -3572622466429128693
+    second: estalagmitas y estalctitas medio_13
+  - first:
+      213: 705582834234160802
+    second: estalagmitas y estalctitas medio_14
+  - first:
+      213: -6232268872343231027
+    second: estalagmitas y estalctitas medio_15
+  - first:
+      213: -2418546338550403395
+    second: estalagmitas y estalctitas medio_16
+  - first:
+      213: 2318115325780119905
+    second: estalagmitas y estalctitas medio_17
+  - first:
+      213: -9108497043109020438
+    second: estalagmitas y estalctitas medio_18
+  - first:
+      213: -5783937357472477232
+    second: estalagmitas y estalctitas medio_19
+  - first:
+      213: 5373392717257913548
+    second: estalagmitas y estalctitas medio_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: estalagmitas y estalctitas medio_0
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 935
+        width: 842
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2302d118322dd3360800000000000000
+      internalID: 7151102833266073650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estalagmitas y estalctitas medio_1
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 995
+        width: 332
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 982972808b7f9cca0800000000000000
+      internalID: -5995989059084250487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estalagmitas y estalctitas medio_2
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 1001
+        width: 428
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0baba517da805dd50800000000000000
+      internalID: 6761319956590803632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estalagmitas y estalctitas medio_3
+      rect:
+        serializedVersion: 2
+        x: 2033
+        y: 917
+        width: 314
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bdac1f1aec8f5e80800000000000000
+      internalID: -8187670660364063306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estalagmitas y estalctitas medio_4
+      rect:
+        serializedVersion: 2
+        x: 2411
+        y: 995
+        width: 140
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91007d52183cfb470800000000000000
+      internalID: 8412657588404420633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estalagmitas y estalctitas medio_5
+      rect:
+        serializedVersion: 2
+        x: 2597
+        y: 947
+        width: 152
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72dcc1e5aafc26430800000000000000
+      internalID: 3774807768320232743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estalagmitas y estalctitas medio_6
+      rect:
+        serializedVersion: 2
+        x: 2819
+        y: 989
+        width: 212
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6699628c17fe5ba00800000000000000
+      internalID: 771786183132223846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estalagmitas y estalctitas medio_7
+      rect:
+        serializedVersion: 2
+        x: 3077
+        y: 1031
+        width: 146
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90121fb5db51c44a0800000000000000
+      internalID: -6607882650223828727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estalagmitas y estalctitas medio_8
+      rect:
+        serializedVersion: 2
+        x: 3263
+        y: 815
+        width: 182
+        height: 578
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7c3aaacb203e0200800000000000000
+      internalID: 148108802391686271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estalagmitas y estalctitas medio_9
+      rect:
+        serializedVersion: 2
+        x: 3497
+        y: 941
+        width: 176
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd8cc03fe49d92df0800000000000000
+      internalID: -204393374960269091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estalagmitas y estalctitas medio_10
+      rect:
+        serializedVersion: 2
+        x: 3725
+        y: 1007
+        width: 110
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4164776793b017bc0800000000000000
+      internalID: -3787233470213306860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estalagmitas y estalctitas medio_11
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 101
+        width: 422
+        height: 638
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 867cd52418ba228b0800000000000000
+      internalID: -5178388049870076056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estalagmitas y estalctitas medio_12
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 101
+        width: 128
+        height: 530
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20964ea5adbe15520800000000000000
+      internalID: 2689189775577213186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estalagmitas y estalctitas medio_13
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 101
+        width: 338
+        height: 650
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0079eb9bce7b6ec0800000000000000
+      internalID: -3572622466429128693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estalagmitas y estalctitas medio_14
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 101
+        width: 134
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a6f32279dbbac900800000000000000
+      internalID: 705582834234160802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estalagmitas y estalctitas medio_15
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 101
+        width: 200
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc5e1470b788289a0800000000000000
+      internalID: -6232268872343231027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estalagmitas y estalctitas medio_16
+      rect:
+        serializedVersion: 2
+        x: 1955
+        y: 101
+        width: 146
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbea1e94be89f6ed0800000000000000
+      internalID: -2418546338550403395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estalagmitas y estalctitas medio_17
+      rect:
+        serializedVersion: 2
+        x: 2213
+        y: 101
+        width: 326
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 161538d5b999b2020800000000000000
+      internalID: 2318115325780119905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estalagmitas y estalctitas medio_18
+      rect:
+        serializedVersion: 2
+        x: 2591
+        y: 101
+        width: 200
+        height: 752
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aec7acbb23e189180800000000000000
+      internalID: -9108497043109020438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estalagmitas y estalctitas medio_19
+      rect:
+        serializedVersion: 2
+        x: 2921
+        y: 101
+        width: 338
+        height: 692
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dfcdb43e935bbfa0800000000000000
+      internalID: -5783937357472477232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estalagmitas y estalctitas medio_20
+      rect:
+        serializedVersion: 2
+        x: 3323
+        y: 101
+        width: 428
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc434d6f430229a40800000000000000
+      internalID: 5373392717257913548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      estalagmitas y estalctitas medio_0: 7151102833266073650
+      estalagmitas y estalctitas medio_1: -5995989059084250487
+      estalagmitas y estalctitas medio_10: -3787233470213306860
+      estalagmitas y estalctitas medio_11: -5178388049870076056
+      estalagmitas y estalctitas medio_12: 2689189775577213186
+      estalagmitas y estalctitas medio_13: -3572622466429128693
+      estalagmitas y estalctitas medio_14: 705582834234160802
+      estalagmitas y estalctitas medio_15: -6232268872343231027
+      estalagmitas y estalctitas medio_16: -2418546338550403395
+      estalagmitas y estalctitas medio_17: 2318115325780119905
+      estalagmitas y estalctitas medio_18: -9108497043109020438
+      estalagmitas y estalctitas medio_19: -5783937357472477232
+      estalagmitas y estalctitas medio_2: 6761319956590803632
+      estalagmitas y estalctitas medio_20: 5373392717257913548
+      estalagmitas y estalctitas medio_3: -8187670660364063306
+      estalagmitas y estalctitas medio_4: 8412657588404420633
+      estalagmitas y estalctitas medio_5: 3774807768320232743
+      estalagmitas y estalctitas medio_6: 771786183132223846
+      estalagmitas y estalctitas medio_7: -6607882650223828727
+      estalagmitas y estalctitas medio_8: 148108802391686271
+      estalagmitas y estalctitas medio_9: -204393374960269091
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

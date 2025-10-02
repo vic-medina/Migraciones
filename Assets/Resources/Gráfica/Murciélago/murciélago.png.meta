@@ -1,58 +1,46 @@
 fileFormatVersion: 2
-guid: cafe7bad877a63a4ab6c256ab6b05f94
+guid: 83f5d3d84422193469e0c7ededc1e3ed
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6293845736250082079
-    second: "plantas atr\xE1s_0"
+      213: 5553302494382161042
+    second: "murci\xE9lago_0"
   - first:
-      213: -628753735306300367
-    second: "plantas atr\xE1s_1"
+      213: 8686764317530824578
+    second: "murci\xE9lago_1"
   - first:
-      213: -5781898518425206077
-    second: "plantas atr\xE1s_2"
+      213: -6253632685660091630
+    second: "murci\xE9lago_2"
   - first:
-      213: -8876159357663461898
-    second: "plantas atr\xE1s_3"
+      213: 8249155308477285462
+    second: "murci\xE9lago_3"
   - first:
-      213: -7189109923743398544
-    second: "plantas atr\xE1s_4"
+      213: 3977987854279321506
+    second: "murci\xE9lago_4"
   - first:
-      213: -7526265950323024212
-    second: "plantas atr\xE1s_5"
+      213: -6349733660458916813
+    second: "murci\xE9lago_5"
   - first:
-      213: 4258254357677341811
-    second: "plantas atr\xE1s_6"
+      213: -2490423219148084575
+    second: "murci\xE9lago_6"
   - first:
-      213: -1425131291426463613
-    second: "plantas atr\xE1s_7"
+      213: -2322956279414208393
+    second: "murci\xE9lago_7"
   - first:
-      213: -2257973107899376350
-    second: "plantas atr\xE1s_8"
+      213: -4783410821410623723
+    second: "murci\xE9lago_8"
   - first:
-      213: -1724150516257248064
-    second: "plantas atr\xE1s_9"
+      213: -5197381781370459731
+    second: "murci\xE9lago_9"
   - first:
-      213: 840463965997551296
-    second: "plantas atr\xE1s_10"
+      213: 1743432508934956403
+    second: "murci\xE9lago_10"
   - first:
-      213: -416608729675760077
-    second: "plantas atr\xE1s_11"
+      213: 3049384561690680911
+    second: "murci\xE9lago_11"
   - first:
-      213: -6555762277538816454
-    second: "plantas atr\xE1s_12"
-  - first:
-      213: -8048031146850891008
-    second: "plantas atr\xE1s_13"
-  - first:
-      213: -392109613059623828
-    second: "plantas atr\xE1s_14"
-  - first:
-      213: 6669696177699210524
-    second: "plantas atr\xE1s_15"
-  - first:
-      213: -8842024710576464687
-    second: "plantas atr\xE1s_16"
+      213: 7760443880118765151
+    second: "murci\xE9lago_12"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -85,18 +73,18 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
-    wrapW: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -123,7 +111,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -161,13 +149,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "plantas atr\xE1s_0"
+      name: "murci\xE9lago_0"
       rect:
         serializedVersion: 2
-        x: 173
-        y: 515
-        width: 230
-        height: 356
+        x: 17
+        y: 113
+        width: 254
+        height: 224
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,20 +164,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f130b44d95b385750800000000000000
-      internalID: 6293845736250082079
+      spriteID: 29c70fb223b411d40800000000000000
+      internalID: 5553302494382161042
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "plantas atr\xE1s_1"
+      name: "murci\xE9lago_1"
       rect:
         serializedVersion: 2
-        x: 857
-        y: 749
-        width: 224
-        height: 182
+        x: 335
+        y: 107
+        width: 248
+        height: 248
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -198,20 +186,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1343edb1fc73647f0800000000000000
-      internalID: -628753735306300367
+      spriteID: 28f96f15f169d8870800000000000000
+      internalID: 8686764317530824578
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "plantas atr\xE1s_2"
+      name: "murci\xE9lago_2"
       rect:
         serializedVersion: 2
-        x: 1097
-        y: 767
-        width: 194
-        height: 134
+        x: 647
+        y: 131
+        width: 242
+        height: 248
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -220,19 +208,63 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3c288e96ee192cfa0800000000000000
-      internalID: -5781898518425206077
+      spriteID: 21b457f9432a639a0800000000000000
+      internalID: -6253632685660091630
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "plantas atr\xE1s_3"
+      name: "murci\xE9lago_3"
       rect:
         serializedVersion: 2
-        x: 1319
-        y: 767
-        width: 164
+        x: 953
+        y: 137
+        width: 248
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65401d21c03ea7270800000000000000
+      internalID: 8249155308477285462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "murci\xE9lago_4"
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 173
+        width: 254
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a7232f80e6a43730800000000000000
+      internalID: 3977987854279321506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "murci\xE9lago_5"
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 173
+        width: 248
         height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -242,173 +274,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6fdb5b4971c81d480800000000000000
-      internalID: -8876159357663461898
+      spriteID: 334610ec0e631e7a0800000000000000
+      internalID: -6349733660458916813
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "plantas atr\xE1s_4"
+      name: "murci\xE9lago_6"
       rect:
         serializedVersion: 2
-        x: 1523
-        y: 785
-        width: 104
-        height: 86
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0750a082d962b3c90800000000000000
-      internalID: -7189109923743398544
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "plantas atr\xE1s_5"
-      rect:
-        serializedVersion: 2
-        x: 467
-        y: 527
-        width: 170
-        height: 230
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: caed0e97ef45d8790800000000000000
-      internalID: -7526265950323024212
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "plantas atr\xE1s_6"
-      rect:
-        serializedVersion: 2
-        x: 689
-        y: 551
-        width: 92
-        height: 134
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 37cfd90f6cb581b30800000000000000
-      internalID: 4258254357677341811
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "plantas atr\xE1s_7"
-      rect:
-        serializedVersion: 2
-        x: 875
-        y: 521
-        width: 230
-        height: 194
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3806b3024aae83ce0800000000000000
-      internalID: -1425131291426463613
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "plantas atr\xE1s_8"
-      rect:
-        serializedVersion: 2
-        x: 1169
-        y: 533
-        width: 170
-        height: 140
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 22dd54feb611aa0e0800000000000000
-      internalID: -2257973107899376350
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "plantas atr\xE1s_9"
-      rect:
-        serializedVersion: 2
-        x: 1391
-        y: 557
-        width: 92
-        height: 74
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0cc2e2b8d369218e0800000000000000
-      internalID: -1724150516257248064
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "plantas atr\xE1s_10"
-      rect:
-        serializedVersion: 2
-        x: 203
-        y: 173
-        width: 170
-        height: 290
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0cecccb268de9ab00800000000000000
-      internalID: 840463965997551296
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "plantas atr\xE1s_11"
-      rect:
-        serializedVersion: 2
-        x: 395
-        y: 167
-        width: 170
+        x: 1889
+        y: 95
+        width: 368
         height: 236
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -418,20 +296,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 33e79515198e73af0800000000000000
-      internalID: -416608729675760077
+      spriteID: 1aa2b4ae64d307dd0800000000000000
+      internalID: -2490423219148084575
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "plantas atr\xE1s_12"
+      name: "murci\xE9lago_7"
       rect:
         serializedVersion: 2
-        x: 599
-        y: 173
-        width: 128
-        height: 182
+        x: 2291
+        y: 155
+        width: 320
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -440,20 +318,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a3e946741f04505a0800000000000000
-      internalID: -6555762277538816454
+      spriteID: 778c0c8429333cfd0800000000000000
+      internalID: -2322956279414208393
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "plantas atr\xE1s_13"
+      name: "murci\xE9lago_8"
       rect:
         serializedVersion: 2
-        x: 791
-        y: 173
-        width: 122
-        height: 284
+        x: 2681
+        y: 143
+        width: 284
+        height: 218
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -462,20 +340,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 00b4caeef46af4090800000000000000
-      internalID: -8048031146850891008
+      spriteID: 51f6f079339ed9db0800000000000000
+      internalID: -4783410821410623723
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "plantas atr\xE1s_14"
+      name: "murci\xE9lago_9"
       rect:
         serializedVersion: 2
-        x: 989
-        y: 173
-        width: 104
-        height: 230
+        x: 3011
+        y: 143
+        width: 266
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -484,20 +362,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c64b0986262fe8af0800000000000000
-      internalID: -392109613059623828
+      spriteID: da9a3578ec03fd7b0800000000000000
+      internalID: -5197381781370459731
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "plantas atr\xE1s_15"
+      name: "murci\xE9lago_10"
       rect:
         serializedVersion: 2
-        x: 1145
-        y: 179
-        width: 74
-        height: 158
+        x: 3335
+        y: 149
+        width: 254
+        height: 176
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -506,20 +384,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c15ca8706558f8c50800000000000000
-      internalID: 6669696177699210524
+      spriteID: 375afe831aae13810800000000000000
+      internalID: 1743432508934956403
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "plantas atr\xE1s_16"
+      name: "murci\xE9lago_11"
       rect:
         serializedVersion: 2
-        x: 1265
-        y: 173
-        width: 68
-        height: 122
+        x: 3653
+        y: 167
+        width: 254
+        height: 140
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -528,8 +406,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1dc1dde6f51da4580800000000000000
-      internalID: -8842024710576464687
+      spriteID: f4e122f3a17915a20800000000000000
+      internalID: 3049384561690680911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "murci\xE9lago_12"
+      rect:
+        serializedVersion: 2
+        x: 3941
+        y: 137
+        width: 254
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5645d5a792a2bb60800000000000000
+      internalID: 7760443880118765151
       vertices: []
       indices: 
       edges: []
@@ -538,7 +438,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -548,23 +448,19 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "plantas atr\xE1s_0": 6293845736250082079
-      "plantas atr\xE1s_1": -628753735306300367
-      "plantas atr\xE1s_10": 840463965997551296
-      "plantas atr\xE1s_11": -416608729675760077
-      "plantas atr\xE1s_12": -6555762277538816454
-      "plantas atr\xE1s_13": -8048031146850891008
-      "plantas atr\xE1s_14": -392109613059623828
-      "plantas atr\xE1s_15": 6669696177699210524
-      "plantas atr\xE1s_16": -8842024710576464687
-      "plantas atr\xE1s_2": -5781898518425206077
-      "plantas atr\xE1s_3": -8876159357663461898
-      "plantas atr\xE1s_4": -7189109923743398544
-      "plantas atr\xE1s_5": -7526265950323024212
-      "plantas atr\xE1s_6": 4258254357677341811
-      "plantas atr\xE1s_7": -1425131291426463613
-      "plantas atr\xE1s_8": -2257973107899376350
-      "plantas atr\xE1s_9": -1724150516257248064
+      "murci\xE9lago_0": 5553302494382161042
+      "murci\xE9lago_1": 8686764317530824578
+      "murci\xE9lago_10": 1743432508934956403
+      "murci\xE9lago_11": 3049384561690680911
+      "murci\xE9lago_12": 7760443880118765151
+      "murci\xE9lago_2": -6253632685660091630
+      "murci\xE9lago_3": 8249155308477285462
+      "murci\xE9lago_4": 3977987854279321506
+      "murci\xE9lago_5": -6349733660458916813
+      "murci\xE9lago_6": -2490423219148084575
+      "murci\xE9lago_7": -2322956279414208393
+      "murci\xE9lago_8": -4783410821410623723
+      "murci\xE9lago_9": -5197381781370459731
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

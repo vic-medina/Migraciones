@@ -1,10 +1,25 @@
 fileFormatVersion: 2
-guid: dbf19222a394d5745b1f73a345da0183
+guid: 15b465f21cb65c44b8f4176099d159d9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8706949109862981489
-    second: "monta\xF1as_0"
+      213: -625315039471853868
+    second: nubes_0
+  - first:
+      213: -980019903352724697
+    second: nubes_1
+  - first:
+      213: -7291739580829704924
+    second: nubes_2
+  - first:
+      213: -9000535401971830432
+    second: nubes_3
+  - first:
+      213: -8493426029928731507
+    second: nubes_4
+  - first:
+      213: 3060235573013048846
+    second: nubes_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,23 +128,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "monta\xF1as_0"
+      name: nubes_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1920
-        height: 583
+        x: 95
+        y: 75
+        width: 2423
+        height: 868
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 17f59c2851c45d870800000000000000
-      internalID: 8706949109862981489
+      spriteID: 4de129fd84f6257f0800000000000000
+      internalID: -625315039471853868
       vertices: []
       indices: 
       edges: []
@@ -138,7 +153,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 1f3f0bfbb9b35b545b4a3d1add6b664f
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +163,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "monta\xF1as_0": 8706949109862981489
+      nubes_0: -625315039471853868
+      nubes_1: -980019903352724697
+      nubes_2: -7291739580829704924
+      nubes_3: -9000535401971830432
+      nubes_4: -8493426029928731507
+      nubes_5: 3060235573013048846
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
