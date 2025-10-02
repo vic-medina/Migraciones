@@ -16,6 +16,12 @@ public class SnakeAttack : MonoBehaviour
         playerTf = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
+    private void OnEnable()
+    {
+        isAttacking = false;
+        rb.linearVelocity = Vector2.zero; // Reiniciar la velocidad al activar
+    }
+
     void FixedUpdate()
     {
         if (isAttacking)

@@ -1,0 +1,494 @@
+fileFormatVersion: 2
+guid: a7cbb18b0192438459b8306952894e0b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5708267583717494315
+    second: plantas frente_0
+  - first:
+      213: -3727216075714962198
+    second: plantas frente_1
+  - first:
+      213: 2682605050742831682
+    second: plantas frente_2
+  - first:
+      213: -2103909509012887243
+    second: plantas frente_3
+  - first:
+      213: -2267335376970280352
+    second: plantas frente_4
+  - first:
+      213: 5965875981438803156
+    second: plantas frente_5
+  - first:
+      213: -7224334492139287194
+    second: plantas frente_6
+  - first:
+      213: 3263166440488633708
+    second: plantas frente_7
+  - first:
+      213: 1131912103888307105
+    second: plantas frente_8
+  - first:
+      213: 3450389761395390195
+    second: plantas frente_9
+  - first:
+      213: -7589799489574875850
+    second: plantas frente_10
+  - first:
+      213: -1197224978768748920
+    second: plantas frente_11
+  - first:
+      213: -8059240366843476437
+    second: plantas frente_12
+  - first:
+      213: 4378160194432816932
+    second: plantas frente_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: plantas frente_0
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 419
+        width: 86
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d134a550e828c0b0800000000000000
+      internalID: -5708267583717494315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plantas frente_1
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 419
+        width: 488
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aec52ed0ab4464cc0800000000000000
+      internalID: -3727216075714962198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plantas frente_2
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 419
+        width: 164
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24af132a4178a3520800000000000000
+      internalID: 2682605050742831682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plantas frente_3
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 419
+        width: 158
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53968b3d2796dc2e0800000000000000
+      internalID: -2103909509012887243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plantas frente_4
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 419
+        width: 98
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 062920dcc7ec880e0800000000000000
+      internalID: -2267335376970280352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plantas frente_5
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 419
+        width: 122
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dcd1b7b89c0bc250800000000000000
+      internalID: 5965875981438803156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plantas frente_6
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 419
+        width: 92
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66d8f693e020ebb90800000000000000
+      internalID: -7224334492139287194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plantas frente_7
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 125
+        width: 92
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c650d40b698194d20800000000000000
+      internalID: 3263166440488633708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plantas frente_8
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 125
+        width: 122
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a34a35bf0c55bf00800000000000000
+      internalID: 1131912103888307105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plantas frente_9
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 125
+        width: 98
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f6fd90053f32ef20800000000000000
+      internalID: 3450389761395390195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plantas frente_10
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 125
+        width: 158
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63dc273a39d9ba690800000000000000
+      internalID: -7589799489574875850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plantas frente_11
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 125
+        width: 164
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88e9348993a926fe0800000000000000
+      internalID: -1197224978768748920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plantas frente_12
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 125
+        width: 488
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b264ec60693d72090800000000000000
+      internalID: -8059240366843476437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plantas frente_13
+      rect:
+        serializedVersion: 2
+        x: 1733
+        y: 125
+        width: 86
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4275ce6108952cc30800000000000000
+      internalID: 4378160194432816932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      plantas frente_0: -5708267583717494315
+      plantas frente_1: -3727216075714962198
+      plantas frente_10: -7589799489574875850
+      plantas frente_11: -1197224978768748920
+      plantas frente_12: -8059240366843476437
+      plantas frente_13: 4378160194432816932
+      plantas frente_2: 2682605050742831682
+      plantas frente_3: -2103909509012887243
+      plantas frente_4: -2267335376970280352
+      plantas frente_5: 5965875981438803156
+      plantas frente_6: -7224334492139287194
+      plantas frente_7: 3263166440488633708
+      plantas frente_8: 1131912103888307105
+      plantas frente_9: 3450389761395390195
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -5,11 +5,11 @@ TagManager:
   serializedVersion: 3
   tags:
   - Food
-  - Enemy
   - FinishLine
   - DamageObject
   - Platform
-  - Enemigo
+  - Owl
+  - Snake
   layers:
   - Default
   - TransparentFX

@@ -29,7 +29,7 @@ public class PlayerController : MonoBehaviour
             energyBar.PlusEnergy(foodValue);
             Destroy(collision.gameObject);
         }
-        else if (collision.CompareTag("Enemy")) // Los enemigos restan energia
+        else if (collision.CompareTag("Owl") || collision.CompareTag("Snake")) // Los enemigos restan energia
         {
             TakeDamageWithCooldown(enemyDamage, cooldownTime);
         }

@@ -27,7 +27,6 @@ public class OwlAttack : MonoBehaviour
         while (true)
         {
             randomY = Random.Range(-1f, 1f); // dirección vertical aleatoria
-            Debug.Log($"New randomY: {randomY}");
             yield return new WaitForSeconds(directionChangeInterval);
         }
     }
