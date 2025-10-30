@@ -139,6 +139,19 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -159,173 +172,19 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 125
-        y: 1061
-        width: 416
-        height: 518
+        y: 900
+        width: 3734
+        height: 679
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e021fa26049caf000800000000000000
+      spriteID: dd86c8d4b46d3fe449954772b76bac20
       internalID: 70590022548394510
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: estalagmitas y estalctitas cerca_1
-      rect:
-        serializedVersion: 2
-        x: 611
-        y: 1073
-        width: 716
-        height: 506
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a6a7ed8436c79e830800000000000000
-      internalID: 4100945701563693674
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: estalagmitas y estalctitas cerca_2
-      rect:
-        serializedVersion: 2
-        x: 1427
-        y: 1121
-        width: 506
-        height: 458
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ef3a52f1dd82080b0800000000000000
-      internalID: -5728533795839826946
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: estalagmitas y estalctitas cerca_3
-      rect:
-        serializedVersion: 2
-        x: 2087
-        y: 899
-        width: 506
-        height: 680
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6c4ab68bfe6e0a160800000000000000
-      internalID: 7034876535218349254
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: estalagmitas y estalctitas cerca_4
-      rect:
-        serializedVersion: 2
-        x: 2729
-        y: 1097
-        width: 314
-        height: 482
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 03f454c7661b4af50800000000000000
-      internalID: 6891828383513399088
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: estalagmitas y estalctitas cerca_5
-      rect:
-        serializedVersion: 2
-        x: 3161
-        y: 1109
-        width: 164
-        height: 470
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 34397c8936a02ae20800000000000000
-      internalID: 3360259694853067587
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: estalagmitas y estalctitas cerca_6
-      rect:
-        serializedVersion: 2
-        x: 3437
-        y: 893
-        width: 206
-        height: 686
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cfc15d5cfdf9bbc00800000000000000
-      internalID: 917502732545629436
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: estalagmitas y estalctitas cerca_7
-      rect:
-        serializedVersion: 2
-        x: 3749
-        y: 1283
-        width: 110
-        height: 296
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 32c4d34371016a800800000000000000
-      internalID: 623203290284117027
       vertices: []
       indices: 
       edges: []
@@ -334,152 +193,20 @@ TextureImporter:
       name: estalagmitas y estalctitas cerca_8
       rect:
         serializedVersion: 2
-        x: 77
-        y: 95
-        width: 230
-        height: 482
+        x: 74
+        y: 94
+        width: 3788
+        height: 714
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 62cbbef10b93ae8a0800000000000000
+      spriteID: b09c6201d4a847041a990565bd9423f1
       internalID: -6275139702174794714
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: estalagmitas y estalctitas cerca_9
-      rect:
-        serializedVersion: 2
-        x: 395
-        y: 95
-        width: 422
-        height: 662
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a0e58491c1be29db0800000000000000
-      internalID: -4786504948025631222
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: estalagmitas y estalctitas cerca_10
-      rect:
-        serializedVersion: 2
-        x: 1031
-        y: 95
-        width: 530
-        height: 560
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9c51cc551f0b10c30800000000000000
-      internalID: 4323931667825432009
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: estalagmitas y estalctitas cerca_11
-      rect:
-        serializedVersion: 2
-        x: 1691
-        y: 95
-        width: 182
-        height: 338
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 267f6ba7582c5d260800000000000000
-      internalID: 7121812264301557602
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: estalagmitas y estalctitas cerca_12
-      rect:
-        serializedVersion: 2
-        x: 2057
-        y: 95
-        width: 314
-        height: 710
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 33ef8d80eee9f53c0800000000000000
-      internalID: -4368598368338248141
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: estalagmitas y estalctitas cerca_13
-      rect:
-        serializedVersion: 2
-        x: 2609
-        y: 95
-        width: 230
-        height: 680
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 13d6b9159d9afcc20800000000000000
-      internalID: 3228986208690072881
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: estalagmitas y estalctitas cerca_14
-      rect:
-        serializedVersion: 2
-        x: 3005
-        y: 95
-        width: 494
-        height: 632
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5ad1ee4355718f670800000000000000
-      internalID: 8572627545427418533
       vertices: []
       indices: 
       edges: []
@@ -488,7 +215,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b2add6004448dcf4c83b69e03875e74a
     internalID: 0
     vertices: []
     indices: 

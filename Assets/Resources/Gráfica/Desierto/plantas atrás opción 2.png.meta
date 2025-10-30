@@ -118,6 +118,19 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -134,37 +147,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "plantas atr\xE1s opci\xF3n 2_0"
-      rect:
-        serializedVersion: 2
-        x: 41
-        y: 287
-        width: 68
-        height: 122
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f43bd64ab794f3d50800000000000000
-      internalID: 6719169964448527183
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: "plantas atr\xE1s opci\xF3n 2_1"
       rect:
         serializedVersion: 2
-        x: 143
-        y: 101
-        width: 230
-        height: 356
+        x: 37
+        y: 102
+        width: 1840
+        height: 399
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -177,143 +168,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: "plantas atr\xE1s opci\xF3n 2_2"
-      rect:
-        serializedVersion: 2
-        x: 491
-        y: 209
-        width: 164
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4e01aec5d4f871a60800000000000000
-      internalID: 7644736454918803684
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "plantas atr\xE1s opci\xF3n 2_3"
-      rect:
-        serializedVersion: 2
-        x: 743
-        y: 209
-        width: 170
-        height: 236
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bdc7fdd2c811599b0800000000000000
-      internalID: -5074130111400280869
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "plantas atr\xE1s opci\xF3n 2_4"
-      rect:
-        serializedVersion: 2
-        x: 1019
-        y: 257
-        width: 104
-        height: 230
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2381d9dcb9fa7be80800000000000000
-      internalID: -8162862715881318350
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "plantas atr\xE1s opci\xF3n 2_5"
-      rect:
-        serializedVersion: 2
-        x: 1259
-        y: 143
-        width: 230
-        height: 194
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 78e2cdd4a9d49b300800000000000000
-      internalID: 268330977931832967
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "plantas atr\xE1s opci\xF3n 2_6"
-      rect:
-        serializedVersion: 2
-        x: 1601
-        y: 287
-        width: 92
-        height: 74
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3042ae4018c1d6e80800000000000000
-      internalID: -8183853607403510781
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "plantas atr\xE1s opci\xF3n 2_7"
-      rect:
-        serializedVersion: 2
-        x: 1799
-        y: 245
-        width: 74
-        height: 158
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7afe08bb386c39440800000000000000
-      internalID: 4941511485244370855
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 6cf715324c5a63548b7d5e3dc80bffbe
     internalID: 0
     vertices: []
     indices: 

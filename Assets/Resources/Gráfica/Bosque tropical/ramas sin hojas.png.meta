@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: e6c7a89fa90e76042b037babb570b8ae
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9210558793238031433
+    second: ramas sin hojas_0
+  - first:
+      213: 5252259607830114162
+    second: ramas sin hojas_1
+  - first:
+      213: 8919229192767539209
+    second: ramas sin hojas_2
+  - first:
+      213: -2234804018183842036
+    second: ramas sin hojas_3
+  - first:
+      213: 6376211127224974706
+    second: ramas sin hojas_4
+  - first:
+      213: 9039962060160010163
+    second: ramas sin hojas_5
+  - first:
+      213: 3559354268952575522
+    second: ramas sin hojas_6
+  - first:
+      213: -7328232971882400962
+    second: ramas sin hojas_7
+  - first:
+      213: 5552000657716248649
+    second: ramas sin hojas_8
+  - first:
+      213: -8231879594896071213
+    second: ramas sin hojas_9
+  - first:
+      213: 2696835639128527370
+    second: ramas sin hojas_10
+  - first:
+      213: 4313546868775870956
+    second: ramas sin hojas_11
+  - first:
+      213: 8093429356719687702
+    second: ramas sin hojas_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ramas sin hojas_0
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 377
+        width: 224
+        height: 703
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b35232c3958d2080800000000000000
+      internalID: -9210558793238031433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ramas sin hojas_1
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 605
+        width: 140
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27fa8d02946c3e840800000000000000
+      internalID: 5252259607830114162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ramas sin hojas_2
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 695
+        width: 158
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9080439d1b777cb70800000000000000
+      internalID: 8919229192767539209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ramas sin hojas_3
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 491
+        width: 212
+        height: 589
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c07598106916cf0e0800000000000000
+      internalID: -2234804018183842036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ramas sin hojas_4
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 599
+        width: 260
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27d3323dc3adc7850800000000000000
+      internalID: 6376211127224974706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ramas sin hojas_5
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 749
+        width: 62
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b788d21995647d70800000000000000
+      internalID: 9039962060160010163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ramas sin hojas_6
+      rect:
+        serializedVersion: 2
+        x: 2039
+        y: 785
+        width: 140
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22e30be69dd556130800000000000000
+      internalID: 3559354268952575522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ramas sin hojas_7
+      rect:
+        serializedVersion: 2
+        x: 2333
+        y: 611
+        width: 80
+        height: 469
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e33f4af40f2ec4a90800000000000000
+      internalID: -7328232971882400962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ramas sin hojas_8
+      rect:
+        serializedVersion: 2
+        x: 2537
+        y: 935
+        width: 248
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94089e3be2bac0d40800000000000000
+      internalID: 5552000657716248649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ramas sin hojas_9
+      rect:
+        serializedVersion: 2
+        x: 2861
+        y: 683
+        width: 134
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d5ee607f1d72cd80800000000000000
+      internalID: -8231879594896071213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ramas sin hojas_10
+      rect:
+        serializedVersion: 2
+        x: 3119
+        y: 467
+        width: 134
+        height: 613
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a029edfa9b51d6520800000000000000
+      internalID: 2696835639128527370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ramas sin hojas_11
+      rect:
+        serializedVersion: 2
+        x: 3197
+        y: 887
+        width: 80
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce16263e50cccdb30800000000000000
+      internalID: 4313546868775870956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ramas sin hojas_12
+      rect:
+        serializedVersion: 2
+        x: 3419
+        y: 689
+        width: 116
+        height: 391
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 618cefd7e13a15070800000000000000
+      internalID: 8093429356719687702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ramas sin hojas_0: -9210558793238031433
+      ramas sin hojas_1: 5252259607830114162
+      ramas sin hojas_10: 2696835639128527370
+      ramas sin hojas_11: 4313546868775870956
+      ramas sin hojas_12: 8093429356719687702
+      ramas sin hojas_2: 8919229192767539209
+      ramas sin hojas_3: -2234804018183842036
+      ramas sin hojas_4: 6376211127224974706
+      ramas sin hojas_5: 9039962060160010163
+      ramas sin hojas_6: 3559354268952575522
+      ramas sin hojas_7: -7328232971882400962
+      ramas sin hojas_8: 5552000657716248649
+      ramas sin hojas_9: -8231879594896071213
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

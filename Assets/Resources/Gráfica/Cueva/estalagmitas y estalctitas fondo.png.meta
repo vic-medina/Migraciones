@@ -127,6 +127,19 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -143,12 +156,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: estalagmitas y estalctitas fondo_0
+      name: estalagmitas y estalctitas fondo_1
       rect:
         serializedVersion: 2
-        x: 58
-        y: 295
-        width: 3588
+        x: 51
+        y: 299
+        width: 1780
         height: 1082
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -158,8 +171,206 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 15d54016e5c919c60800000000000000
-      internalID: 7823205956887797073
+      spriteID: 31174b690578dc1e0800000000000000
+      internalID: -2175934264754540269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estalagmitas y estalctitas fondo_2
+      rect:
+        serializedVersion: 2
+        x: 1949
+        y: 947
+        width: 494
+        height: 584
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7039b24bc462d2290800000000000000
+      internalID: -7913626859337968889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estalagmitas y estalctitas fondo_3
+      rect:
+        serializedVersion: 2
+        x: 2579
+        y: 1013
+        width: 230
+        height: 518
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b3c12b28640c2930800000000000000
+      internalID: 4119672604583904183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estalagmitas y estalctitas fondo_4
+      rect:
+        serializedVersion: 2
+        x: 2939
+        y: 1091
+        width: 122
+        height: 440
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a42cfdcc3f359c020800000000000000
+      internalID: 2362511786111910474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estalagmitas y estalctitas fondo_5
+      rect:
+        serializedVersion: 2
+        x: 3143
+        y: 983
+        width: 512
+        height: 548
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8faeb3bd9dd06170800000000000000
+      internalID: 8169773393445302158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estalagmitas y estalctitas fondo_6
+      rect:
+        serializedVersion: 2
+        x: 1949
+        y: 119
+        width: 164
+        height: 650
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4b6a539dac8cb0c0800000000000000
+      internalID: -4558614045676377267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estalagmitas y estalctitas fondo_7
+      rect:
+        serializedVersion: 2
+        x: 2183
+        y: 119
+        width: 218
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78e8d77cf2e7ff6c0800000000000000
+      internalID: -4107425591463145849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estalagmitas y estalctitas fondo_8
+      rect:
+        serializedVersion: 2
+        x: 2495
+        y: 119
+        width: 290
+        height: 830
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0869254dec355cb90800000000000000
+      internalID: -7222274279628171648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estalagmitas y estalctitas fondo_9
+      rect:
+        serializedVersion: 2
+        x: 2915
+        y: 119
+        width: 266
+        height: 674
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a2e731b03ff95160800000000000000
+      internalID: 7014918479203000993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estalagmitas y estalctitas fondo_10
+      rect:
+        serializedVersion: 2
+        x: 3275
+        y: 119
+        width: 392
+        height: 686
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66537dae60347cf60800000000000000
+      internalID: 8054480155564258662
       vertices: []
       indices: 
       edges: []
@@ -168,7 +379,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 2ec3da0507cae084d80ec5dba01fa27e
+    spriteID: c174ba3ad76800a4da0d96ab624b60cc
     internalID: 0
     vertices: []
     indices: 

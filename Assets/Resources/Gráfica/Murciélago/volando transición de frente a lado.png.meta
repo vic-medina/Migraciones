@@ -1,46 +1,46 @@
 fileFormatVersion: 2
-guid: 83f5d3d84422193469e0c7ededc1e3ed
+guid: 994e60639c103984cbbb9e62d301353e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5553302494382161042
-    second: "murci\xE9lago_0"
+      213: 9003751702116368451
+    second: "volando transici\xF3n de frente a lado_0"
   - first:
-      213: 8686764317530824578
-    second: "murci\xE9lago_1"
+      213: -4864203273852637602
+    second: "volando transici\xF3n de frente a lado_1"
   - first:
-      213: -6253632685660091630
-    second: "murci\xE9lago_2"
+      213: -41532116729483627
+    second: "volando transici\xF3n de frente a lado_2"
   - first:
-      213: 8249155308477285462
-    second: "murci\xE9lago_3"
+      213: 7053575946808233970
+    second: "volando transici\xF3n de frente a lado_3"
   - first:
-      213: 3977987854279321506
-    second: "murci\xE9lago_4"
+      213: -7009214354863651439
+    second: "volando transici\xF3n de frente a lado_4"
   - first:
-      213: -6349733660458916813
-    second: "murci\xE9lago_5"
+      213: -5479996018709905279
+    second: "volando transici\xF3n de frente a lado_5"
   - first:
-      213: -2490423219148084575
-    second: "murci\xE9lago_6"
+      213: 4619188145682724519
+    second: "volando transici\xF3n de frente a lado_6"
   - first:
-      213: -2322956279414208393
-    second: "murci\xE9lago_7"
+      213: 2025884420651255276
+    second: "volando transici\xF3n de frente a lado_7"
   - first:
-      213: -4783410821410623723
-    second: "murci\xE9lago_8"
+      213: 2069278857297079114
+    second: "volando transici\xF3n de frente a lado_8"
   - first:
-      213: -5197381781370459731
-    second: "murci\xE9lago_9"
+      213: -7563246296079551234
+    second: "volando transici\xF3n de frente a lado_9"
   - first:
-      213: 1743432508934956403
-    second: "murci\xE9lago_10"
+      213: -7617816731438345861
+    second: "volando transici\xF3n de frente a lado_10"
   - first:
-      213: 3049384561690680911
-    second: "murci\xE9lago_11"
+      213: -8484131707714391950
+    second: "volando transici\xF3n de frente a lado_11"
   - first:
-      213: 7760443880118765151
-    second: "murci\xE9lago_12"
+      213: -944543206332139183
+    second: "volando transici\xF3n de frente a lado_12"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -73,7 +73,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -111,7 +111,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -121,6 +121,19 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -149,12 +162,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "murci\xE9lago_0"
+      name: "volando transici\xF3n de frente a lado_0"
       rect:
         serializedVersion: 2
-        x: 17
+        x: 23
         y: 113
-        width: 254
+        width: 338
         height: 224
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -164,19 +177,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 29c70fb223b411d40800000000000000
-      internalID: 5553302494382161042
+      spriteID: 340077a1870c3fc70800000000000000
+      internalID: 9003751702116368451
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "murci\xE9lago_1"
+      name: "volando transici\xF3n de frente a lado_1"
       rect:
         serializedVersion: 2
-        x: 335
+        x: 455
         y: 107
-        width: 248
+        width: 164
         height: 248
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -186,19 +199,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 28f96f15f169d8870800000000000000
-      internalID: 8686764317530824578
+      spriteID: e5ea8b2e4e0ee7cb0800000000000000
+      internalID: -4864203273852637602
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "murci\xE9lago_2"
+      name: "volando transici\xF3n de frente a lado_2"
       rect:
         serializedVersion: 2
-        x: 647
+        x: 851
         y: 131
-        width: 242
+        width: 164
         height: 248
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -208,20 +221,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 21b457f9432a639a0800000000000000
-      internalID: -6253632685660091630
+      spriteID: 59ea19782c27c6ff0800000000000000
+      internalID: -41532116729483627
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "murci\xE9lago_3"
+      name: "volando transici\xF3n de frente a lado_3"
       rect:
         serializedVersion: 2
-        x: 953
-        y: 137
-        width: 248
-        height: 218
+        x: 1217
+        y: 143
+        width: 170
+        height: 206
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -230,20 +243,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 65401d21c03ea7270800000000000000
-      internalID: 8249155308477285462
+      spriteID: 2ff8eb1c3f553e160800000000000000
+      internalID: 7053575946808233970
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "murci\xE9lago_4"
+      name: "volando transici\xF3n de frente a lado_4"
       rect:
         serializedVersion: 2
-        x: 1259
-        y: 173
-        width: 254
-        height: 164
+        x: 1589
+        y: 179
+        width: 194
+        height: 158
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -252,19 +265,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2a7232f80e6a43730800000000000000
-      internalID: 3977987854279321506
+      spriteID: 19588cf3ea44abe90800000000000000
+      internalID: -7009214354863651439
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "murci\xE9lago_5"
+      name: "volando transici\xF3n de frente a lado_5"
       rect:
         serializedVersion: 2
-        x: 1577
+        x: 1955
         y: 173
-        width: 248
+        width: 224
         height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -274,17 +287,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 334610ec0e631e7a0800000000000000
-      internalID: -6349733660458916813
+      spriteID: 180cd3eb7a423f3b0800000000000000
+      internalID: -5479996018709905279
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "murci\xE9lago_6"
+      name: "volando transici\xF3n de frente a lado_6"
       rect:
         serializedVersion: 2
-        x: 1889
+        x: 2315
         y: 95
         width: 368
         height: 236
@@ -296,17 +309,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1aa2b4ae64d307dd0800000000000000
-      internalID: -2490423219148084575
+      spriteID: 7a63d1e1527aa1040800000000000000
+      internalID: 4619188145682724519
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "murci\xE9lago_7"
+      name: "volando transici\xF3n de frente a lado_7"
       rect:
         serializedVersion: 2
-        x: 2291
+        x: 2699
         y: 155
         width: 320
         height: 200
@@ -318,17 +331,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 778c0c8429333cfd0800000000000000
-      internalID: -2322956279414208393
+      spriteID: ce58ae0a5236d1c10800000000000000
+      internalID: 2025884420651255276
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "murci\xE9lago_8"
+      name: "volando transici\xF3n de frente a lado_8"
       rect:
         serializedVersion: 2
-        x: 2681
+        x: 3083
         y: 143
         width: 284
         height: 218
@@ -340,17 +353,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 51f6f079339ed9db0800000000000000
-      internalID: -4783410821410623723
+      spriteID: a4b2b6e382e87bc10800000000000000
+      internalID: 2069278857297079114
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "murci\xE9lago_9"
+      name: "volando transici\xF3n de frente a lado_9"
       rect:
         serializedVersion: 2
-        x: 3011
+        x: 3467
         y: 143
         width: 266
         height: 200
@@ -362,19 +375,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: da9a3578ec03fd7b0800000000000000
-      internalID: -5197381781370459731
+      spriteID: ef4b365c093f90790800000000000000
+      internalID: -7563246296079551234
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "murci\xE9lago_10"
+      name: "volando transici\xF3n de frente a lado_10"
       rect:
         serializedVersion: 2
-        x: 3335
+        x: 3857
         y: 149
-        width: 254
+        width: 242
         height: 176
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -384,19 +397,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 375afe831aae13810800000000000000
-      internalID: 1743432508934956403
+      spriteID: b71179e2b04184690800000000000000
+      internalID: -7617816731438345861
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "murci\xE9lago_11"
+      name: "volando transici\xF3n de frente a lado_11"
       rect:
         serializedVersion: 2
-        x: 3653
+        x: 4241
         y: 167
-        width: 254
+        width: 242
         height: 140
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -406,19 +419,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f4e122f3a17915a20800000000000000
-      internalID: 3049384561690680911
+      spriteID: 2703e06a92f424a80800000000000000
+      internalID: -8484131707714391950
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "murci\xE9lago_12"
+      name: "volando transici\xF3n de frente a lado_12"
       rect:
         serializedVersion: 2
-        x: 3941
+        x: 4625
         y: 137
-        width: 254
+        width: 242
         height: 212
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -428,8 +441,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f5645d5a792a2bb60800000000000000
-      internalID: 7760443880118765151
+      spriteID: 159709f45fe44e2f0800000000000000
+      internalID: -944543206332139183
       vertices: []
       indices: 
       edges: []
@@ -448,19 +461,19 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "murci\xE9lago_0": 5553302494382161042
-      "murci\xE9lago_1": 8686764317530824578
-      "murci\xE9lago_10": 1743432508934956403
-      "murci\xE9lago_11": 3049384561690680911
-      "murci\xE9lago_12": 7760443880118765151
-      "murci\xE9lago_2": -6253632685660091630
-      "murci\xE9lago_3": 8249155308477285462
-      "murci\xE9lago_4": 3977987854279321506
-      "murci\xE9lago_5": -6349733660458916813
-      "murci\xE9lago_6": -2490423219148084575
-      "murci\xE9lago_7": -2322956279414208393
-      "murci\xE9lago_8": -4783410821410623723
-      "murci\xE9lago_9": -5197381781370459731
+      "volando transici\xF3n de frente a lado_0": 9003751702116368451
+      "volando transici\xF3n de frente a lado_1": -4864203273852637602
+      "volando transici\xF3n de frente a lado_10": -7617816731438345861
+      "volando transici\xF3n de frente a lado_11": -8484131707714391950
+      "volando transici\xF3n de frente a lado_12": -944543206332139183
+      "volando transici\xF3n de frente a lado_2": -41532116729483627
+      "volando transici\xF3n de frente a lado_3": 7053575946808233970
+      "volando transici\xF3n de frente a lado_4": -7009214354863651439
+      "volando transici\xF3n de frente a lado_5": -5479996018709905279
+      "volando transici\xF3n de frente a lado_6": 4619188145682724519
+      "volando transici\xF3n de frente a lado_7": 2025884420651255276
+      "volando transici\xF3n de frente a lado_8": 2069278857297079114
+      "volando transici\xF3n de frente a lado_9": -7563246296079551234
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
