@@ -6,10 +6,10 @@ TagManager:
   tags:
   - Food
   - FinishLine
-  - DamageObject
   - Platform
   - Owl
   - Snake
+  - Object
   layers:
   - Default
   - TransparentFX

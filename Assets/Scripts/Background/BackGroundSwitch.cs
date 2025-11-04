@@ -16,10 +16,6 @@ public class BackGroundSwitch : MonoBehaviour
 
     private void Start()
     {
-        for (int i = 0; i < fondos.Count; i++) // Aseguramos que solo un fondo esté activo al inicio (el primero)
-        {
-            fondos[i].SetActive(i == 0);
-        }
     }
 
     public IEnumerator FadeFondos(int nuevoFondoIndex) // Coroutine para hacer el fade entre fondos

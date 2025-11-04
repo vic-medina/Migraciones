@@ -3,7 +3,6 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     [Header("Referencias")]
-    [SerializeField] private GameObject gameOverCanvas;
     [SerializeField] private EnergyBar energyBar;
     [SerializeField] private PlayerUIController playerUI;
     private Rigidbody2D rb;
@@ -32,10 +31,6 @@ public class PlayerMovement : MonoBehaviour
         {
             anim.SetBool("fly",false);
         }
-        else if (!canJump) //Game Over si no hay energia
-        {
-            GameOver();
-        }
     }
 
     private void Fly() // Funcion para saltar y gastar energia
@@ -43,11 +38,5 @@ public class PlayerMovement : MonoBehaviour
         rb.linearVelocity = new Vector2(0, jumpForce);
         energyBar.UseEnergy(energyCost);
         anim.SetBool("fly",true);
-    }
-
-    private void GameOver() // Funcion para activar el Game Over
-    {
-        Time.timeScale = 0;
-        gameOverCanvas.SetActive(true);
     }
 }

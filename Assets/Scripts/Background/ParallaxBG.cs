@@ -2,7 +2,7 @@ using UnityEngine;
 public class ParallaxBG : MonoBehaviour
 {
     [Header("Velocidad")]
-    [SerializeField] private Vector2 movementSpeed;
+    [SerializeField] public Vector2 movementSpeed;
 
     private Vector2 offset;
     private Material material;

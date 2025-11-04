@@ -15,9 +15,10 @@ GameObject:
   - component: {fileID: 964740923419717270}
   - component: {fileID: 8816154026218427168}
   - component: {fileID: 2414363578092215265}
-  m_Layer: 0
+  - component: {fileID: 5506387730917341831}
+  m_Layer: 3
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32,7 +33,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 2.5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -78,15 +79,15 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -798945499
+  m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 3990931106615306209, guid: 943cc8c6ef40166498ecb4802ae16646, type: 3}
+  m_Sprite: {fileID: -6065701727756596880, guid: 00d4d9e2d3ea43e4eb1ae6638046478a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 2}
+  m_Size: {x: 2.4199998, y: 2.2465625}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -118,7 +119,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 5
+  m_Constraints: 1
 --- !u!95 &2879789490775537809
 Animator:
   serializedVersion: 7
@@ -175,8 +176,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.035761483, y: -0.4623106}
-  m_Size: {x: 1.8035194, y: 0.5230468}
+  m_Offset: {x: 0.03576145, y: -0.626772}
+  m_Size: {x: 1.8035198, y: 0.5023748}
   m_Direction: 1
 --- !u!114 &8816154026218427168
 MonoBehaviour:
@@ -190,15 +191,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5fa2253d04bf6148bf00f5dc371fa5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  foodPool: {fileID: 0}
-  enemyPool: {fileID: 0}
-  energyBar: {fileID: 0}
   finishPanel: {fileID: 0}
-  foodValue: 0
-  enemyDamage: 0
-  objectDamage: 0
-  cooldownTime: 0
-  canTakeDamage: 0
+  foodValue: 8
 --- !u!114 &2414363578092215265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -211,9 +205,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a4be11f243c9804f83f622637eb2783, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameOverCanvas: {fileID: 0}
   energyBar: {fileID: 0}
   playerUI: {fileID: 0}
-  jumpForce: 0
-  energyCost: 0
-  canJump: 0
+  jumpForce: 4
+  canJump: 1
+  energyCost: 1
+--- !u!114 &5506387730917341831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 287819195597306353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f07b86ed4b74465418d7a1663d590025, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 2879789490775537809}
+  objMov: {fileID: 0}
+  rb: {fileID: 2267643312309305633}
+  gameOverCanvas: {fileID: 0}
+  heartIcons:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  pBg:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  maxhealt: 3
+  currenthealt: 3
+  cooldownTime: 0.5
+  canTakeDamage: 0

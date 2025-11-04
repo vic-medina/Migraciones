@@ -6,7 +6,7 @@ public class ObjectsMovement : MonoBehaviour
     [SerializeField] private Rigidbody2D rb2D;
 
     [Header("Velocidad")]
-    [SerializeField] private float speed = 5f;
+    [SerializeField] public float speed = 5f;
 
     private void Update() //Mover el objeto a la izquierda constantemente
     {
