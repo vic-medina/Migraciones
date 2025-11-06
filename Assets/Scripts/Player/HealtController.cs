@@ -15,7 +15,9 @@ public class HealtController : MonoBehaviour
 
     [Header("Vida")]
     [SerializeField] private int maxhealt = 3;
-    [SerializeField] public int currenthealt = 3;
+    public int currenthealt = 3;
+    public bool gameOver = false;
+    
    
     [Header("Enemigos y Objetos")]
     [SerializeField] private float cooldownTime;
@@ -25,9 +27,9 @@ public class HealtController : MonoBehaviour
     private float collisionPos;
     private Vector3 knockbackTarget;
 
-    private void Start()
+    private void Awake()
     {
-        canTakeDamage = true;
+        //canTakeDamage = true;
     }
 
     private void Update()
@@ -44,11 +46,10 @@ public class HealtController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (canTakeDamage && (collision.CompareTag("Object") || collision.CompareTag("Owl") || collision.CompareTag("Snake")) )
+        if (/*canTakeDamage && */collision.CompareTag("Enemy") || collision.CompareTag("Object"))
         {
             collisionPos = collision.transform.position.y;
             TakeDamage(cooldownTime);
-            UpdateHealt();
         }
         else if (collision.CompareTag("Food"))
         {
@@ -62,11 +63,11 @@ public class HealtController : MonoBehaviour
         currenthealt -= 1;
         anim.SetTrigger("damage");
 
-        if (collisionPos > transform.position.y)
+        if (collisionPos > transform.position.y) //Hacia abajo
         {
             knockbackTarget = transform.position + new Vector3(-1f, -1.5f, 0);
         }
-        else
+        else //Hacia arriba
         {
             knockbackTarget = transform.position + new Vector3(-1f, 1.5f, 0);
         }
@@ -77,12 +78,13 @@ public class HealtController : MonoBehaviour
         rb.constraints |= RigidbodyConstraints2D.FreezePositionY;
 
         Debug.Log("Player took damage");
+        UpdateHealt();
         StartCoroutine(DamageCooldown(cooldown));
     }
 
     private IEnumerator DamageCooldown(float cooldown)
     {
-        canTakeDamage = false;
+        //canTakeDamage = false;
         yield return new WaitForSeconds(cooldown);
 
         objMov.speed = 4f;
@@ -97,14 +99,26 @@ public class HealtController : MonoBehaviour
         rb.constraints &= ~RigidbodyConstraints2D.FreezePositionY;
 
         transform.DOMoveX(0f, 0.3f).SetEase(Ease.OutQuad);
-        canTakeDamage = true;
+        //canTakeDamage = true;
     }
 
     private void UpdateHealt()
     {
         for (int i = 0; i < heartIcons.Count; i++)
         {
-            heartIcons[i].SetActive(i < currenthealt); // Solo activa los corazones que aún tiene
+            if (i < currenthealt)
+            {
+                heartIcons[i].SetActive(true);
+                heartIcons[i].transform.DOScale(Vector3.one, 0.2f);
+            }
+            else
+            {
+                int index = i;
+                heartIcons[index].transform.DOScale(Vector3.zero, 0.2f).OnComplete(() =>
+                {
+                    heartIcons[index].SetActive(false);
+                });
+            }
         }
     }
 
@@ -132,7 +146,8 @@ public class HealtController : MonoBehaviour
 
     private void GameOver()
     {
-        Time.timeScale = 0;
         gameOverCanvas.SetActive(true);
+        gameOver = true;
+        Time.timeScale = 0f;
     }
 }

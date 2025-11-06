@@ -21,7 +21,7 @@ public class EnergyBar : MonoBehaviour
             slider.value = slider.maxValue;
         }
         if(slider.value > 0){
-            playerMovement.canJump = true; // Si la energia es mayor a 0, el jugador puede saltar
+            //playerMovement.canJump = true; // Si la energia es mayor a 0, el jugador puede saltar
         }
     }
 
@@ -31,7 +31,7 @@ public class EnergyBar : MonoBehaviour
         if (slider.value <= 0) // Si la energia llega a 0, el jugador no puede saltar
         {
             slider.value = 0;
-            playerMovement.canJump = false;
+            //playerMovement.canJump = false;
         }
     }
 

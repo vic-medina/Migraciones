@@ -1,11 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BackGroundSwitch : MonoBehaviour
 {
     [Header("Fade Sprite (capa superpuesta)")] //Sprite que cubre toda la pantalla para hacer el efecto de fade
-    [SerializeField] private SpriteRenderer fadeMask;
+    [SerializeField] private Image fadeMask;
 
     [Header("Fondos Parallax (galería)")] //Lista de fondos parallax que se van a ir alternando
     [SerializeField] private List<GameObject> fondos = new List<GameObject>();

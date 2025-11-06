@@ -9,9 +9,6 @@ public class PlayerCollision : MonoBehaviour
     //[SerializeField] private EnergyBar energyBar;
     [SerializeField] private GameObject finishPanel;
 
-    [Header("Comida")]
-    [SerializeField] private float foodValue;
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("FinishLine"))
