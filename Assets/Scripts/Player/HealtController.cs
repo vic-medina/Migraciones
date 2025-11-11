@@ -64,7 +64,7 @@ public class HealtController : MonoBehaviour
         currenthealt -= 1;
         anim.SetBool("damage",true);
 
-        if ((collisionPos > transform.position.y) && (transform.position.y >= 5f)) //Hacia abajo
+        /*if ((collisionPos > transform.position.y) && (transform.position.y >= 5f)) //Hacia abajo
         {
             knockbackTarget = transform.position + new Vector3(-1f, -2.5f, 0);
         }
@@ -79,16 +79,16 @@ public class HealtController : MonoBehaviour
         else if ((collisionPos < transform.position.y) && (transform.position.y <= 5f)) //Hacia arriba
         {
             knockbackTarget = transform.position + new Vector3(-1f, 2.5f, 0);
-        }
-        /*
-        if (transform.position.y > 5.5f) //Hacia abajo
+        }*/
+        
+        if (collisionPos > transform.position.y ) //Hacia abajo
         {
             knockbackTarget = transform.position + new Vector3(-1f, -2f, 0);
         }
         else //Hacia arriba
         {
             knockbackTarget = transform.position + new Vector3(-1f, 2f, 0);
-        }*/
+        }
 
         transform.DOMove(knockbackTarget, 0.3f).SetEase(Ease.OutQuad);
 
