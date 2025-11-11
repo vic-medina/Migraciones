@@ -21,6 +21,7 @@ public class HealtController : MonoBehaviour
    
     [Header("Enemigos y Objetos")]
     [SerializeField] private float cooldownTime;
+    [SerializeField] private float knockbackTime;
     [SerializeField] private bool canTakeDamage;
 
     private List<Vector2> speedBufferList = new List<Vector2>();
@@ -46,10 +47,10 @@ public class HealtController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (/*canTakeDamage && */collision.CompareTag("Enemy") || collision.CompareTag("Object"))
+        if (canTakeDamage && (collision.CompareTag("Enemy") || collision.CompareTag("Object")))
         {
             collisionPos = collision.transform.position.y;
-            TakeDamage(cooldownTime);
+            TakeDamage();
         }
         else if (collision.CompareTag("Food"))
         {
@@ -58,19 +59,36 @@ public class HealtController : MonoBehaviour
         }
     }
 
-    private void TakeDamage(float cooldown)
+    private void TakeDamage()
     {
         currenthealt -= 1;
-        anim.SetTrigger("damage");
+        anim.SetBool("damage",true);
 
-        if (collisionPos > transform.position.y) //Hacia abajo
+        if ((collisionPos > transform.position.y) && (transform.position.y >= 5f)) //Hacia abajo
         {
-            knockbackTarget = transform.position + new Vector3(-1f, -1.5f, 0);
+            knockbackTarget = transform.position + new Vector3(-1f, -2.5f, 0);
+        }
+        else if ((collisionPos > transform.position.y) && (transform.position.y <= 5f)) //Hacia arriba
+        {
+            knockbackTarget = transform.position + new Vector3(-1f, 2.5f, 0);
+        }
+        else if ((collisionPos < transform.position.y) && (transform.position.y >= 5f)) //Hacia abajo
+        {
+            knockbackTarget = transform.position + new Vector3(-1f, -2.5f, 0);
+        }
+        else if ((collisionPos < transform.position.y) && (transform.position.y <= 5f)) //Hacia arriba
+        {
+            knockbackTarget = transform.position + new Vector3(-1f, 2.5f, 0);
+        }
+        /*
+        if (transform.position.y > 5.5f) //Hacia abajo
+        {
+            knockbackTarget = transform.position + new Vector3(-1f, -2f, 0);
         }
         else //Hacia arriba
         {
-            knockbackTarget = transform.position + new Vector3(-1f, 1.5f, 0);
-        }
+            knockbackTarget = transform.position + new Vector3(-1f, 2f, 0);
+        }*/
 
         transform.DOMove(knockbackTarget, 0.3f).SetEase(Ease.OutQuad);
 
@@ -79,13 +97,16 @@ public class HealtController : MonoBehaviour
 
         Debug.Log("Player took damage");
         UpdateHealt();
-        StartCoroutine(DamageCooldown(cooldown));
+        StartCoroutine(DamageCooldown(knockbackTime, cooldownTime));
     }
 
-    private IEnumerator DamageCooldown(float cooldown)
+    private IEnumerator DamageCooldown(float knockBack, float cooldown)
     {
-        //canTakeDamage = false;
-        yield return new WaitForSeconds(cooldown);
+        canTakeDamage = false;
+        yield return new WaitForSeconds(knockBack);
+
+        transform.DOMoveX(0f, 0.3f).SetEase(Ease.OutQuad);
+        rb.constraints &= ~RigidbodyConstraints2D.FreezePositionY;
 
         objMov.speed = 4f;
         for (int i = 0; i < pBg.Count; i++)
@@ -96,10 +117,9 @@ public class HealtController : MonoBehaviour
             }
         }
 
-        rb.constraints &= ~RigidbodyConstraints2D.FreezePositionY;
-
-        transform.DOMoveX(0f, 0.3f).SetEase(Ease.OutQuad);
-        //canTakeDamage = true;
+        yield return new WaitForSeconds(cooldown);
+        anim.SetBool("damage", false);
+        canTakeDamage = true;
     }
 
     private void UpdateHealt()

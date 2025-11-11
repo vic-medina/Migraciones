@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 964740923419717270}
   - component: {fileID: 8816154026218427168}
   - component: {fileID: 2414363578092215265}
-  - component: {fileID: 5506387730917341831}
+  - component: {fileID: 7733360661047323900}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -192,7 +192,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   finishPanel: {fileID: 0}
-  foodValue: 8
 --- !u!114 &2414363578092215265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -205,12 +204,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a4be11f243c9804f83f622637eb2783, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  energyBar: {fileID: 0}
   playerUI: {fileID: 0}
   jumpForce: 4
-  canJump: 1
-  energyCost: 1
---- !u!114 &5506387730917341831
+--- !u!114 &7733360661047323900
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -236,7 +232,32 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   maxhealt: 3
   currenthealt: 3
+  gameOver: 0
   cooldownTime: 0.5
-  canTakeDamage: 0
+  canTakeDamage: 1
