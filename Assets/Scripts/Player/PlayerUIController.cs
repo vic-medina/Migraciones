@@ -8,6 +8,7 @@ public class PlayerUIController : MonoBehaviour
     [SerializeField] private GameObject gameOverPanel;
     [SerializeField] private GameObject pasuePanel;
     [SerializeField] private GameObject winPanel;
+    [SerializeField] private GameObject mapHUD;
     [SerializeField] private HealtController hltController;
 
     [Header("Estado del juego")]

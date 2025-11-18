@@ -5,6 +5,7 @@ public class OwlAttack : MonoBehaviour
 {
     [Header("Referencias")]
     [SerializeField] private Rigidbody2D rb;
+    [SerializeField] private Animator anim;
 
     [Header("Movimiento")]
     [SerializeField] private float horizontalSpeed;   // velocidad horizontal
@@ -35,5 +36,15 @@ public class OwlAttack : MonoBehaviour
     {
         Vector2 velocity = new Vector2(-horizontalSpeed, randomY * verticalSpeed);
         rb.linearVelocity = velocity;
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        anim.SetBool("attack",true);
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        anim.SetBool("attack",false);
     }
 }

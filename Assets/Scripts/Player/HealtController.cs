@@ -47,10 +47,10 @@ public class HealtController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (canTakeDamage && (collision.CompareTag("Enemy") || collision.CompareTag("Object")))
+        if (canTakeDamage && (collision.CompareTag("Owl") || collision.CompareTag("Object") || collision.CompareTag("Snake")))
         {
             collisionPos = collision.transform.position.y;
-            TakeDamage();
+            TakeDamage(1);
         }
         else if (collision.CompareTag("Food"))
         {
@@ -59,9 +59,9 @@ public class HealtController : MonoBehaviour
         }
     }
 
-    private void TakeDamage()
+    public void TakeDamage(int damage)
     {
-        currenthealt -= 1;
+        currenthealt -= damage;
         anim.SetBool("damage",true);
 
         /*if ((collisionPos > transform.position.y) && (transform.position.y >= 5f)) //Hacia abajo
