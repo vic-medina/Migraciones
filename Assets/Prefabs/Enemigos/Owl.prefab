@@ -261,5 +261,6 @@ MonoBehaviour:
   anim: {fileID: 7852511222515642086}
   rb2D: {fileID: 3360416100268778926}
   speed: 4
-  verticalSpeed: 2
+  player: {fileID: 0}
+  verticalSpeed: 0.5
   changeTime: 5

@@ -6,6 +6,9 @@ public abstract class Enemy : MonoBehaviour
     [SerializeField] private Animator anim;
     [SerializeField] public Rigidbody2D rb2D;
 
+    [Header("Movimiento")]
+    [SerializeField] public int speed;
+
     protected virtual void Move(int speed)
     {
         rb2D.linearVelocity = new Vector2(-1 * speed, 0);
@@ -26,5 +29,4 @@ public abstract class Enemy : MonoBehaviour
             anim.SetBool("attack", false);
         }
     }
-
 }

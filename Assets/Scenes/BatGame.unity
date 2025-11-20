@@ -3499,7 +3499,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyPool: {fileID: 1448183278}
   spawnInterval: 3
-  yRandomRange: 2
+  yRandomRange: 5
   timer: 0
 --- !u!212 &740909222
 SpriteRenderer:

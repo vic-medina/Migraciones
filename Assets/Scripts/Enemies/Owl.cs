@@ -3,37 +3,33 @@ using UnityEngine;
 
 public class Owl : Enemy
 {
-    [Header("Movimiento")]
-    [SerializeField] private int speed;
-    [SerializeField] private float verticalSpeed;     // velocidad vertical
-    [SerializeField] private float changeTime; // cada cuánto cambia dirección Y
-    private float randomY;
+    [Header("Referencias")]
+    public Transform player;
 
-    void FixedUpdate()
+    [Header("Movimiento")]
+    [SerializeField] private float verticalSpeed;     // velocidad vertical
+    [SerializeField] private float changeTime;        // cada cuánto cambia dirección Y
+    private float verticalDirection;
+
+    private void Update()
     {
         Move(speed);
-    }
-
-    private void OnEnable()
-    {
-        StartCoroutine(UpdateVerticalDirection());
-    }
-
-    private IEnumerator UpdateVerticalDirection()
-    {
-        while (true)
-        {
-            randomY = Random.Range(-1f, 1f); // dirección vertical aleatoria
-            yield return new WaitForSeconds(changeTime);
-        }
     }
 
     protected override void Move(int speed)
     {
         base.Move(speed);
 
-        Vector2 currentVelocity = rb2D.linearVelocity;
-        currentVelocity.y = randomY * verticalSpeed;
-        rb2D.linearVelocity = currentVelocity;
+        if (player != null)
+        {
+            Vector3 newPos = transform.position;
+            newPos.y = Mathf.Lerp(transform.position.y, player.position.y, Time.deltaTime * verticalSpeed);
+            transform.position = newPos;
+        }
+    }
+
+    private void OnEnable()
+    {
+        player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 }
