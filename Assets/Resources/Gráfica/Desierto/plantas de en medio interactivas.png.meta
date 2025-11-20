@@ -1,0 +1,910 @@
+fileFormatVersion: 2
+guid: 98a4699efa36e884095fb5e9fedf7ac4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4023005701621517626
+    second: plantas de en medio interactivas_0
+  - first:
+      213: 2211390588145881100
+    second: plantas de en medio interactivas_1
+  - first:
+      213: 8443053819968305208
+    second: plantas de en medio interactivas_2
+  - first:
+      213: 3166464793730725562
+    second: plantas de en medio interactivas_3
+  - first:
+      213: -6718860008223973841
+    second: plantas de en medio interactivas_4
+  - first:
+      213: 4153681338775181657
+    second: plantas de en medio interactivas_5
+  - first:
+      213: -8154100480433840293
+    second: plantas de en medio interactivas_6
+  - first:
+      213: -4776951926963419478
+    second: plantas de en medio interactivas_7
+  - first:
+      213: -173075560442801753
+    second: plantas de en medio interactivas_8
+  - first:
+      213: -497120435200666
+    second: plantas de en medio interactivas_9
+  - first:
+      213: -1685177031022088378
+    second: plantas de en medio interactivas_10
+  - first:
+      213: -3992397914082838974
+    second: plantas de en medio interactivas_11
+  - first:
+      213: 3921560064922305444
+    second: plantas de en medio interactivas_12
+  - first:
+      213: 8456340860446228400
+    second: plantas de en medio interactivas_13
+  - first:
+      213: 1421437818750817983
+    second: plantas de en medio interactivas_14
+  - first:
+      213: 5796062685705003045
+    second: plantas de en medio interactivas_15
+  - first:
+      213: 535668000331246612
+    second: plantas de en medio interactivas_16
+  - first:
+      213: 1924121660283458427
+    second: plantas de en medio interactivas_17
+  - first:
+      213: -7902839148183850293
+    second: plantas de en medio interactivas_18
+  - first:
+      213: 6189744815690133662
+    second: plantas de en medio interactivas_19
+  - first:
+      213: 3345210510499478934
+    second: plantas de en medio interactivas_20
+  - first:
+      213: -4798668994482235583
+    second: plantas de en medio interactivas_21
+  - first:
+      213: 1982291769201881887
+    second: plantas de en medio interactivas_22
+  - first:
+      213: 3956253634424339207
+    second: plantas de en medio interactivas_23
+  - first:
+      213: -464763455151017751
+    second: plantas de en medio interactivas_24
+  - first:
+      213: -7277058688744171964
+    second: plantas de en medio interactivas_25
+  - first:
+      213: 4530019471105790146
+    second: plantas de en medio interactivas_26
+  - first:
+      213: 3424803779898789343
+    second: plantas de en medio interactivas_27
+  - first:
+      213: -1498723365902634862
+    second: plantas de en medio interactivas_28
+  - first:
+      213: 2640949259478336435
+    second: plantas de en medio interactivas_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: plantas de en medio interactivas_0
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 599
+        width: 272
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c27a7111a96b28c0800000000000000
+      internalID: -4023005701621517626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plantas de en medio interactivas_1
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 617
+        width: 302
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c00d312060070be10800000000000000
+      internalID: 2211390588145881100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plantas de en medio interactivas_2
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 629
+        width: 266
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83837be47b0cb2570800000000000000
+      internalID: 8443053819968305208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plantas de en medio interactivas_3
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 623
+        width: 278
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab6b91804fa81fb20800000000000000
+      internalID: 3166464793730725562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plantas de en medio interactivas_4
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 317
+        width: 278
+        height: 680
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2e5b3aab60d1c2a0800000000000000
+      internalID: -6718860008223973841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plantas de en medio interactivas_5
+      rect:
+        serializedVersion: 2
+        x: 1955
+        y: 335
+        width: 302
+        height: 662
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9591dd3ab27d4a930800000000000000
+      internalID: 4153681338775181657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plantas de en medio interactivas_6
+      rect:
+        serializedVersion: 2
+        x: 2345
+        y: 347
+        width: 266
+        height: 650
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5f16e8b0d0d6de80800000000000000
+      internalID: -8154100480433840293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plantas de en medio interactivas_7
+      rect:
+        serializedVersion: 2
+        x: 2699
+        y: 341
+        width: 278
+        height: 656
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa64a34288bd4bdb0800000000000000
+      internalID: -4776951926963419478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plantas de en medio interactivas_8
+      rect:
+        serializedVersion: 2
+        x: 3089
+        y: 41
+        width: 170
+        height: 782
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a1518cd1bc199df0800000000000000
+      internalID: -173075560442801753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plantas de en medio interactivas_9
+      rect:
+        serializedVersion: 2
+        x: 3551
+        y: 503
+        width: 326
+        height: 434
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66d9c012fdb3efff0800000000000000
+      internalID: -497120435200666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plantas de en medio interactivas_10
+      rect:
+        serializedVersion: 2
+        x: 3965
+        y: 515
+        width: 242
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64fe7423b6c0d98e0800000000000000
+      internalID: -1685177031022088378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plantas de en medio interactivas_11
+      rect:
+        serializedVersion: 2
+        x: 4301
+        y: 503
+        width: 326
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 246f411ff372898c0800000000000000
+      internalID: -3992397914082838974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plantas de en medio interactivas_12
+      rect:
+        serializedVersion: 2
+        x: 4715
+        y: 515
+        width: 242
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a34d0b0a1e2c6630800000000000000
+      internalID: 3921560064922305444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plantas de en medio interactivas_13
+      rect:
+        serializedVersion: 2
+        x: 5465
+        y: 41
+        width: 242
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bfb48e7535fa5570800000000000000
+      internalID: 8456340860446228400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plantas de en medio interactivas_14
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 35
+        width: 278
+        height: 518
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb6d2f04a26f9b310800000000000000
+      internalID: 1421437818750817983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plantas de en medio interactivas_15
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 53
+        width: 302
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 520e755cd40cf6050800000000000000
+      internalID: 5796062685705003045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plantas de en medio interactivas_16
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 65
+        width: 266
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41ca94d45331f6700800000000000000
+      internalID: 535668000331246612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plantas de en medio interactivas_17
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 59
+        width: 278
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7394d1a47ad3ba10800000000000000
+      internalID: 1924121660283458427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plantas de en medio interactivas_18
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 35
+        width: 272
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc2737f6aa9735290800000000000000
+      internalID: -7902839148183850293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plantas de en medio interactivas_19
+      rect:
+        serializedVersion: 2
+        x: 1955
+        y: 53
+        width: 302
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e90b68d7d1466e550800000000000000
+      internalID: 6189744815690133662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plantas de en medio interactivas_20
+      rect:
+        serializedVersion: 2
+        x: 2345
+        y: 65
+        width: 266
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69d79315c339c6e20800000000000000
+      internalID: 3345210510499478934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plantas de en medio interactivas_21
+      rect:
+        serializedVersion: 2
+        x: 2699
+        y: 59
+        width: 278
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 147943559f3b76db0800000000000000
+      internalID: -4798668994482235583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plantas de en medio interactivas_22
+      rect:
+        serializedVersion: 2
+        x: 3377
+        y: 41
+        width: 146
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1375788cd3828b10800000000000000
+      internalID: 1982291769201881887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plantas de en medio interactivas_23
+      rect:
+        serializedVersion: 2
+        x: 3623
+        y: 41
+        width: 170
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70bf53928bf67e630800000000000000
+      internalID: 3956253634424339207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plantas de en medio interactivas_24
+      rect:
+        serializedVersion: 2
+        x: 3905
+        y: 41
+        width: 146
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e0f3279914dc89f0800000000000000
+      internalID: -464763455151017751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plantas de en medio interactivas_25
+      rect:
+        serializedVersion: 2
+        x: 4139
+        y: 41
+        width: 182
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 446dbb79da1b20b90800000000000000
+      internalID: -7277058688744171964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plantas de en medio interactivas_26
+      rect:
+        serializedVersion: 2
+        x: 4367
+        y: 35
+        width: 242
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c01dd835bcddde30800000000000000
+      internalID: 4530019471105790146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plantas de en medio interactivas_27
+      rect:
+        serializedVersion: 2
+        x: 4637
+        y: 41
+        width: 242
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdd484674e8578f20800000000000000
+      internalID: 3424803779898789343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plantas de en medio interactivas_28
+      rect:
+        serializedVersion: 2
+        x: 4967
+        y: 41
+        width: 182
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 290bbce0a07733be0800000000000000
+      internalID: -1498723365902634862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plantas de en medio interactivas_29
+      rect:
+        serializedVersion: 2
+        x: 5195
+        y: 35
+        width: 242
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b38901fb5986a420800000000000000
+      internalID: 2640949259478336435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      plantas de en medio interactivas_0: -4023005701621517626
+      plantas de en medio interactivas_1: 2211390588145881100
+      plantas de en medio interactivas_10: -1685177031022088378
+      plantas de en medio interactivas_11: -3992397914082838974
+      plantas de en medio interactivas_12: 3921560064922305444
+      plantas de en medio interactivas_13: 8456340860446228400
+      plantas de en medio interactivas_14: 1421437818750817983
+      plantas de en medio interactivas_15: 5796062685705003045
+      plantas de en medio interactivas_16: 535668000331246612
+      plantas de en medio interactivas_17: 1924121660283458427
+      plantas de en medio interactivas_18: -7902839148183850293
+      plantas de en medio interactivas_19: 6189744815690133662
+      plantas de en medio interactivas_2: 8443053819968305208
+      plantas de en medio interactivas_20: 3345210510499478934
+      plantas de en medio interactivas_21: -4798668994482235583
+      plantas de en medio interactivas_22: 1982291769201881887
+      plantas de en medio interactivas_23: 3956253634424339207
+      plantas de en medio interactivas_24: -464763455151017751
+      plantas de en medio interactivas_25: -7277058688744171964
+      plantas de en medio interactivas_26: 4530019471105790146
+      plantas de en medio interactivas_27: 3424803779898789343
+      plantas de en medio interactivas_28: -1498723365902634862
+      plantas de en medio interactivas_29: 2640949259478336435
+      plantas de en medio interactivas_3: 3166464793730725562
+      plantas de en medio interactivas_4: -6718860008223973841
+      plantas de en medio interactivas_5: 4153681338775181657
+      plantas de en medio interactivas_6: -8154100480433840293
+      plantas de en medio interactivas_7: -4776951926963419478
+      plantas de en medio interactivas_8: -173075560442801753
+      plantas de en medio interactivas_9: -497120435200666
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

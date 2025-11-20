@@ -1,0 +1,1066 @@
+fileFormatVersion: 2
+guid: 0beebf77b0e68014681fdf491dbff550
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8116621701349272541
+    second: flores interactivas_0
+  - first:
+      213: -1241067640538160578
+    second: flores interactivas_1
+  - first:
+      213: 5756384817574301203
+    second: flores interactivas_2
+  - first:
+      213: -4262458376578697357
+    second: flores interactivas_3
+  - first:
+      213: -4104915270789471183
+    second: flores interactivas_4
+  - first:
+      213: -5007283376906447735
+    second: flores interactivas_5
+  - first:
+      213: -4399688600376250374
+    second: flores interactivas_6
+  - first:
+      213: -5201176428787099718
+    second: flores interactivas_7
+  - first:
+      213: -7513366174116786294
+    second: flores interactivas_8
+  - first:
+      213: 4097682749444536738
+    second: flores interactivas_9
+  - first:
+      213: 4260334425224103372
+    second: flores interactivas_10
+  - first:
+      213: 4624726601007958852
+    second: flores interactivas_11
+  - first:
+      213: -9089068946352705659
+    second: flores interactivas_12
+  - first:
+      213: -7866089976917920724
+    second: flores interactivas_13
+  - first:
+      213: -3310314054739553802
+    second: flores interactivas_14
+  - first:
+      213: 8663888409299860147
+    second: flores interactivas_15
+  - first:
+      213: -1423016658553024608
+    second: flores interactivas_16
+  - first:
+      213: -6416321163182723429
+    second: flores interactivas_17
+  - first:
+      213: -3241994476858948405
+    second: flores interactivas_18
+  - first:
+      213: 5579872015087950894
+    second: flores interactivas_19
+  - first:
+      213: 1719616145155833606
+    second: flores interactivas_20
+  - first:
+      213: -5207281514360649510
+    second: flores interactivas_21
+  - first:
+      213: -7598648213377056707
+    second: flores interactivas_22
+  - first:
+      213: -4885883691523525066
+    second: flores interactivas_23
+  - first:
+      213: 8910049128566549790
+    second: flores interactivas_24
+  - first:
+      213: 6481209194216357774
+    second: flores interactivas_25
+  - first:
+      213: -3645751164746410107
+    second: flores interactivas_26
+  - first:
+      213: -2524910551092174202
+    second: flores interactivas_27
+  - first:
+      213: 5917530717810374946
+    second: flores interactivas_28
+  - first:
+      213: -8929022126639871241
+    second: flores interactivas_29
+  - first:
+      213: 570521709082550062
+    second: flores interactivas_30
+  - first:
+      213: 6297730663005519366
+    second: flores interactivas_31
+  - first:
+      213: 2059707586405575283
+    second: flores interactivas_32
+  - first:
+      213: 1290737070146506092
+    second: flores interactivas_33
+  - first:
+      213: 7598357561548376201
+    second: flores interactivas_34
+  - first:
+      213: 6523276903761299996
+    second: flores interactivas_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: flores interactivas_0
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 371
+        width: 74
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32499daf097fb5f80800000000000000
+      internalID: -8116621701349272541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores interactivas_1
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 371
+        width: 98
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e32ad7f6e87d6cee0800000000000000
+      internalID: -1241067640538160578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores interactivas_2
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 371
+        width: 110
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31ec7f13e79c2ef40800000000000000
+      internalID: 5756384817574301203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores interactivas_3
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 395
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3777322a0b4b8d4c0800000000000000
+      internalID: -4262458376578697357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores interactivas_4
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 383
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 134648b5f496807c0800000000000000
+      internalID: -4104915270789471183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores interactivas_5
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 371
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 984d5c56c4e828ab0800000000000000
+      internalID: -5007283376906447735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores interactivas_6
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 371
+        width: 110
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: affec3c478a21f2c0800000000000000
+      internalID: -4399688600376250374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores interactivas_7
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 371
+        width: 98
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab792045895b1d7b0800000000000000
+      internalID: -5201176428787099718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores interactivas_8
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 371
+        width: 80
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8f455ca5492bb790800000000000000
+      internalID: -7513366174116786294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores interactivas_9
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 257
+        width: 74
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a933ea00c4edd830800000000000000
+      internalID: 4097682749444536738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores interactivas_10
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 257
+        width: 98
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc5c9d7669fbf1b30800000000000000
+      internalID: 4260334425224103372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores interactivas_11
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 257
+        width: 110
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44b016c37545e2040800000000000000
+      internalID: 4624726601007958852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores interactivas_12
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 281
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58fec9103f32dd180800000000000000
+      internalID: -9089068946352705659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores interactivas_13
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 269
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c24fb82a7d806d290800000000000000
+      internalID: -7866089976917920724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores interactivas_14
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 257
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f11440f7e66f02d0800000000000000
+      internalID: -3310314054739553802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores interactivas_15
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 257
+        width: 110
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ba31f1ea905c3870800000000000000
+      internalID: 8663888409299860147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores interactivas_16
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 257
+        width: 98
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0afcb7573ed604ce0800000000000000
+      internalID: -1423016658553024608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores interactivas_17
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 257
+        width: 80
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9e2cafa5e5a4f6a0800000000000000
+      internalID: -6416321163182723429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores interactivas_18
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 137
+        width: 74
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc44b0b333f1203d0800000000000000
+      internalID: -3241994476858948405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores interactivas_19
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 137
+        width: 98
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2cd577c800bf6d40800000000000000
+      internalID: 5579872015087950894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores interactivas_20
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 137
+        width: 110
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60f3a0ae5cd4dd710800000000000000
+      internalID: 1719616145155833606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores interactivas_21
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 161
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad843135d050cb7b0800000000000000
+      internalID: -5207281514360649510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores interactivas_22
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 149
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d30018495bd2c8690800000000000000
+      internalID: -7598648213377056707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores interactivas_23
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 137
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 636bdd84baad13cb0800000000000000
+      internalID: -4885883691523525066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores interactivas_24
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 137
+        width: 110
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1dec77997ad6ab70800000000000000
+      internalID: 8910049128566549790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores interactivas_25
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 137
+        width: 98
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8ff2485c61e1f950800000000000000
+      internalID: 6481209194216357774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores interactivas_26
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 137
+        width: 80
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 587d2d5b1a0b76dc0800000000000000
+      internalID: -3645751164746410107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores interactivas_27
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 23
+        width: 74
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 682e3883b37b5fcd0800000000000000
+      internalID: -2524910551092174202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores interactivas_28
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 23
+        width: 98
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 229bc8ed5da4f1250800000000000000
+      internalID: 5917530717810374946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores interactivas_29
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 23
+        width: 110
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fa070e0fadb51480800000000000000
+      internalID: -8929022126639871241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores interactivas_30
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 47
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2f938eb876eae700800000000000000
+      internalID: 570521709082550062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores interactivas_31
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 35
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60e7783dba8066750800000000000000
+      internalID: 6297730663005519366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores interactivas_32
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 23
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37aa1e4132d859c10800000000000000
+      internalID: 2059707586405575283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores interactivas_33
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 23
+        width: 110
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6dc284d68e99e110800000000000000
+      internalID: 1290737070146506092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores interactivas_34
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 23
+        width: 98
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9888e74c1f9c27960800000000000000
+      internalID: 7598357561548376201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flores interactivas_35
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 23
+        width: 80
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1ac33c38c5578a50800000000000000
+      internalID: 6523276903761299996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      flores interactivas_0: -8116621701349272541
+      flores interactivas_1: -1241067640538160578
+      flores interactivas_10: 4260334425224103372
+      flores interactivas_11: 4624726601007958852
+      flores interactivas_12: -9089068946352705659
+      flores interactivas_13: -7866089976917920724
+      flores interactivas_14: -3310314054739553802
+      flores interactivas_15: 8663888409299860147
+      flores interactivas_16: -1423016658553024608
+      flores interactivas_17: -6416321163182723429
+      flores interactivas_18: -3241994476858948405
+      flores interactivas_19: 5579872015087950894
+      flores interactivas_2: 5756384817574301203
+      flores interactivas_20: 1719616145155833606
+      flores interactivas_21: -5207281514360649510
+      flores interactivas_22: -7598648213377056707
+      flores interactivas_23: -4885883691523525066
+      flores interactivas_24: 8910049128566549790
+      flores interactivas_25: 6481209194216357774
+      flores interactivas_26: -3645751164746410107
+      flores interactivas_27: -2524910551092174202
+      flores interactivas_28: 5917530717810374946
+      flores interactivas_29: -8929022126639871241
+      flores interactivas_3: -4262458376578697357
+      flores interactivas_30: 570521709082550062
+      flores interactivas_31: 6297730663005519366
+      flores interactivas_32: 2059707586405575283
+      flores interactivas_33: 1290737070146506092
+      flores interactivas_34: 7598357561548376201
+      flores interactivas_35: 6523276903761299996
+      flores interactivas_4: -4104915270789471183
+      flores interactivas_5: -5007283376906447735
+      flores interactivas_6: -4399688600376250374
+      flores interactivas_7: -5201176428787099718
+      flores interactivas_8: -7513366174116786294
+      flores interactivas_9: 4097682749444536738
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
