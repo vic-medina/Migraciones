@@ -14,7 +14,7 @@ public class BackgroundTrigger : MonoBehaviour
     [SerializeField] private Vector2 newDotPosition;
     [SerializeField] private int moveTime;
 
-    private void OnTriggerEnter2D(Collider2D other) // Detecta colisión con el jugador para hacer el cambio de fondo
+    private void OnTriggerExit2D(Collider2D other) // Detecta colisión con el jugador para hacer el cambio de fondo
     {
         if (other.CompareTag("Player"))
         {

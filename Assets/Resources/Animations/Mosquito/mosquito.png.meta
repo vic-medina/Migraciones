@@ -1,25 +1,19 @@
 fileFormatVersion: 2
-guid: d7fa8cdc7b995cd44a96d76cca35f9eb
+guid: 92fff023010b9534a9aa34afa38e2192
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2507816583152990964
-    second: rocas_0
+      213: -7335345776834287784
+    second: mosquito_0
   - first:
-      213: 7671325810134624728
-    second: rocas_1
+      213: -8650765351860947655
+    second: mosquito_1
   - first:
-      213: -8101342611854001371
-    second: rocas_2
+      213: 5622358704833041965
+    second: mosquito_2
   - first:
-      213: 4791371219046465690
-    second: rocas_3
-  - first:
-      213: 3804204176486321388
-    second: rocas_4
-  - first:
-      213: -5045611036818908210
-    second: rocas_5
+      213: 3635138094270205233
+    second: mosquito_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -55,15 +49,15 @@ TextureImporter:
     filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
-    wrapW: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -141,13 +135,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: rocas_5
+      name: mosquito_0
       rect:
         serializedVersion: 2
-        x: 51
+        x: 0
         y: 0
-        width: 3400
-        height: 806
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,8 +150,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ecb5e9bae736af9b0800000000000000
-      internalID: -5045611036818908210
+      spriteID: 857612b51ed933a90800000000000000
+      internalID: -7335345776834287784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mosquito_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93532170fbe42f780800000000000000
+      internalID: -8650765351860947655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mosquito_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2616691471a60e40800000000000000
+      internalID: 5622358704833041965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mosquito_3
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13d477246da927230800000000000000
+      internalID: 3635138094270205233
       vertices: []
       indices: 
       edges: []
@@ -166,7 +226,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 986e6cf23f4194a47b414afe84a2c2ae
+    spriteID: 98d69b6ef0627e64d877d0ae145be2c4
     internalID: 0
     vertices: []
     indices: 
@@ -176,12 +236,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      rocas_0: -2507816583152990964
-      rocas_1: 7671325810134624728
-      rocas_2: -8101342611854001371
-      rocas_3: 4791371219046465690
-      rocas_4: 3804204176486321388
-      rocas_5: -5045611036818908210
+      mosquito_0: -7335345776834287784
+      mosquito_1: -8650765351860947655
+      mosquito_2: 5622358704833041965
+      mosquito_3: 3635138094270205233
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

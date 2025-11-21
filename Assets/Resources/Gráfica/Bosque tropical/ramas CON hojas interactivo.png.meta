@@ -1,49 +1,49 @@
 fileFormatVersion: 2
-guid: da86064e0cb0f844a9b7e5bb462a7c9d
+guid: d9b3ef99e59990544bdcbdd180b389b1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5591625782841418313
-    second: ramas con hojas_0
+      213: -6189238253597999981
+    second: ramas CON hojas interactivo_0
   - first:
-      213: 5882814264879302972
-    second: ramas con hojas_1
+      213: 9201514714507804631
+    second: ramas CON hojas interactivo_1
   - first:
-      213: 3028222036047854113
-    second: ramas con hojas_2
+      213: -2855240265993581981
+    second: ramas CON hojas interactivo_2
   - first:
-      213: -8476484502108677987
-    second: ramas con hojas_3
+      213: -5109171613939443239
+    second: ramas CON hojas interactivo_3
   - first:
-      213: -1000870220512777712
-    second: ramas con hojas_4
+      213: 4623160626628648810
+    second: ramas CON hojas interactivo_4
   - first:
-      213: 3325108840292094282
-    second: ramas con hojas_5
+      213: -7348469219975795527
+    second: ramas CON hojas interactivo_5
   - first:
-      213: -7457062380470419533
-    second: ramas con hojas_6
+      213: 5970919692073681986
+    second: ramas CON hojas interactivo_6
   - first:
-      213: 7696371578830474269
-    second: ramas con hojas_7
+      213: -4579670808254906774
+    second: ramas CON hojas interactivo_7
   - first:
-      213: -1126946191985911751
-    second: ramas con hojas_8
+      213: -4636191527817038446
+    second: ramas CON hojas interactivo_8
   - first:
-      213: 8135981406742679247
-    second: ramas con hojas_9
+      213: -6942163044674608948
+    second: ramas CON hojas interactivo_9
   - first:
-      213: 727436370237262242
-    second: ramas con hojas_10
+      213: 4572227945004489441
+    second: ramas CON hojas interactivo_10
   - first:
-      213: 9049253685957981859
-    second: ramas con hojas_11
+      213: 8785331610716512837
+    second: ramas CON hojas interactivo_11
   - first:
-      213: -4526504475752779365
-    second: ramas con hojas_12
+      213: -8169908987281439273
+    second: ramas CON hojas interactivo_12
   - first:
-      213: -2761266809101221432
-    second: ramas con hojas_13
+      213: 5312680604555797487
+    second: ramas CON hojas interactivo_13
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -79,15 +79,15 @@ TextureImporter:
     filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
-    wrapW: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -165,13 +165,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ramas con hojas_0
+      name: ramas CON hojas interactivo_0
       rect:
         serializedVersion: 2
-        x: 161
-        y: 365
-        width: 296
-        height: 715
+        x: 23
+        y: 364
+        width: 297
+        height: 716
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,20 +180,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7bd52d8e9fd8662b0800000000000000
-      internalID: -5591625782841418313
+      spriteID: 39c3800b9986b1aa0800000000000000
+      internalID: -6189238253597999981
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ramas con hojas_1
+      name: ramas CON hojas interactivo_1
       rect:
         serializedVersion: 2
-        x: 521
-        y: 599
+        x: 383
+        y: 598
         width: 230
-        height: 481
+        height: 482
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,17 +202,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c394bb9c764f3a150800000000000000
-      internalID: 5882814264879302972
+      spriteID: 7df74c191e852bf70800000000000000
+      internalID: 9201514714507804631
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ramas con hojas_2
+      name: ramas CON hojas interactivo_2
       rect:
         serializedVersion: 2
-        x: 797
+        x: 659
         y: 677
         width: 278
         height: 403
@@ -224,17 +224,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 12a74a7c5e7660a20800000000000000
-      internalID: 3028222036047854113
+      spriteID: 36a8f051b162068d0800000000000000
+      internalID: -2855240265993581981
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ramas con hojas_3
+      name: ramas CON hojas interactivo_3
       rect:
         serializedVersion: 2
-        x: 1139
+        x: 1000
         y: 491
         width: 260
         height: 589
@@ -246,20 +246,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d9855b3714a7d5a80800000000000000
-      internalID: -8476484502108677987
+      spriteID: 9d951a69c739819b0800000000000000
+      internalID: -5109171613939443239
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ramas con hojas_4
+      name: ramas CON hojas interactivo_4
       rect:
         serializedVersion: 2
-        x: 1481
-        y: 599
+        x: 1343
+        y: 598
         width: 302
-        height: 481
+        height: 482
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -268,17 +268,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 01aa11856d13c12f0800000000000000
-      internalID: -1000870220512777712
+      spriteID: a6fd5c96814c82040800000000000000
+      internalID: 4623160626628648810
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ramas con hojas_5
+      name: ramas CON hojas interactivo_5
       rect:
         serializedVersion: 2
-        x: 1871
+        x: 1775
         y: 725
         width: 152
         height: 355
@@ -290,19 +290,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a411f118fd8252e20800000000000000
-      internalID: 3325108840292094282
+      spriteID: 9bc6374ad2ef40a90800000000000000
+      internalID: -7348469219975795527
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ramas con hojas_6
+      name: ramas CON hojas interactivo_6
       rect:
         serializedVersion: 2
-        x: 2105
+        x: 2009
         y: 755
-        width: 182
+        width: 183
         height: 325
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -312,20 +312,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3bfb1203641338890800000000000000
-      internalID: -7457062380470419533
+      spriteID: 244cf6c13d7fcd250800000000000000
+      internalID: 5970919692073681986
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ramas con hojas_7
+      name: ramas CON hojas interactivo_7
       rect:
         serializedVersion: 2
-        x: 2369
-        y: 599
+        x: 2273
+        y: 598
         width: 200
-        height: 481
+        height: 482
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -334,20 +334,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d1c4a9f7c210fca60800000000000000
-      internalID: 7696371578830474269
+      spriteID: a6e7dbdf9adb170c0800000000000000
+      internalID: -4579670808254906774
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ramas con hojas_8
+      name: ramas CON hojas interactivo_8
       rect:
         serializedVersion: 2
-        x: 2603
-        y: 905
+        x: 2507
+        y: 904
         width: 320
-        height: 175
+        height: 176
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -356,19 +356,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 93853b1c8684c50f0800000000000000
-      internalID: -1126946191985911751
+      spriteID: 2953ac97e50f8afb0800000000000000
+      internalID: -4636191527817038446
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ramas con hojas_9
+      name: ramas CON hojas interactivo_9
       rect:
         serializedVersion: 2
-        x: 2981
+        x: 2860
         y: 647
-        width: 182
+        width: 183
         height: 433
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -378,19 +378,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fce8410bbffc8e070800000000000000
-      internalID: 8135981406742679247
+      spriteID: cc06355fd7b78af90800000000000000
+      internalID: -6942163044674608948
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ramas con hojas_10
+      name: ramas CON hojas interactivo_10
       rect:
         serializedVersion: 2
-        x: 3197
+        x: 3076
         y: 461
-        width: 236
+        width: 260
         height: 619
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -400,41 +400,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2a901bc468f581a00800000000000000
-      internalID: 727436370237262242
+      spriteID: 1ea5b1e5711d37f30800000000000000
+      internalID: 4572227945004489441
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ramas con hojas_11
+      name: ramas CON hojas interactivo_12
       rect:
         serializedVersion: 2
-        x: 3311
-        y: 887
-        width: 146
-        height: 193
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3a67be94848659d70800000000000000
-      internalID: 9049253685957981859
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ramas con hojas_12
-      rect:
-        serializedVersion: 2
-        x: 3473
+        x: 3352
         y: 653
-        width: 230
+        width: 232
         height: 427
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -444,20 +422,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b913a886920ae21c0800000000000000
-      internalID: -4526504475752779365
+      spriteID: 7d581d5ef07ae9e80800000000000000
+      internalID: -8169908987281439273
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ramas con hojas_13
+      name: ramas CON hojas interactivo_13
       rect:
         serializedVersion: 2
-        x: 2489
-        y: 557
-        width: 8
-        height: 8
+        x: 2394
+        y: 558
+        width: 5
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -466,8 +444,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8c1027987720ea9d0800000000000000
-      internalID: -2761266809101221432
+      spriteID: fe3e7afacde6ab940800000000000000
+      internalID: 5312680604555797487
       vertices: []
       indices: 
       edges: []
@@ -476,7 +454,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 0f9d418636994854680c3b793f9e9635
     internalID: 0
     vertices: []
     indices: 
@@ -486,20 +464,20 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ramas con hojas_0: -5591625782841418313
-      ramas con hojas_1: 5882814264879302972
-      ramas con hojas_10: 727436370237262242
-      ramas con hojas_11: 9049253685957981859
-      ramas con hojas_12: -4526504475752779365
-      ramas con hojas_13: -2761266809101221432
-      ramas con hojas_2: 3028222036047854113
-      ramas con hojas_3: -8476484502108677987
-      ramas con hojas_4: -1000870220512777712
-      ramas con hojas_5: 3325108840292094282
-      ramas con hojas_6: -7457062380470419533
-      ramas con hojas_7: 7696371578830474269
-      ramas con hojas_8: -1126946191985911751
-      ramas con hojas_9: 8135981406742679247
+      ramas CON hojas interactivo_0: -6189238253597999981
+      ramas CON hojas interactivo_1: 9201514714507804631
+      ramas CON hojas interactivo_10: 4572227945004489441
+      ramas CON hojas interactivo_11: 8785331610716512837
+      ramas CON hojas interactivo_12: -8169908987281439273
+      ramas CON hojas interactivo_13: 5312680604555797487
+      ramas CON hojas interactivo_2: -2855240265993581981
+      ramas CON hojas interactivo_3: -5109171613939443239
+      ramas CON hojas interactivo_4: 4623160626628648810
+      ramas CON hojas interactivo_5: -7348469219975795527
+      ramas CON hojas interactivo_6: 5970919692073681986
+      ramas CON hojas interactivo_7: -4579670808254906774
+      ramas CON hojas interactivo_8: -4636191527817038446
+      ramas CON hojas interactivo_9: -6942163044674608948
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
