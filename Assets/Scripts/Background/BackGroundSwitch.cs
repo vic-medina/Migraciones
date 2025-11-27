@@ -1,5 +1,4 @@
 using DG.Tweening;
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -17,7 +16,7 @@ public class BackGroundSwitch : MonoBehaviour
     [Header("Fondos Parallax (galería)")] //Lista de fondos parallax que se van a ir alternando
     [SerializeField] private List<GameObject> fondos = new List<GameObject>();
     
-    [Header("Duración FadeBackground")] //Duración del fade in y fade out
+    [Header("Fade Background")] //Duración del fade in y fade out
     [SerializeField] private float duracionFadeIn = 1f;
     [SerializeField] private float duracionFadeOut = 1f;
 
@@ -63,7 +62,6 @@ public class BackGroundSwitch : MonoBehaviour
             yield return null;
         }
     }
-
     public void FadeNamePanel(CanvasGroup panelZone) // Coroutine para hacer el fade del nombre de la zona
     {
         panelZone.DOFade(1,fadeInDuration).OnComplete(() => panelZone.DOFade(0,fadeOutDuration));
