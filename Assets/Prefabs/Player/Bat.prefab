@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 2414363578092215265}
   - component: {fileID: 7733360661047323900}
   m_Layer: 3
-  m_Name: Player
+  m_Name: Bat
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -192,6 +192,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   finishPanel: {fileID: 0}
+  playerUI: {fileID: 0}
 --- !u!114 &2414363578092215265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -260,4 +261,5 @@ MonoBehaviour:
   currenthealt: 3
   gameOver: 0
   cooldownTime: 0.5
+  knockbackTime: 0
   canTakeDamage: 1

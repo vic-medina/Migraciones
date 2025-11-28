@@ -8,6 +8,7 @@ public class MenuController : MonoBehaviour
     [SerializeField] private CanvasGroup infoPanel;
     [SerializeField] private float fadeDuration = 0.5f;
     [SerializeField] private GameSelector gameSelector;
+    [SerializeField] private MenuCharacterSpawner menuChSpw;
 
     private void Awake()
     {
@@ -17,11 +18,13 @@ public class MenuController : MonoBehaviour
     public void ShowMainMenu()
     {
         SwitchCanvas(speciesPanel, mainMenu);
+        menuChSpw.AllowSpawning();
     }
 
     public void ShowSpeciesMenu()
     {
         SwitchCanvas(mainMenu, speciesPanel);
+        menuChSpw.StopSpawning();
     }
 
     public void ShowSpeciesMenufromInfo()
