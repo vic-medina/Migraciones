@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 2464021411573527677}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.17, y: -1.15, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -66,8 +66,8 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Radius: 6
+  m_Offset: {x: -2.4103198, y: -1.8699999}
+  m_Radius: 1.6344848
 --- !u!1 &8385851924448635085
 GameObject:
   m_ObjectHideFlags: 0
@@ -78,9 +78,9 @@ GameObject:
   m_Component:
   - component: {fileID: 7140121602185455737}
   - component: {fileID: 1690139417678125563}
-  - component: {fileID: 1469146309641164122}
   - component: {fileID: 3360416100268778926}
   - component: {fileID: 8444758939844883959}
+  - component: {fileID: 2072228763927370582}
   - component: {fileID: 3643570974047155382}
   m_Layer: 0
   m_Name: Snake
@@ -149,9 +149,9 @@ SpriteRenderer:
   m_SortingLayerID: -798945499
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7034781978260652470, guid: 8d3b628657a141f42a01d6f1e89d7ae3, type: 3}
+  m_Sprite: {fileID: -1936205149159672784, guid: bcd98c0943c4db746a2782f7da4cef99, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 1
+  m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 0.39, y: 0.29}
@@ -160,52 +160,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &1469146309641164122
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8385851924448635085}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0.102142334, y: -0.012016803}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.1142857, y: 0.82857144}
-    newSize: {x: 0.39, y: 0.29}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 0.733757, y: 0.80453783}
-  m_EdgeRadius: 0
 --- !u!50 &3360416100268778926
 Rigidbody2D:
   serializedVersion: 5
@@ -255,6 +209,43 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!70 &2072228763927370582
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8385851924448635085}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.9312601, y: -2.0706303}
+  m_Size: {x: 1.3088284, y: 4.1412606}
+  m_Direction: 0
 --- !u!114 &3643570974047155382
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -272,4 +263,3 @@ MonoBehaviour:
   speed: 4
   player: {fileID: 0}
   attackTrigger: {fileID: 2745713266889835289}
-  verticalSpeed: 0.5
