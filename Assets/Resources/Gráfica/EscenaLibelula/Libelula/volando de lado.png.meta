@@ -1,79 +1,73 @@
 fileFormatVersion: 2
-guid: bcd98c0943c4db746a2782f7da4cef99
+guid: fa35cf6a2d380b6479c8de5b4472e3d5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1936205149159672784
-    second: serpiente v3 descansando a atacando_0
+      213: -6065701727756596880
+    second: volando de lado_0
   - first:
-      213: 304766982878484064
-    second: serpiente v3 descansando a atacando_1
+      213: -624362971014702218
+    second: volando de lado_1
   - first:
-      213: -1737723726471223561
-    second: serpiente v3 descansando a atacando_2
+      213: -1387648856156731255
+    second: volando de lado_2
   - first:
-      213: -5052237229056204669
-    second: serpiente v3 descansando a atacando_3
+      213: 8974510650954329468
+    second: volando de lado_3
   - first:
-      213: 520757710956863195
-    second: serpiente v3 descansando a atacando_4
+      213: 3896183890916168467
+    second: volando de lado_4
   - first:
-      213: 4127229442831044021
-    second: serpiente v3 descansando a atacando_5
+      213: 4969664030014072759
+    second: volando de lado_5
   - first:
-      213: -1993288258315456022
-    second: serpiente v3 descansando a atacando_6
+      213: -3779425961521096953
+    second: volando de lado_6
   - first:
-      213: -7708549367321001882
-    second: serpiente v3 descansando a atacando_7
+      213: 2395877191693615713
+    second: volando de lado_7
   - first:
-      213: 1943469053912665206
-    second: serpiente v3 descansando a atacando_8
+      213: 8957345394959210755
+    second: volando de lado_8
   - first:
-      213: -966134709914339667
-    second: serpiente v3 descansando a atacando_9
+      213: -6568382923423571314
+    second: volando de lado_9
   - first:
-      213: 3125834620607473844
-    second: serpiente v3 descansando a atacando_10
+      213: -5046118447176351305
+    second: volando de lado_10
   - first:
-      213: -9058000768344498307
-    second: serpiente v3 descansando a atacando_11
+      213: 6091624547593436233
+    second: volando de lado_11
   - first:
-      213: 2582464121366866964
-    second: serpiente v3 descansando a atacando_12
+      213: 5697531662858628728
+    second: volando de lado_12
   - first:
-      213: -6721475871066241800
-    second: serpiente v3 descansando a atacando_13
+      213: 381366088148192401
+    second: volando de lado_13
   - first:
-      213: 1719607565156625188
-    second: serpiente v3 descansando a atacando_14
+      213: -627522920496704630
+    second: volando de lado_14
   - first:
-      213: -7251971870234880173
-    second: serpiente v3 descansando a atacando_15
+      213: 2908891676683977205
+    second: volando de lado_15
   - first:
-      213: 526808990552042690
-    second: serpiente v3 descansando a atacando_16
+      213: 4146173324878434233
+    second: volando de lado_16
   - first:
-      213: -6109289801642268105
-    second: serpiente v3 descansando a atacando_17
+      213: 8338235418112719625
+    second: volando de lado_17
   - first:
-      213: 4846052907994853858
-    second: serpiente v3 descansando a atacando_18
+      213: -1343451783736659065
+    second: volando de lado_18
   - first:
-      213: 2299116117358983268
-    second: serpiente v3 descansando a atacando_19
+      213: -3470174556315703499
+    second: volando de lado_19
   - first:
-      213: 6341133740553625493
-    second: serpiente v3 descansando a atacando_20
+      213: -2353676953616063931
+    second: volando de lado_20
   - first:
-      213: -3395238763307460110
-    second: serpiente v3 descansando a atacando_21
-  - first:
-      213: -2458877996211206035
-    second: serpiente v3 descansando a atacando_22
-  - first:
-      213: -4081538379101049643
-    second: serpiente v3 descansando a atacando_23
+      213: -1886624497403599935
+    second: volando de lado_21
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -120,7 +114,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 150
+  spritePixelsToUnits: 200
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -166,6 +160,19 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -182,265 +189,265 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: serpiente v3 descansando a atacando_0
+      name: volando de lado_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 576
-        height: 768
-      alignment: 3
-      pivot: {x: 1, y: 1}
+        width: 384
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0343e00eca73125e0800000000000000
-      internalID: -1936205149159672784
+      spriteID: 07948938a6c42dba0800000000000000
+      internalID: -6065701727756596880
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: serpiente v3 descansando a atacando_1
+      name: volando de lado_1
       rect:
         serializedVersion: 2
-        x: 576
+        x: 384
         y: 0
-        width: 576
-        height: 768
-      alignment: 3
-      pivot: {x: 1, y: 1}
+        width: 384
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0665db9c4ffba3400800000000000000
-      internalID: 304766982878484064
+      spriteID: 67bd2c59f21d557f0800000000000000
+      internalID: -624362971014702218
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: serpiente v3 descansando a atacando_2
+      name: volando de lado_2
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 384
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9880dc7a7b41ebce0800000000000000
+      internalID: -1387648856156731255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volando de lado_3
       rect:
         serializedVersion: 2
         x: 1152
         y: 0
-        width: 576
-        height: 768
-      alignment: 3
-      pivot: {x: 1, y: 1}
+        width: 384
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7f62ae54a7d52e7e0800000000000000
-      internalID: -1737723726471223561
+      spriteID: c7da71753eddb8c70800000000000000
+      internalID: 8974510650954329468
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: serpiente v3 descansando a atacando_3
+      name: volando de lado_4
       rect:
         serializedVersion: 2
-        x: 1728
+        x: 1536
         y: 0
-        width: 576
-        height: 768
-      alignment: 3
-      pivot: {x: 1, y: 1}
+        width: 384
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 380e9111209d2e9b0800000000000000
-      internalID: -5052237229056204669
+      spriteID: 31358ad1b96021630800000000000000
+      internalID: 3896183890916168467
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: serpiente v3 descansando a atacando_4
+      name: volando de lado_5
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 384
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b7660ada1bc7f440800000000000000
+      internalID: 4969664030014072759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volando de lado_6
       rect:
         serializedVersion: 2
         x: 2304
         y: 0
-        width: 576
-        height: 768
-      alignment: 3
-      pivot: {x: 1, y: 1}
+        width: 384
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bde11a7016a1a3700800000000000000
-      internalID: 520757710956863195
+      spriteID: 70755acbc18cc8bc0800000000000000
+      internalID: -3779425961521096953
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: serpiente v3 descansando a atacando_5
+      name: volando de lado_7
       rect:
         serializedVersion: 2
-        x: 2880
+        x: 2688
         y: 0
-        width: 576
-        height: 768
-      alignment: 3
-      pivot: {x: 1, y: 1}
+        width: 384
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5bd4a7eaf4dd64930800000000000000
-      internalID: 4127229442831044021
+      spriteID: 162cb58ac9ddf3120800000000000000
+      internalID: 2395877191693615713
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: serpiente v3 descansando a atacando_6
+      name: volando de lado_8
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 0
+        width: 384
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 309560dbd22ee4c70800000000000000
+      internalID: 8957345394959210755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volando de lado_9
       rect:
         serializedVersion: 2
         x: 3456
         y: 0
-        width: 576
-        height: 768
-      alignment: 3
-      pivot: {x: 1, y: 1}
+        width: 384
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ae17624d3ea6654e0800000000000000
-      internalID: -1993288258315456022
+      spriteID: e82a89c288a68d4a0800000000000000
+      internalID: -6568382923423571314
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: serpiente v3 descansando a atacando_7
+      name: volando de lado_10
       rect:
         serializedVersion: 2
-        x: 4032
+        x: 3840
         y: 0
-        width: 576
-        height: 768
-      alignment: 3
-      pivot: {x: 1, y: 1}
+        width: 384
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 660054b213bb50590800000000000000
-      internalID: -7708549367321001882
+      spriteID: 7b1028df10698f9b0800000000000000
+      internalID: -5046118447176351305
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: serpiente v3 descansando a atacando_8
+      name: volando de lado_11
       rect:
         serializedVersion: 2
-        x: 4608
+        x: 4224
         y: 0
-        width: 576
-        height: 768
-      alignment: 3
-      pivot: {x: 1, y: 1}
+        width: 384
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 67ccd6ebec698fa10800000000000000
-      internalID: 1943469053912665206
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: serpiente v3 descansando a atacando_9
-      rect:
-        serializedVersion: 2
-        x: 5184
-        y: 0
-        width: 576
-        height: 768
-      alignment: 3
-      pivot: {x: 1, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: da67162a9999792f0800000000000000
-      internalID: -966134709914339667
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: serpiente v3 descansando a atacando_10
-      rect:
-        serializedVersion: 2
-        x: 5760
-        y: 0
-        width: 576
-        height: 768
-      alignment: 3
-      pivot: {x: 1, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4b82deba602316b20800000000000000
-      internalID: 3125834620607473844
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: serpiente v3 descansando a atacando_11
-      rect:
-        serializedVersion: 2
-        x: 6336
-        y: 0
-        width: 576
-        height: 768
-      alignment: 3
-      pivot: {x: 1, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d7f5c93ea448b4280800000000000000
-      internalID: -9058000768344498307
+      spriteID: 94c3b50504cc98450800000000000000
+      internalID: 6091624547593436233
       vertices: []
       indices: 
       edges: []
@@ -449,7 +456,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: dac7e6c88361ed0428cce6ca30b9c457
+    spriteID: 314414a333852a14e81701d19f97e4e9
     internalID: 0
     vertices: []
     indices: 
@@ -459,18 +466,18 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      serpiente v3 descansando a atacando_0: -1936205149159672784
-      serpiente v3 descansando a atacando_1: 304766982878484064
-      serpiente v3 descansando a atacando_10: 3125834620607473844
-      serpiente v3 descansando a atacando_11: -9058000768344498307
-      serpiente v3 descansando a atacando_2: -1737723726471223561
-      serpiente v3 descansando a atacando_3: -5052237229056204669
-      serpiente v3 descansando a atacando_4: 520757710956863195
-      serpiente v3 descansando a atacando_5: 4127229442831044021
-      serpiente v3 descansando a atacando_6: -1993288258315456022
-      serpiente v3 descansando a atacando_7: -7708549367321001882
-      serpiente v3 descansando a atacando_8: 1943469053912665206
-      serpiente v3 descansando a atacando_9: -966134709914339667
+      volando de lado_0: -6065701727756596880
+      volando de lado_1: -624362971014702218
+      volando de lado_10: -5046118447176351305
+      volando de lado_11: 6091624547593436233
+      volando de lado_2: -1387648856156731255
+      volando de lado_3: 8974510650954329468
+      volando de lado_4: 3896183890916168467
+      volando de lado_5: 4969664030014072759
+      volando de lado_6: -3779425961521096953
+      volando de lado_7: 2395877191693615713
+      volando de lado_8: 8957345394959210755
+      volando de lado_9: -6568382923423571314
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

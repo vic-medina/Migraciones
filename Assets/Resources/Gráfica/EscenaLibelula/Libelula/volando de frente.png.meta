@@ -1,0 +1,584 @@
+fileFormatVersion: 2
+guid: fefff563fddb0274ea2f4accf7caf4eb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5334339100553699910
+    second: volando de frente_0
+  - first:
+      213: -6634701107591643029
+    second: volando de frente_1
+  - first:
+      213: -9136926193399051962
+    second: volando de frente_2
+  - first:
+      213: 1743979869266026295
+    second: volando de frente_3
+  - first:
+      213: 2563812628744834027
+    second: volando de frente_4
+  - first:
+      213: -2254704706296152785
+    second: volando de frente_5
+  - first:
+      213: -3122462353007452259
+    second: volando de frente_6
+  - first:
+      213: 1610512155979854890
+    second: volando de frente_7
+  - first:
+      213: 1362200114655889602
+    second: volando de frente_8
+  - first:
+      213: -6740810301922492686
+    second: volando de frente_9
+  - first:
+      213: -2015289336158276146
+    second: volando de frente_10
+  - first:
+      213: -5525718831795715626
+    second: volando de frente_11
+  - first:
+      213: 1368735166785571892
+    second: volando de frente_12
+  - first:
+      213: -1322967303093616348
+    second: volando de frente_13
+  - first:
+      213: 2166944518020957770
+    second: volando de frente_14
+  - first:
+      213: 2108977316914539764
+    second: volando de frente_15
+  - first:
+      213: -4478604153982133828
+    second: volando de frente_16
+  - first:
+      213: 4604267810690831852
+    second: volando de frente_17
+  - first:
+      213: 3536657031875193837
+    second: volando de frente_18
+  - first:
+      213: 2384221254383647365
+    second: volando de frente_19
+  - first:
+      213: 673421414859625922
+    second: volando de frente_20
+  - first:
+      213: 2309832968634304319
+    second: volando de frente_21
+  - first:
+      213: -508962366412858744
+    second: volando de frente_22
+  - first:
+      213: 6526100651352755679
+    second: volando de frente_23
+  - first:
+      213: 4780803240900987097
+    second: volando de frente_24
+  - first:
+      213: 2290887955227792616
+    second: volando de frente_25
+  - first:
+      213: 5188001630658899761
+    second: volando de frente_26
+  - first:
+      213: 8255905081141674178
+    second: volando de frente_27
+  - first:
+      213: 6264472183222873715
+    second: volando de frente_28
+  - first:
+      213: 155386972219298221
+    second: volando de frente_29
+  - first:
+      213: -5503982045653232608
+    second: volando de frente_30
+  - first:
+      213: -800460887773315788
+    second: volando de frente_31
+  - first:
+      213: -2564833889277890216
+    second: volando de frente_32
+  - first:
+      213: -8110161960607894336
+    second: volando de frente_33
+  - first:
+      213: -5441912359648675826
+    second: volando de frente_34
+  - first:
+      213: -1854919732092391700
+    second: volando de frente_35
+  - first:
+      213: 3723931634710471201
+    second: volando de frente_36
+  - first:
+      213: -3791689944845709324
+    second: volando de frente_37
+  - first:
+      213: -8565465275541557419
+    second: volando de frente_38
+  - first:
+      213: 9064261044509337201
+    second: volando de frente_39
+  - first:
+      213: 2464700267521216012
+    second: volando de frente_40
+  - first:
+      213: 5097754667502294142
+    second: volando de frente_41
+  - first:
+      213: -1548908587703783674
+    second: volando de frente_42
+  - first:
+      213: 220294218085222092
+    second: volando de frente_43
+  - first:
+      213: -6592310906899405011
+    second: volando de frente_44
+  - first:
+      213: -8793870838870963222
+    second: volando de frente_45
+  - first:
+      213: -6303515585919147171
+    second: volando de frente_46
+  - first:
+      213: 3989478920092398205
+    second: volando de frente_47
+  - first:
+      213: 2408064530522068495
+    second: volando de frente_48
+  - first:
+      213: 6702822513812735269
+    second: volando de frente_49
+  - first:
+      213: -8624873209364094258
+    second: volando de frente_50
+  - first:
+      213: 2922568476723381111
+    second: volando de frente_51
+  - first:
+      213: 5806594385551219532
+    second: volando de frente_52
+  - first:
+      213: 1336276424776772421
+    second: volando de frente_53
+  - first:
+      213: -4960282856731958752
+    second: volando de frente_54
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: volando de frente_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 384
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 642eaff3621670a40800000000000000
+      internalID: 5334339100553699910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volando de frente_1
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 384
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b600c1bae7ecce3a0800000000000000
+      internalID: -6634701107591643029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volando de frente_2
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 384
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 649cc7f590e133180800000000000000
+      internalID: -9136926193399051962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volando de frente_3
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 384
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73f980b737cd33810800000000000000
+      internalID: 1743979869266026295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volando de frente_4
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 384
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beb0ffe800e749320800000000000000
+      internalID: 2563812628744834027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volando de frente_5
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 384
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2df0dbf30ea5b0e0800000000000000
+      internalID: -2254704706296152785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volando de frente_6
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 0
+        width: 384
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9fd5709809caa4d0800000000000000
+      internalID: -3122462353007452259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volando de frente_7
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 0
+        width: 384
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a24b0a3e540b95610800000000000000
+      internalID: 1610512155979854890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volando de frente_8
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 0
+        width: 384
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c88f0b79c187e210800000000000000
+      internalID: 1362200114655889602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volando de frente_9
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 0
+        width: 384
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2febd97aeb4d372a0800000000000000
+      internalID: -6740810301922492686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volando de frente_10
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 0
+        width: 384
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec537a6b6014804e0800000000000000
+      internalID: -2015289336158276146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volando de frente_11
+      rect:
+        serializedVersion: 2
+        x: 4224
+        y: 0
+        width: 384
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d1412ebff3b053b0800000000000000
+      internalID: -5525718831795715626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c4944d682505c0e46b5724d0b98fab61
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      volando de frente_0: 5334339100553699910
+      volando de frente_1: -6634701107591643029
+      volando de frente_10: -2015289336158276146
+      volando de frente_11: -5525718831795715626
+      volando de frente_2: -9136926193399051962
+      volando de frente_3: 1743979869266026295
+      volando de frente_4: 2563812628744834027
+      volando de frente_5: -2254704706296152785
+      volando de frente_6: -3122462353007452259
+      volando de frente_7: 1610512155979854890
+      volando de frente_8: 1362200114655889602
+      volando de frente_9: -6740810301922492686
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,536 @@
+fileFormatVersion: 2
+guid: 4952e34a963b4ce48a465ad392579351
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9003751702116368451
+    second: "volando transici\xF3n de frente a lado_0"
+  - first:
+      213: -4864203273852637602
+    second: "volando transici\xF3n de frente a lado_1"
+  - first:
+      213: -41532116729483627
+    second: "volando transici\xF3n de frente a lado_2"
+  - first:
+      213: 7053575946808233970
+    second: "volando transici\xF3n de frente a lado_3"
+  - first:
+      213: -7009214354863651439
+    second: "volando transici\xF3n de frente a lado_4"
+  - first:
+      213: -5479996018709905279
+    second: "volando transici\xF3n de frente a lado_5"
+  - first:
+      213: 4619188145682724519
+    second: "volando transici\xF3n de frente a lado_6"
+  - first:
+      213: 2025884420651255276
+    second: "volando transici\xF3n de frente a lado_7"
+  - first:
+      213: 2069278857297079114
+    second: "volando transici\xF3n de frente a lado_8"
+  - first:
+      213: -7563246296079551234
+    second: "volando transici\xF3n de frente a lado_9"
+  - first:
+      213: -7617816731438345861
+    second: "volando transici\xF3n de frente a lado_10"
+  - first:
+      213: -8484131707714391950
+    second: "volando transici\xF3n de frente a lado_11"
+  - first:
+      213: -944543206332139183
+    second: "volando transici\xF3n de frente a lado_12"
+  - first:
+      213: -6320599561533681605
+    second: "volando transici\xF3n de frente a lado_13"
+  - first:
+      213: -7941343462935942457
+    second: "volando transici\xF3n de frente a lado_14"
+  - first:
+      213: 4703313435974301980
+    second: "volando transici\xF3n de frente a lado_15"
+  - first:
+      213: 6690586386322565631
+    second: "volando transici\xF3n de frente a lado_16"
+  - first:
+      213: 110746950682142943
+    second: "volando transici\xF3n de frente a lado_17"
+  - first:
+      213: 6020332062660709360
+    second: "volando transici\xF3n de frente a lado_18"
+  - first:
+      213: -1098565518263080942
+    second: "volando transici\xF3n de frente a lado_19"
+  - first:
+      213: -7992241810535693274
+    second: "volando transici\xF3n de frente a lado_20"
+  - first:
+      213: 2711955117453196836
+    second: "volando transici\xF3n de frente a lado_21"
+  - first:
+      213: -3951716442154940269
+    second: "volando transici\xF3n de frente a lado_22"
+  - first:
+      213: -6314583075245690299
+    second: "volando transici\xF3n de frente a lado_23"
+  - first:
+      213: -2711519106759168430
+    second: "volando transici\xF3n de frente a lado_24"
+  - first:
+      213: 6653983901579283190
+    second: "volando transici\xF3n de frente a lado_25"
+  - first:
+      213: 9018802203880827866
+    second: "volando transici\xF3n de frente a lado_26"
+  - first:
+      213: 9188837974075982376
+    second: "volando transici\xF3n de frente a lado_27"
+  - first:
+      213: 7740300674375344255
+    second: "volando transici\xF3n de frente a lado_28"
+  - first:
+      213: -8352985868819859044
+    second: "volando transici\xF3n de frente a lado_29"
+  - first:
+      213: -2005153276918528757
+    second: "volando transici\xF3n de frente a lado_30"
+  - first:
+      213: 1195779270657910519
+    second: "volando transici\xF3n de frente a lado_31"
+  - first:
+      213: -7367268948968688791
+    second: "volando transici\xF3n de frente a lado_32"
+  - first:
+      213: -2356493863822673472
+    second: "volando transici\xF3n de frente a lado_33"
+  - first:
+      213: 219337192975287475
+    second: "volando transici\xF3n de frente a lado_34"
+  - first:
+      213: -5405814466918610958
+    second: "volando transici\xF3n de frente a lado_35"
+  - first:
+      213: 3656980434303826037
+    second: "volando transici\xF3n de frente a lado_36"
+  - first:
+      213: 7202725622700816519
+    second: "volando transici\xF3n de frente a lado_37"
+  - first:
+      213: 752509727712104660
+    second: "volando transici\xF3n de frente a lado_38"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "volando transici\xF3n de frente a lado_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 384
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 340077a1870c3fc70800000000000000
+      internalID: 9003751702116368451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "volando transici\xF3n de frente a lado_1"
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 384
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5ea8b2e4e0ee7cb0800000000000000
+      internalID: -4864203273852637602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "volando transici\xF3n de frente a lado_2"
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 384
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59ea19782c27c6ff0800000000000000
+      internalID: -41532116729483627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "volando transici\xF3n de frente a lado_3"
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 384
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ff8eb1c3f553e160800000000000000
+      internalID: 7053575946808233970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "volando transici\xF3n de frente a lado_4"
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 384
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19588cf3ea44abe90800000000000000
+      internalID: -7009214354863651439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "volando transici\xF3n de frente a lado_5"
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 384
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 180cd3eb7a423f3b0800000000000000
+      internalID: -5479996018709905279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "volando transici\xF3n de frente a lado_6"
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 0
+        width: 384
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a63d1e1527aa1040800000000000000
+      internalID: 4619188145682724519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "volando transici\xF3n de frente a lado_7"
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 0
+        width: 384
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce58ae0a5236d1c10800000000000000
+      internalID: 2025884420651255276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "volando transici\xF3n de frente a lado_8"
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 0
+        width: 384
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4b2b6e382e87bc10800000000000000
+      internalID: 2069278857297079114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "volando transici\xF3n de frente a lado_9"
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 0
+        width: 384
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef4b365c093f90790800000000000000
+      internalID: -7563246296079551234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "volando transici\xF3n de frente a lado_10"
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 0
+        width: 384
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b71179e2b04184690800000000000000
+      internalID: -7617816731438345861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "volando transici\xF3n de frente a lado_11"
+      rect:
+        serializedVersion: 2
+        x: 4224
+        y: 0
+        width: 384
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2703e06a92f424a80800000000000000
+      internalID: -8484131707714391950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f46cd319cedce3347bb26e2d928fdd46
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "volando transici\xF3n de frente a lado_0": 9003751702116368451
+      "volando transici\xF3n de frente a lado_1": -4864203273852637602
+      "volando transici\xF3n de frente a lado_10": -7617816731438345861
+      "volando transici\xF3n de frente a lado_11": -8484131707714391950
+      "volando transici\xF3n de frente a lado_2": -41532116729483627
+      "volando transici\xF3n de frente a lado_3": 7053575946808233970
+      "volando transici\xF3n de frente a lado_4": -7009214354863651439
+      "volando transici\xF3n de frente a lado_5": -5479996018709905279
+      "volando transici\xF3n de frente a lado_6": 4619188145682724519
+      "volando transici\xF3n de frente a lado_7": 2025884420651255276
+      "volando transici\xF3n de frente a lado_8": 2069278857297079114
+      "volando transici\xF3n de frente a lado_9": -7563246296079551234
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

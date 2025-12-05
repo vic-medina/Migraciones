@@ -1,79 +1,79 @@
 fileFormatVersion: 2
-guid: 80b337266dbf3eb4f8c51e409873438f
+guid: bcd98c0943c4db746a2782f7da4cef99
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8567063745074283368
-    second: serpiente v3 atacando a descansando_0
+      213: -1936205149159672784
+    second: serpiente v3 descansando a atacando_0
   - first:
-      213: 4102046405287466908
-    second: serpiente v3 atacando a descansando_1
+      213: 304766982878484064
+    second: serpiente v3 descansando a atacando_1
   - first:
-      213: -193047672849182454
-    second: serpiente v3 atacando a descansando_2
+      213: -1737723726471223561
+    second: serpiente v3 descansando a atacando_2
   - first:
-      213: -8817779070829353754
-    second: serpiente v3 atacando a descansando_3
+      213: -5052237229056204669
+    second: serpiente v3 descansando a atacando_3
   - first:
-      213: -6349164355189315665
-    second: serpiente v3 atacando a descansando_4
+      213: 520757710956863195
+    second: serpiente v3 descansando a atacando_4
   - first:
-      213: -1613062992591237562
-    second: serpiente v3 atacando a descansando_5
+      213: 4127229442831044021
+    second: serpiente v3 descansando a atacando_5
   - first:
-      213: 5370466441121237811
-    second: serpiente v3 atacando a descansando_6
+      213: -1993288258315456022
+    second: serpiente v3 descansando a atacando_6
   - first:
-      213: -8378040042486105112
-    second: serpiente v3 atacando a descansando_7
+      213: -7708549367321001882
+    second: serpiente v3 descansando a atacando_7
   - first:
-      213: -7268544874167466819
-    second: serpiente v3 atacando a descansando_8
+      213: 1943469053912665206
+    second: serpiente v3 descansando a atacando_8
   - first:
-      213: 1411983068793386286
-    second: serpiente v3 atacando a descansando_9
+      213: -966134709914339667
+    second: serpiente v3 descansando a atacando_9
   - first:
-      213: 5060670963860334501
-    second: serpiente v3 atacando a descansando_10
+      213: 3125834620607473844
+    second: serpiente v3 descansando a atacando_10
   - first:
-      213: 1788057777654288547
-    second: serpiente v3 atacando a descansando_11
+      213: -9058000768344498307
+    second: serpiente v3 descansando a atacando_11
   - first:
-      213: 3678330386952880271
-    second: serpiente v3 atacando a descansando_12
+      213: 2582464121366866964
+    second: serpiente v3 descansando a atacando_12
   - first:
-      213: 4139632730803244145
-    second: serpiente v3 atacando a descansando_13
+      213: -6721475871066241800
+    second: serpiente v3 descansando a atacando_13
   - first:
-      213: -7707718932323426057
-    second: serpiente v3 atacando a descansando_14
+      213: 1719607565156625188
+    second: serpiente v3 descansando a atacando_14
   - first:
-      213: 2229216105126644871
-    second: serpiente v3 atacando a descansando_15
+      213: -7251971870234880173
+    second: serpiente v3 descansando a atacando_15
   - first:
-      213: -289531489406442704
-    second: serpiente v3 atacando a descansando_16
+      213: 526808990552042690
+    second: serpiente v3 descansando a atacando_16
   - first:
-      213: -9135173188225239161
-    second: serpiente v3 atacando a descansando_17
+      213: -6109289801642268105
+    second: serpiente v3 descansando a atacando_17
   - first:
-      213: -1249183089058542858
-    second: serpiente v3 atacando a descansando_18
+      213: 4846052907994853858
+    second: serpiente v3 descansando a atacando_18
   - first:
-      213: -5879347794285506422
-    second: serpiente v3 atacando a descansando_19
+      213: 2299116117358983268
+    second: serpiente v3 descansando a atacando_19
   - first:
-      213: 7853306359410738624
-    second: serpiente v3 atacando a descansando_20
+      213: 6341133740553625493
+    second: serpiente v3 descansando a atacando_20
   - first:
-      213: -9017420642503552330
-    second: serpiente v3 atacando a descansando_21
+      213: -3395238763307460110
+    second: serpiente v3 descansando a atacando_21
   - first:
-      213: 7966124799265272119
-    second: serpiente v3 atacando a descansando_22
+      213: -2458877996211206035
+    second: serpiente v3 descansando a atacando_22
   - first:
-      213: -1433419252390509749
-    second: serpiente v3 atacando a descansando_23
+      213: -4081538379101049643
+    second: serpiente v3 descansando a atacando_23
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -178,11 +178,24 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: serpiente v3 atacando a descansando_0
+      name: serpiente v3 descansando a atacando_0
       rect:
         serializedVersion: 2
         x: 0
@@ -197,14 +210,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 89c38b20aecab1980800000000000000
-      internalID: -8567063745074283368
+      spriteID: 0343e00eca73125e0800000000000000
+      internalID: -1936205149159672784
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: serpiente v3 atacando a descansando_1
+      name: serpiente v3 descansando a atacando_1
       rect:
         serializedVersion: 2
         x: 576
@@ -219,14 +232,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c97d357d8756de830800000000000000
-      internalID: 4102046405287466908
+      spriteID: 0665db9c4ffba3400800000000000000
+      internalID: 304766982878484064
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: serpiente v3 atacando a descansando_2
+      name: serpiente v3 descansando a atacando_2
       rect:
         serializedVersion: 2
         x: 1152
@@ -241,14 +254,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a01db131a28225df0800000000000000
-      internalID: -193047672849182454
+      spriteID: 7f62ae54a7d52e7e0800000000000000
+      internalID: -1737723726471223561
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: serpiente v3 atacando a descansando_3
+      name: serpiente v3 descansando a atacando_3
       rect:
         serializedVersion: 2
         x: 1728
@@ -263,14 +276,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6e4a75757a4f0a580800000000000000
-      internalID: -8817779070829353754
+      spriteID: 380e9111209d2e9b0800000000000000
+      internalID: -5052237229056204669
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: serpiente v3 atacando a descansando_4
+      name: serpiente v3 descansando a atacando_4
       rect:
         serializedVersion: 2
         x: 2304
@@ -285,14 +298,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fa76e5488ac33e7a0800000000000000
-      internalID: -6349164355189315665
+      spriteID: bde11a7016a1a3700800000000000000
+      internalID: 520757710956863195
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: serpiente v3 atacando a descansando_5
+      name: serpiente v3 descansando a atacando_5
       rect:
         serializedVersion: 2
         x: 2880
@@ -307,14 +320,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 64e454e21cf3d99e0800000000000000
-      internalID: -1613062992591237562
+      spriteID: 5bd4a7eaf4dd64930800000000000000
+      internalID: 4127229442831044021
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: serpiente v3 atacando a descansando_6
+      name: serpiente v3 descansando a atacando_6
       rect:
         serializedVersion: 2
         x: 3456
@@ -329,14 +342,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 33b003536cab78a40800000000000000
-      internalID: 5370466441121237811
+      spriteID: ae17624d3ea6654e0800000000000000
+      internalID: -1993288258315456022
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: serpiente v3 atacando a descansando_7
+      name: serpiente v3 descansando a atacando_7
       rect:
         serializedVersion: 2
         x: 4032
@@ -351,14 +364,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8ebfd9958f83bbb80800000000000000
-      internalID: -8378040042486105112
+      spriteID: 660054b213bb50590800000000000000
+      internalID: -7708549367321001882
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: serpiente v3 atacando a descansando_8
+      name: serpiente v3 descansando a atacando_8
       rect:
         serializedVersion: 2
         x: 4608
@@ -373,14 +386,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: db4034582f0f02b90800000000000000
-      internalID: -7268544874167466819
+      spriteID: 67ccd6ebec698fa10800000000000000
+      internalID: 1943469053912665206
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: serpiente v3 atacando a descansando_9
+      name: serpiente v3 descansando a atacando_9
       rect:
         serializedVersion: 2
         x: 5184
@@ -395,14 +408,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e25bb4cbe1f589310800000000000000
-      internalID: 1411983068793386286
+      spriteID: da67162a9999792f0800000000000000
+      internalID: -966134709914339667
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: serpiente v3 atacando a descansando_10
+      name: serpiente v3 descansando a atacando_10
       rect:
         serializedVersion: 2
         x: 5760
@@ -417,14 +430,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5a76706dd6d1b3640800000000000000
-      internalID: 5060670963860334501
+      spriteID: 4b82deba602316b20800000000000000
+      internalID: 3125834620607473844
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: serpiente v3 atacando a descansando_11
+      name: serpiente v3 descansando a atacando_11
       rect:
         serializedVersion: 2
         x: 6336
@@ -439,8 +452,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3a055f2431570d810800000000000000
-      internalID: 1788057777654288547
+      spriteID: d7f5c93ea448b4280800000000000000
+      internalID: -9058000768344498307
       vertices: []
       indices: 
       edges: []
@@ -449,7 +462,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: d23bc2555d4d1f947aa143467f8a3dff
+    spriteID: dac7e6c88361ed0428cce6ca30b9c457
     internalID: 0
     vertices: []
     indices: 
@@ -459,18 +472,18 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      serpiente v3 atacando a descansando_0: -8567063745074283368
-      serpiente v3 atacando a descansando_1: 4102046405287466908
-      serpiente v3 atacando a descansando_10: 5060670963860334501
-      serpiente v3 atacando a descansando_11: 1788057777654288547
-      serpiente v3 atacando a descansando_2: -193047672849182454
-      serpiente v3 atacando a descansando_3: -8817779070829353754
-      serpiente v3 atacando a descansando_4: -6349164355189315665
-      serpiente v3 atacando a descansando_5: -1613062992591237562
-      serpiente v3 atacando a descansando_6: 5370466441121237811
-      serpiente v3 atacando a descansando_7: -8378040042486105112
-      serpiente v3 atacando a descansando_8: -7268544874167466819
-      serpiente v3 atacando a descansando_9: 1411983068793386286
+      serpiente v3 descansando a atacando_0: -1936205149159672784
+      serpiente v3 descansando a atacando_1: 304766982878484064
+      serpiente v3 descansando a atacando_10: 3125834620607473844
+      serpiente v3 descansando a atacando_11: -9058000768344498307
+      serpiente v3 descansando a atacando_2: -1737723726471223561
+      serpiente v3 descansando a atacando_3: -5052237229056204669
+      serpiente v3 descansando a atacando_4: 520757710956863195
+      serpiente v3 descansando a atacando_5: 4127229442831044021
+      serpiente v3 descansando a atacando_6: -1993288258315456022
+      serpiente v3 descansando a atacando_7: -7708549367321001882
+      serpiente v3 descansando a atacando_8: 1943469053912665206
+      serpiente v3 descansando a atacando_9: -966134709914339667
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

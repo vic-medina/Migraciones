@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 2414363578092215265}
   - component: {fileID: 7733360661047323900}
   m_Layer: 3
-  m_Name: Bat
+  m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -82,7 +82,7 @@ SpriteRenderer:
   m_SortingLayerID: -798945499
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: -6065701727756596880, guid: 00d4d9e2d3ea43e4eb1ae6638046478a, type: 3}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -90,7 +90,7 @@ SpriteRenderer:
   m_Size: {x: 2.4199998, y: 2.2465625}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!50 &2267643312309305633
