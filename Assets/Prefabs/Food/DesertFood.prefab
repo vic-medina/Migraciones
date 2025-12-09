@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 8311097164604136146}
   - component: {fileID: 7540820364950503901}
   - component: {fileID: 8929658071214029777}
+  - component: {fileID: 5011494895923423170}
   m_Layer: 0
   m_Name: DesertFood
-  m_TagString: Untagged
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -116,6 +117,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 6
+--- !u!114 &5011494895923423170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8726740820980522247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2e8f58ad056fff449e4b02b6f53b401, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &7286628390330308659
 PrefabInstance:
   m_ObjectHideFlags: 0

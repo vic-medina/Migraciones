@@ -5,7 +5,7 @@ public class SpawnerManager : MonoBehaviour
 {
     public List<GameObject> spawners = new List<GameObject>();
 
-    void Start()
+    void Awake()
     {
         for (int i = 0; i < spawners.Count; i++)
         {

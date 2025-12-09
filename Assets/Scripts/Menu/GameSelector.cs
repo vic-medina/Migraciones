@@ -9,7 +9,6 @@ public class GameSelector : MonoBehaviour
     [Header("Referencias")]
     [SerializeField] private MenuController menuController;
     [SerializeField] private List<GameObject> gameInfo;
-    private bool isLoadingScene = false;
     public Button selectSpecieButton;
     public Button playButton;
     public Button backButton;
@@ -25,7 +24,7 @@ public class GameSelector : MonoBehaviour
         selectSpecieButton.interactable = false;
         playButton.gameObject.SetActive(false);
         backButton.gameObject.SetActive(false);
-        playButton.interactable = false;
+        //playButton.interactable = false;
     }
 
     public void SelectSpecie(string specie) // Asigna el nivel basado en la especie seleccionada
@@ -64,10 +63,10 @@ public class GameSelector : MonoBehaviour
         }
         playButton.gameObject.SetActive(true);
         backButton.gameObject.SetActive(true);
-        StartCoroutine(PreloadScene());
+        //StartCoroutine(PreloadScene());
     }
 
-    private IEnumerator PreloadScene()
+    /*private IEnumerator PreloadScene()
     {
         if (isLoadingScene) yield break;
         isLoadingScene = true;
@@ -79,10 +78,10 @@ public class GameSelector : MonoBehaviour
         playButton.interactable = true;
 
         yield return null;
-    }
-
+    }*/
+    
     public void StartGame()
     {
-        asyncLoad.allowSceneActivation = true;
+        SceneManager.LoadScene(specieSelected);
     }
 }
