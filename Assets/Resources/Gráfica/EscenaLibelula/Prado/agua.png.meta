@@ -1,0 +1,401 @@
+fileFormatVersion: 2
+guid: 6dc9498ef3f352749af6567cf5b9522f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8623618863599700181
+    second: agua_0
+  - first:
+      213: -240344817294725294
+    second: agua_1
+  - first:
+      213: -4837601068803655911
+    second: agua_2
+  - first:
+      213: -6592352050561239092
+    second: agua_3
+  - first:
+      213: -8610169510348432994
+    second: agua_4
+  - first:
+      213: 3966155367765563322
+    second: agua_5
+  - first:
+      213: -3561328136676567302
+    second: agua_6
+  - first:
+      213: 615521943456493763
+    second: agua_7
+  - first:
+      213: -1220020913917003992
+    second: agua_8
+  - first:
+      213: 1869401185761447582
+    second: agua_9
+  - first:
+      213: 7448420615209580459
+    second: agua_10
+  - first:
+      213: 8883243202446458270
+    second: agua_11
+  - first:
+      213: 9079836840867977736
+    second: agua_12
+  - first:
+      213: 1915509449164519135
+    second: agua_13
+  - first:
+      213: 8546397467593113623
+    second: agua_14
+  - first:
+      213: 2799588299580373815
+    second: agua_15
+  - first:
+      213: 7327641031444197459
+    second: agua_16
+  - first:
+      213: -6060345381779077872
+    second: agua_17
+  - first:
+      213: 8589927066879594147
+    second: agua_18
+  - first:
+      213: 6313890630930776495
+    second: agua_19
+  - first:
+      213: -2331024309381484035
+    second: agua_20
+  - first:
+      213: -2621266722133098528
+    second: agua_21
+  - first:
+      213: -6067534675796938983
+    second: agua_22
+  - first:
+      213: 3175519443265462233
+    second: agua_23
+  - first:
+      213: -9138614194729545389
+    second: agua_24
+  - first:
+      213: -8060908100391976146
+    second: agua_25
+  - first:
+      213: -130978260555499414
+    second: agua_26
+  - first:
+      213: 6326175326768244430
+    second: agua_27
+  - first:
+      213: -4783312168286837908
+    second: agua_28
+  - first:
+      213: 5027992520765821949
+    second: agua_29
+  - first:
+      213: 5403612319981680212
+    second: agua_30
+  - first:
+      213: 7471747972837119045
+    second: agua_31
+  - first:
+      213: 5091071738577320277
+    second: agua_32
+  - first:
+      213: -3760674814070836076
+    second: agua_33
+  - first:
+      213: 7974208640874080588
+    second: agua_34
+  - first:
+      213: 610514975472429895
+    second: agua_35
+  - first:
+      213: 9038290312649489755
+    second: agua_36
+  - first:
+      213: -1001334821152897440
+    second: agua_37
+  - first:
+      213: -852149634575007320
+    second: agua_38
+  - first:
+      213: 274210131412756510
+    second: agua_39
+  - first:
+      213: 407751173356539547
+    second: agua_40
+  - first:
+      213: 5246636373460795989
+    second: agua_41
+  - first:
+      213: 5273575990080494202
+    second: agua_42
+  - first:
+      213: 5244711883168286147
+    second: agua_43
+  - first:
+      213: -8312640831297240888
+    second: agua_44
+  - first:
+      213: -8141906183315833395
+    second: agua_45
+  - first:
+      213: -4019362770975115228
+    second: agua_46
+  - first:
+      213: -8803764859724836623
+    second: agua_47
+  - first:
+      213: 7952504173759664120
+    second: agua_48
+  - first:
+      213: 8418930637454016147
+    second: agua_49
+  - first:
+      213: 5453303992088937051
+    second: agua_50
+  - first:
+      213: 9041563845746735265
+    second: agua_51
+  - first:
+      213: -4640983231574088656
+    second: agua_52
+  - first:
+      213: 3277383778272642070
+    second: agua_53
+  - first:
+      213: -8675590936291516194
+    second: agua_54
+  - first:
+      213: -4227853209372013986
+    second: agua_55
+  - first:
+      213: 4110737908251295498
+    second: agua_56
+  - first:
+      213: 3702068370350401262
+    second: agua_57
+  - first:
+      213: 8559089802327216017
+    second: agua_58
+  - first:
+      213: -8261182023118076252
+    second: agua_59
+  - first:
+      213: 7514390821344141075
+    second: agua_60
+  - first:
+      213: -392900443277469363
+    second: agua_61
+  - first:
+      213: -4875331347682586539
+    second: agua_62
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: agua_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 774
+        width: 1920
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2738cc5550c25880800000000000000
+      internalID: -8623618863599700181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: agua_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 468
+        width: 1920
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25faa8d79af1aacf0800000000000000
+      internalID: -240344817294725294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: agua_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 162
+        width: 1920
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91778e865736ddcb0800000000000000
+      internalID: -4837601068803655911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: daa401ed84c9f1044b15023893fcfc6d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      agua_0: -8623618863599700181
+      agua_1: -240344817294725294
+      agua_2: -4837601068803655911
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
