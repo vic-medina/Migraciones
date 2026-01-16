@@ -9,11 +9,11 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
-    path: Assets/Scenes/BatGame.unity
+    path: Assets/Scenes/Bat.unity
     guid: 7b6675bca67372e419be1d3c29840f8c
   - enabled: 1
-    path: Assets/Scenes/DragonFlyGame.unity
-    guid: 701999661e06b554ab0907b7b89f155f
+    path: Assets/Scenes/Dragonfly.unity
+    guid: 9e6cbed79ae9445428389b8ee5c05d1e
   - enabled: 1
     path: Assets/Scenes/ButterflyGame.unity
     guid: 9525cd25948d9eb43a3ca1dbdca5ceb7
