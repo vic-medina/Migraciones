@@ -1,74 +1,83 @@
+using System.Collections;
 using UnityEngine;
-using Pabio.Migraciones;
 
-public abstract class PlayerClass : MonoBehaviour, IPlayable
+namespace Pabio.Migraciones.PlayerEssentials
 {
-    public string speciesName;
-    public int maxHealth;
-    private int currentHealt;
-
-    [SerializeField] private bool canTakeDamage;
-
-    [SerializeField] protected Pabio.Migraciones.PlayerMovement playerMovement;
-    [SerializeField] protected PlayerHealt playerHealt;
-
-    protected virtual void Awake()
+    public abstract class PlayerClass : MonoBehaviour, IPlayable
     {
-        Restart();
-    }
+        [Header("PlayerInfo")]
+        public string speciesName;
+        [SerializeField] private int currentHealth;
+        private bool canTakeDamage;
 
-    public virtual void Restart()
-    {
-        canTakeDamage = true;
-        currentHealt = maxHealth;
-    }
+        [Header("References")]
+        [SerializeField] private PlayerMovement playerMovement;
+        [SerializeField] private PlayerHealth playerHealth;
+        [SerializeField] private PlayerAnimator playerAnim;
 
-    public virtual void OnTakeDamage(int damage, float collision)
-    {
-        canTakeDamage = false;
-
-        if (damage <= 0 || currentHealt <= 0) return;
-
-        currentHealt = Mathf.Clamp(currentHealt - damage, 0, maxHealth);
-        Debug.Log($"{speciesName} recibe {damage}. Salud: {currentHealt}");
-
-        playerMovement?.ApplyKnockback(collision);
-        playerHealt?.UpdateUIHealt(currentHealt);
-
-        canTakeDamage = true;
-
-        if (currentHealt == 0)
-            Die();
-    }
-
-    public virtual void Heal(int amount)
-    {
-        if (amount <= 0 || currentHealt <= 0) return;
-
-        currentHealt = Mathf.Clamp(currentHealt + amount, 0, maxHealth);
-        Debug.Log($"{speciesName} se cura {amount}. Salud: {currentHealt}");
-
-        playerHealt?.UpdateUIHealt(currentHealt);
-    }
-
-    public void Die()
-    {
-        playerMovement?.StopMovement();
-        Debug.Log($"{speciesName} ha muerto");
-    }
-
-    public virtual void OnTriggerEnter2D(Collider2D collision)
-    {
-        switch(collision.gameObject.tag)
+        protected virtual void Awake()
         {
-            case "Food":
-                Heal(1);
-                break;
-            case "Obstacle":
-                if(!canTakeDamage) return;
-                var collisionY = collision.transform.position.y;
-                OnTakeDamage(1,collisionY);
-                break;
+            Restart();
+        }
+
+        public virtual void Restart()
+        {
+            playerMovement?.Restart();
+            playerHealth?.Restart();
+            SetCurrentHealth();
+        }
+
+        public virtual void OnTakeDamage(int damage, float collision)
+        {
+            if (!playerHealth.canTakeDamage) { return; }
+            if (damage <= 0 || currentHealth <= 0) return;
+
+            playerHealth?.ReduceHealth(damage);
+            SetCurrentHealth();
+
+            if (currentHealth == 0)
+            {
+                Die();
+                return;
+            }
+
+            playerAnim?.TriggerAnimation("damaged");
+            playerMovement?.ApplyKnockback(collision);
+        }
+
+        public virtual void Heal(int amount)
+        {
+            if (amount <= 0 || currentHealth <= 0) return;
+
+            playerHealth.IncreaseHealth(amount);
+            SetCurrentHealth();
+            playerAnim?.TriggerAnimation("heal");
+        }
+
+        public void Die()
+        {
+            playerMovement?.StopMovement();
+            playerAnim?.TriggerAnimation("lose");
+        }
+
+        public virtual void OnTriggerEnter2D(Collider2D collision)
+        {
+            switch (collision.gameObject.tag)
+            {
+                case "Food":
+                    Heal(1);
+                    break;
+                case "Obstacle":
+                    if (!playerHealth.canTakeDamage) { return; }
+                    var collisionY = collision.transform.position.y;
+                    OnTakeDamage(1, collisionY);
+                    break;
+            }
+        }
+
+        private void SetCurrentHealth()
+        {
+            currentHealth = playerHealth.currentHealth;
         }
     }
 }

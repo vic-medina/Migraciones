@@ -1,6 +1,10 @@
 using UnityEngine;
+using Pabio.Migraciones.PlayerEssentials;
 
-public class Bat : PlayerClass
+namespace Pabio.Migraciones.Species 
 {
+    public class Bat : PlayerClass
+    {
 
+    }
 }

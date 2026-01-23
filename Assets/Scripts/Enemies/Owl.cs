@@ -1,35 +1,28 @@
-using System.Collections;
 using UnityEngine;
+using Pabio.Migraciones.Enemy;
 
-public class Owl : Enemy
+namespace Pabio.Migraciones.Enemy
 {
-    [Header("Referencias")]
-    public Transform player;
-
-    [Header("Movimiento")]
-    [SerializeField] private float verticalSpeed;     // velocidad vertical
-    [SerializeField] private float changeTime;        // cada cuánto cambia dirección Y
-    private float verticalDirection;
-
-    private void Update()
+    public class Owl : EnemyClass
     {
-        Move(speed);
-    }
+        [Header("MovementAdded")]
+        [SerializeField] private float verticalSpeed;
 
-    protected override void Move(int speed)
-    {
-        base.Move(speed);
-
-        if (player != null)
+        private void FixedUpdate()
         {
-            Vector3 newPos = transform.position;
-            newPos.y = Mathf.Lerp(transform.position.y, player.position.y, Time.deltaTime * verticalSpeed);
-            transform.position = newPos;
+            BaseMovement(speed);
         }
-    }
 
-    private void OnEnable()
-    {
-        player = GameObject.FindGameObjectWithTag("Player").transform;
+        protected override void BaseMovement(int speed)
+        {
+            base.BaseMovement(speed);
+
+            if (player != null)
+            {
+                Vector3 newPos = transform.position;
+                newPos.y = Mathf.Lerp(transform.position.y, player.position.y, Time.deltaTime * verticalSpeed);
+                transform.position = newPos;
+            }
+        }
     }
 }

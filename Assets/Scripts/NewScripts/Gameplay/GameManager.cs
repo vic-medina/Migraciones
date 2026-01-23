@@ -1,32 +1,39 @@
 using UnityEngine;
+using Pabio.Migraciones.PlayerEssentials;
+using Pabio.Migraciones.Enemy;
+using System.Collections.Generic;
 
-public class GameManager : MonoBehaviour
+namespace Pabio.Migraciones.Managers
 {
-    public Pabio.Migraciones.PlayerMovement playerMov;
-    public PlayerClass player;
-    public PlayerHealt playerHealt;
+    public class GameManager : MonoBehaviour
+    {
+        public PlayerClass player;
+        public List<EnemyClass> enemiesInGame;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Awake()
-    {
-        Restart();
-    }
-    
-    void Start()
-    {
-        
-    }
+        void Awake()
+        {
+            Restart();
+            enemiesInGame.Clear();
+        }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+        void Start()
+        {
 
-    public void Restart()
-    {
-        playerHealt.Restart();
-        playerMov.Restart();
-        player.Restart();
+        }
+
+
+        void Update()
+        {
+
+        }
+
+        public void Restart()
+        {
+            player.Restart();
+            foreach (var enemies in enemiesInGame)
+            {
+                enemies.Restart();
+            }
+        }
     }
 }

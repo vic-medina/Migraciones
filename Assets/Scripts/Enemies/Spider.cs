@@ -1,14 +1,8 @@
 using System.Collections;
 using UnityEngine;
+using Pabio.Migraciones.Enemy;
 
-public class Spider : Enemy
+public class Spider : EnemyClass
 {
-    [Header("Referencias")]
-    public Transform player;
-    public Collider2D attackTrigger;
 
-    private void Update()
-    {
-        Move(speed);
-    }
 }
