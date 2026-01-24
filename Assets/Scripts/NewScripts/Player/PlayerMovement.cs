@@ -64,6 +64,13 @@ namespace Pabio.Migraciones.PlayerEssentials
             canMove = false;
         }
 
+        public void AllowMovement()
+        {
+            forwardSpeed = 3f;
+            flapForce = 6f;
+            canMove = true;
+        }
+
         private IEnumerator KnockbackRoutine(float collisionY)
         {
             Vector2 offset = collisionY > transform.position.y
@@ -81,14 +88,14 @@ namespace Pabio.Migraciones.PlayerEssentials
             UnfreezePlayer();
         }
 
-        private void FreezePlayer()
+        public void FreezePlayer()
         {
             isFrozen = true;
             rb.linearVelocity = Vector2.zero;
             rb.constraints |= RigidbodyConstraints2D.FreezePositionY;
         }
 
-        private void UnfreezePlayer()
+        public void UnfreezePlayer()
         {
             isFrozen = false;
             rb.constraints &= ~RigidbodyConstraints2D.FreezePositionY;
@@ -98,7 +105,7 @@ namespace Pabio.Migraciones.PlayerEssentials
         {
             forwardSpeed = 3f;
             flapForce = 6f;
-            isFrozen = false;
+            FreezePlayer();
             canMove = true;
             knockbackTween?.Kill();
             rb.linearVelocity = Vector2.zero;

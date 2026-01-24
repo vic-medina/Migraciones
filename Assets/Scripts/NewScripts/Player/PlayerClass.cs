@@ -1,3 +1,4 @@
+using Pabio.Migraciones.Managers;
 using System.Collections;
 using UnityEngine;
 
@@ -8,10 +9,10 @@ namespace Pabio.Migraciones.PlayerEssentials
         [Header("PlayerInfo")]
         public string speciesName;
         [SerializeField] private int currentHealth;
-        private bool canTakeDamage;
 
         [Header("References")]
-        [SerializeField] private PlayerMovement playerMovement;
+        public GameManager gameManager;
+        public PlayerMovement playerMovement;
         [SerializeField] private PlayerHealth playerHealth;
         [SerializeField] private PlayerAnimator playerAnim;
 
@@ -58,6 +59,7 @@ namespace Pabio.Migraciones.PlayerEssentials
         {
             playerMovement?.StopMovement();
             playerAnim?.TriggerAnimation("lose");
+            gameManager.GameOver();
         }
 
         public virtual void OnTriggerEnter2D(Collider2D collision)
@@ -67,7 +69,7 @@ namespace Pabio.Migraciones.PlayerEssentials
                 case "Food":
                     Heal(1);
                     break;
-                case "Obstacle":
+                case "Object":
                     if (!playerHealth.canTakeDamage) { return; }
                     var collisionY = collision.transform.position.y;
                     OnTakeDamage(1, collisionY);

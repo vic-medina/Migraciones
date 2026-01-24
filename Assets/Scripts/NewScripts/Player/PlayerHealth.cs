@@ -1,4 +1,5 @@
 using DG.Tweening;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -13,21 +14,21 @@ namespace Pabio.Migraciones.PlayerEssentials
         public float immunityTime;
         public bool canTakeDamage;
 
-        [Header("Health UI")]
+        [Header("Health HUD")]
         [SerializeField] private List<GameObject> heartIcons;
 
         public void Restart()
         {
             canTakeDamage = true;
             currentHealth = maxHealth;
-            UpdateUIHealth(heartIcons.Count);
+            UpdateHUDHealth(currentHealth);
         }
 
         public void IncreaseHealth(int amount)
         {
             if (amount <= 0 || currentHealth <= 0) return;
             currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
-            UpdateUIHealth(currentHealth);
+            UpdateHUDHealth(currentHealth);
             return;
         }
 
@@ -36,32 +37,34 @@ namespace Pabio.Migraciones.PlayerEssentials
             if (amount <= 0 || currentHealth <= 0) return;
             if(!canTakeDamage) { return; }
             currentHealth = Mathf.Clamp(currentHealth - amount, 0, maxHealth);
-            UpdateUIHealth(currentHealth);
+            UpdateHUDHealth(currentHealth);
             StartCoroutine(PlayerImmunity());
         }
 
-        public IEnumerator PlayerImmunity()
+        private IEnumerator PlayerImmunity()
         {
             canTakeDamage = false;
             yield return new WaitForSeconds(immunityTime);
             canTakeDamage = true;
         }
 
-        private void UpdateUIHealth(int remainingHealt)
+        private void UpdateHUDHealth(int remainingHealt)
         {
             for (int i = 0; i < heartIcons.Count; i++)
             {
                 if (i < remainingHealt)
                 {
-                    heartIcons[i].SetActive(true);
-                    heartIcons[i].transform.DOScale(Vector3.one, 0.2f);
+                    heartIcons[i].transform.DOScale(Vector3.one, 0.2f).OnComplete(() =>
+                    {
+                        heartIcons[i].SetActive(true);
+                    });
                 }
                 else
                 {
-                    int index = i;
-                    heartIcons[index].transform.DOScale(Vector3.zero, 0.2f).OnComplete(() =>
+                    //int index = i;
+                    heartIcons[i].transform.DOScale(Vector3.zero, 0.2f).OnComplete(() =>
                     {
-                        heartIcons[index].SetActive(false);
+                        heartIcons[i].SetActive(false);
                     });
                 }
             }

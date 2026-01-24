@@ -27,14 +27,14 @@ namespace Pabio.Migraciones.Enemy
         {
             player = GameObject.FindGameObjectWithTag("Player").transform;
             gameManager = GameManager.FindAnyObjectByType<GameManager>();
-            gameManager.enemiesInGame.Add(this);
+            //gameManager.enemiesInGame.Add(this);
         }
 
         public virtual void Restart()
         {
             transform.position = initialPos;
             gameManager = GameManager.FindAnyObjectByType<GameManager>();
-            gameManager.enemiesInGame.Add(this);
+            //gameManager.enemiesInGame.Add(this);
         }
 
         protected virtual void BaseMovement(int speed)
