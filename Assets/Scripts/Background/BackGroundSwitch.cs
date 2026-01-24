@@ -7,11 +7,11 @@ using UnityEngine.UI;
 
 public class BackGroundSwitch : MonoBehaviour
 {
-    [Header("Fade Zone Panel")] //Sprite que cubre toda la pantalla para hacer el efecto de fade
-    [SerializeField] private TextMeshProUGUI nombreZonaText;
+    //[Header("Fade Zone Panel")] //Sprite que cubre toda la pantalla para hacer el efecto de fade
+    //[SerializeField] private TextMeshProUGUI nombreZonaText;
     [SerializeField] private Image fadeMask;
-    [SerializeField] private float fadeInDuration = 1f;
-    [SerializeField] private float fadeOutDuration = 1f;
+    //[SerializeField] private float fadeInDuration = 1f;
+    //[SerializeField] private float fadeOutDuration = 1f;
 
     [Header("Fondos Parallax (galería)")] //Lista de fondos parallax que se van a ir alternando
     [SerializeField] private List<GameObject> fondos = new List<GameObject>();
@@ -20,13 +20,13 @@ public class BackGroundSwitch : MonoBehaviour
     [SerializeField] private float duracionFadeIn = 1f;
     [SerializeField] private float duracionFadeOut = 1f;
 
-    [Header("PlayerDot")]
-    [SerializeField] private RectTransform playerDot; // Punto que representa al jugador en el minimapa
-    [SerializeField] private Vector2 newPosition;
+    //[Header("PlayerDot")]
+    //[SerializeField] private RectTransform playerDot; // Punto que representa al jugador en el minimapa
+    //[SerializeField] private Vector2 newPosition;
 
-    public IEnumerator FadeFondos(int nuevoFondoIndex, string nuevaZona) // Coroutine para hacer el fade entre fondos
+    public IEnumerator FadeFondos(int nuevoFondoIndex/*, string nuevaZona*/) // Coroutine para hacer el fade entre fondos
     {
-        nombreZonaText.text = nuevaZona;
+        //nombreZonaText.text = nuevaZona;
 
         if (nuevoFondoIndex < 0 || nuevoFondoIndex >= fondos.Count) // Validación del índice
         {
@@ -62,13 +62,13 @@ public class BackGroundSwitch : MonoBehaviour
             yield return null;
         }
     }
-    public void FadeNamePanel(CanvasGroup panelZone) // Coroutine para hacer el fade del nombre de la zona
-    {
-        panelZone.DOFade(1,fadeInDuration).OnComplete(() => panelZone.DOFade(0,fadeOutDuration));
-    }
+    //public void FadeNamePanel(CanvasGroup panelZone) // Coroutine para hacer el fade del nombre de la zona
+    //{
+    //    panelZone.DOFade(1,fadeInDuration).OnComplete(() => panelZone.DOFade(0,fadeOutDuration));
+    //}
 
-    public void UpdatePlayerDot(Vector2 newDotPosition, float moveTime)
-    {
-        playerDot.DOAnchorPos(newDotPosition, moveTime);
-    }
+    //public void UpdatePlayerDot(Vector2 newDotPosition, float moveTime)
+    //{
+    //    playerDot.DOAnchorPos(newDotPosition, moveTime);
+    //}
 }

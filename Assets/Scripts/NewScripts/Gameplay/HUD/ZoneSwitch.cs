@@ -10,6 +10,9 @@ public class ZoneSwitch : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        gameManager.ChangeZone(locationIndex);
+        if (collision.CompareTag("Player"))
+        {
+            gameManager.ChangeZone(locationIndex);
+        }
     }
 }
