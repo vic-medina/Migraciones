@@ -13,6 +13,14 @@ public class SpawnerManager : MonoBehaviour
         }
     }
 
+    public void Restart()
+    {
+        foreach (var spawn in spawners)
+        {
+            spawn.SetActive(false);
+        }
+    }
+
     public void ActivateSpawner(int index)
     {
         if (index >= 0 && index < spawners.Count)

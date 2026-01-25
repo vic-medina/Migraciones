@@ -1,4 +1,5 @@
 using DG.Tweening;
+using Pabio.Migraciones.Managers;
 using System.Collections;
 using UnityEngine;
 
@@ -22,6 +23,7 @@ namespace Pabio.Migraciones.PlayerEssentials
         [Header("References")]
         [SerializeField] private Rigidbody2D rb;
         [SerializeField] private PlayerAnimator playerAnim;
+        public GameManager gameManager;
 
         private Tween knockbackTween;
 
@@ -66,7 +68,7 @@ namespace Pabio.Migraciones.PlayerEssentials
 
         public void AllowMovement()
         {
-            forwardSpeed = 3f;
+            forwardSpeed = 4f;
             flapForce = 6f;
             canMove = true;
         }
@@ -84,8 +86,10 @@ namespace Pabio.Migraciones.PlayerEssentials
                 .SetEase(Ease.OutQuad);
 
             FreezePlayer();
+            gameManager.backgroundController.FreezeBackground();
             yield return new WaitForSeconds(freezeDuration);
             UnfreezePlayer();
+            gameManager.backgroundController.UnfreezeBackground();
         }
 
         public void FreezePlayer()
@@ -101,9 +105,17 @@ namespace Pabio.Migraciones.PlayerEssentials
             rb.constraints &= ~RigidbodyConstraints2D.FreezePositionY;
         }
 
+        private void OnTriggerEnter2D(Collider2D collision)
+        {
+            if(CompareTag("Limite"))
+            {
+                rb.linearVelocity = new Vector3(rb.linearVelocity.x, 0f,0f);
+            }
+        }
+
         public void Restart()
         {
-            forwardSpeed = 3f;
+            forwardSpeed = 4f;
             flapForce = 6f;
             FreezePlayer();
             canMove = true;

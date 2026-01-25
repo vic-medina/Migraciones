@@ -44,6 +44,7 @@ namespace Pabio.Migraciones.PlayerEssentials
 
             playerAnim?.TriggerAnimation("damaged");
             playerMovement?.ApplyKnockback(collision);
+            //gameManager.backgroundController.FreezeBackground();
         }
 
         public virtual void Heal(int amount)
@@ -68,6 +69,7 @@ namespace Pabio.Migraciones.PlayerEssentials
             {
                 case "Food":
                     Heal(1);
+                    collision.gameObject.SetActive(false);
                     break;
                 case "Object":
                     if (!playerHealth.canTakeDamage) { return; }

@@ -11,6 +11,11 @@ public class Spawner : MonoBehaviour
     [SerializeField] private float yRandomRange = 1f;
     [SerializeField] private float timer;
 
+    public void Restart()
+    {
+
+    }
+
     private void Start()
     {
         timer = spawnInterval;

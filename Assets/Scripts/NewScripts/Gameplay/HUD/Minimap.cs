@@ -14,9 +14,9 @@ namespace Pabio.Migraciones.Displays
 {
     public class Minimap : MonoBehaviour
     {
-        [Header("PLayer Location")]
+        [Header("Player Location")]
         public RectTransform currentPos;
-        [SerializeField] private RectTransform initialPos;
+        private Vector2 initialPos;
         [SerializeField] private Vector2 nextPos;
         [SerializeField] private List<MigrationLocation> migrationLocations = new List<MigrationLocation>();
 
@@ -30,12 +30,13 @@ namespace Pabio.Migraciones.Displays
 
         public void Awake()
         {
-            initialPos = currentPos;
+            initialPos = currentPos.anchoredPosition;
         }
 
         public void Restart()
         {
-            currentPos = initialPos;
+            currentPos.anchoredPosition = initialPos;
+            zoneCanvas.alpha = 0f;
         }
 
         public void NextLocation(int index)
@@ -58,4 +59,5 @@ namespace Pabio.Migraciones.Displays
             currentPos.DOAnchorPos(nextPos, moveTime);
         }
     }
+
 }

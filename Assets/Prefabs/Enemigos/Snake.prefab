@@ -84,7 +84,7 @@ GameObject:
   - component: {fileID: 3643570974047155382}
   m_Layer: 0
   m_Name: Snake
-  m_TagString: Snake
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -258,8 +258,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 957e0bf1ee3619446a36ce8f6f5a1077, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 4
+  staticEnemy: 0
+  initialPos: {x: 0, y: 0}
   anim: {fileID: 8444758939844883959}
   rb2D: {fileID: 3360416100268778926}
-  speed: 4
   player: {fileID: 0}
-  attackTrigger: {fileID: 2745713266889835289}
+  gameManager: {fileID: 0}

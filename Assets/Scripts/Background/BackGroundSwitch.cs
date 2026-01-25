@@ -1,4 +1,5 @@
 using DG.Tweening;
+using Pabio.Migraciones.Managers;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -17,12 +18,17 @@ public class BackGroundSwitch : MonoBehaviour
     [SerializeField] private List<GameObject> fondos = new List<GameObject>();
     
     [Header("Fade Background")] //Duración del fade in y fade out
-    [SerializeField] private float duracionFadeIn = 1f;
-    [SerializeField] private float duracionFadeOut = 1f;
+    [SerializeField] private float duracionFadeIn = .5f;
+    [SerializeField] private float duracionFadeOut = .5f;
 
     //[Header("PlayerDot")]
     //[SerializeField] private RectTransform playerDot; // Punto que representa al jugador en el minimapa
     //[SerializeField] private Vector2 newPosition;
+
+    public void Restart()
+    {
+       StartCoroutine(FadeFondos(0));
+    }
 
     public IEnumerator FadeFondos(int nuevoFondoIndex/*, string nuevaZona*/) // Coroutine para hacer el fade entre fondos
     {

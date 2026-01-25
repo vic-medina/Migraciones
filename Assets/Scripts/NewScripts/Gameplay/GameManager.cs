@@ -1,6 +1,8 @@
 using UnityEngine;
 using Pabio.Migraciones.PlayerEssentials;
 using UnityEngine.SceneManagement;
+using NUnit.Framework;
+using System.Collections.Generic;
 
 namespace Pabio.Migraciones.Managers
 {
@@ -9,10 +11,17 @@ namespace Pabio.Migraciones.Managers
         public HUD playerHUD;
         public UI playerUI;
         public PlayerClass player;
+        public Background backgroundController;
+        public BackGroundSwitch backGroundSwitch;
         private bool isPaused = false;
         private bool gameStarted = false;
 
-        void Awake()
+        public EntityReleaser entityReleaser;
+        public SpawnerManager spawnerManager;
+
+        public List<MovibleObjects> movibleObjects = new List<MovibleObjects>();
+
+        void Start()
         {
             Restart();
         }
@@ -30,16 +39,34 @@ namespace Pabio.Migraciones.Managers
             }
         }
 
-
         public void Restart()
         {
             player.Restart();
             playerHUD.Restart();
             playerUI.Restart();
+
+            backGroundSwitch.Restart();
+            backgroundController.Restart();
+
+            entityReleaser.ReturnAllToPool();
+            spawnerManager.Restart();
+
+            foreach (var item in movibleObjects)
+            {
+                item.Restart();
+            }
+
+            var foods = GameObject.FindGameObjectsWithTag("Food");
+            foreach (var food in foods)
+            {
+                food.SetActive(true);
+            }
+
             isPaused = false;
             gameStarted = false;
             LockMouse();
         }
+
 
         public void ChangeZone(int index)
         {
@@ -49,6 +76,7 @@ namespace Pabio.Migraciones.Managers
         public void BeginGame()
         {
             player.playerMovement.UnfreezePlayer();
+            backgroundController.UnfreezeBackground();
             playerUI.initialPanel.SetActive(false);
             gameStarted = true;
         }
@@ -56,6 +84,7 @@ namespace Pabio.Migraciones.Managers
         public void PauseGame()
         {
             player.playerMovement.FreezePlayer();
+            backgroundController.FreezeBackground();
             playerUI.Pause();
             UnLockMouse();
         }
@@ -63,19 +92,23 @@ namespace Pabio.Migraciones.Managers
         public void ResumeGame()
         {
             player.playerMovement.UnfreezePlayer();
+            backgroundController.UnfreezeBackground();
             playerUI.Continue();
             LockMouse();
         }
 
         public void GameOver()
         {
+            player.playerMovement.StopMovement();
             playerUI.GameOver();
+            backgroundController.FreezeBackground();
             UnLockMouse();
         }
 
         public void GameComplete()
         {
             player.playerMovement.StopMovement();
+            backgroundController.FreezeBackground();
             playerUI.Win();
             playerHUD.HideHUD();
             UnLockMouse();

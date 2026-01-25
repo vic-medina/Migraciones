@@ -11,6 +11,7 @@ TagManager:
   - Snake
   - Object
   - Obstacle
+  - Limite
   layers:
   - Default
   - TransparentFX
