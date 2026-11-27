@@ -1,53 +1,65 @@
 using UnityEngine;
 using DG.Tweening;
+using System.Collections;
 
 public class MenuController : MonoBehaviour
 {
-    [SerializeField] private CanvasGroup mainMenu;
-    [SerializeField] private CanvasGroup speciesPanel;
-    [SerializeField] private CanvasGroup infoPanel;
-    [SerializeField] private float fadeDuration = 0.5f;
-    [SerializeField] private GameSelector gameSelector;
+    [SerializeField] private GeneralAnimator[] menuScreens;
     [SerializeField] private MenuCharacterSpawner menuChSpw;
+    [SerializeField] private GameObject blackBackground;
 
     private void Awake()
     {
-        Time.timeScale = 1;
+        blackBackground.SetActive(true);
+        menuChSpw.StopSpawning();
+    }
+    private void Start()
+    {
+        StartCoroutine(Restart());
     }
 
-    public void ShowMainMenu()
+    public IEnumerator Restart()
     {
-        SwitchCanvas(speciesPanel, mainMenu);
+        yield return new WaitForSeconds(3f);
+        blackBackground.SetActive(false);
+        foreach (var menuScreen in menuScreens)
+        {
+            menuScreen.Restart();
+        }
+        HideAll();
+        ShowScreen(0);
         menuChSpw.AllowSpawning();
     }
 
-    public void ShowSpeciesMenu()
+    private void HideAll()
     {
-        SwitchCanvas(mainMenu, speciesPanel);
-        menuChSpw.StopSpawning();
+        foreach (var screen in menuScreens)
+        {
+            screen.SetStateTo(false);
+        }
     }
 
-    public void ShowSpeciesMenufromInfo()
+    private void HideScreen(int screenIndex)
     {
-        SwitchCanvas(infoPanel, speciesPanel);
-        gameSelector.selectSpecieButton.interactable = false;
+        if (screenIndex < 0 || screenIndex >= menuScreens.Length) return;
+        menuScreens[screenIndex].SetStateTo(false);
     }
 
-    public void ShowSpeciesInfo()
+    private void ShowScreen(int screenIndex)
     {
-        gameSelector.ShowGameInfo();
-        SwitchCanvas(speciesPanel, infoPanel);
+        if (screenIndex < 0 || screenIndex >= menuScreens.Length) return;
+        menuScreens[screenIndex].SetStateTo(true);
+    }
+
+
+    public void ChangeScreenTo(int screenIndex)
+    {
+        HideAll();
+        ShowScreen(screenIndex);
     }
 
     public void QuitGame()
     {
         Application.Quit();
-    }
-
-    public void SwitchCanvas(CanvasGroup from, CanvasGroup to)
-    {
-        from.DOFade(0, fadeDuration).OnComplete(() => from.interactable = from.blocksRaycasts = false);
-        to.DOFade(1, fadeDuration);
-        to.interactable = to.blocksRaycasts = true;
     }
 }
